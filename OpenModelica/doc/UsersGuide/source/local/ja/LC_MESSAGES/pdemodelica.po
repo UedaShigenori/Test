@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/pdemodelica.rst:2
+msgid "PDEModelica1"
+msgstr ""
+
+#: ../../source/pdemodelica.rst:4
+msgid ""
+"PDEModelica1 is nonstandardised experimental Modelica language extension "
+"for 1-dimensional partial differential extensions (PDE)."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:6
+msgid ""
+"It is enabled using compiler flag ``--grammar=PDEModelica``. Compiler "
+"flags may be set e.g. in OMEdit (Tools->Options->Simulation->OMC Flags) "
+"or in the OpenModelica script using command"
+msgstr ""
+
+#: ../../source/pdemodelica.rst:13
+msgid "PDEModelica1 language elements"
+msgstr ""
+
+#: ../../source/pdemodelica.rst:15
+msgid ""
+"Let us introduce new PDEModelica1 language elements by an advection "
+"equation example model:"
+msgstr ""
+
+#: ../../source/pdemodelica.rst:32
+msgid ""
+"The domain ``omega`` represents the geometrical domain where the PDE "
+"holds. The domain is defined using the built-in record "
+"``DomainLineSegment1D``. This   record contains among others ``L`` – the "
+"length of the domain, ``N`` – the number of grid points, ``x`` – the "
+"coordinate variable and the regions ``left``, ``right`` and ``interior``,"
+" representing the left and right boundaries and the interior of the "
+"domain."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:38
+msgid ""
+"The field variable ``u`` is defined using a new keyword ``field``. The "
+"``domain`` is a mandatory attribute to specify the domain of the field."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:41
+msgid ""
+"The ``indomain`` operator specifies where the equation containing the "
+"field variable holds. It is utilised in the initial conditions (IC) of "
+"the fields, in the PDE and in the boundary conditions (BC). The syntax is"
+msgstr ""
+
+#: ../../source/pdemodelica.rst:45
+msgid "``anEquation indomain aDomain.aRegion;``"
+msgstr ""
+
+#: ../../source/pdemodelica.rst:47
+msgid ""
+"If the region is omitted, ``interior`` is the default (e.g. the PDE in "
+"the example above)."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:49
+msgid ""
+"The IC of the field variable u is written using an expression containing "
+"the coordinate variable ``omega.x``."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:52
+msgid ""
+"The PDE contains a partial space derivative written using the ``pder`` "
+"operator. Also the second derivative is allowed (not in this example), "
+"the syntax is e.g. ``pder(u,x,x)``. It is not necessary to specify the "
+"domain of coordinate in pder (to write e.g. ``pder(u,omega.x)``, even "
+"though ``x`` is a member of ``omega``."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:57
+msgid "Limitations"
+msgstr ""
+
+#: ../../source/pdemodelica.rst:59
+msgid ""
+"BCs may be written only in terms of variables that are spatially "
+"differentiated currently."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:61
+msgid ""
+"All fields that are spatially differentiated must have either BC or "
+"extrapolation at each boundary. This extrapolation should be done "
+"automatically by the compiler, but this has not been implemented yet. The"
+" current workaround is the usage of the ``extrapolateField()`` operator "
+"directly in the model."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:66
+msgid "If-equations are not spported yet, if-expressions must be used instead."
+msgstr ""
+
+#: ../../source/pdemodelica.rst:69
+msgid "Viewing results"
+msgstr ""
+
+#: ../../source/pdemodelica.rst:71
+msgid ""
+"During translation field variables are replaced with arrays. These arrays"
+" may be plotted using :ref:`array-plot` or even better using :ref:`array-"
+"parametric-plot` (to plot x-coordinate versus a field)."
+msgstr ""
+

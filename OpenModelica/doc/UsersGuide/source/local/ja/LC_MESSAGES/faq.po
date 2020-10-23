@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/faq.rst:2
+msgid "Frequently Asked Questions (FAQ)"
+msgstr ""
+
+#: ../../source/faq.rst:4
+msgid ""
+"Below are some frequently asked questions in three areas, with associated"
+" answers."
+msgstr ""
+
+#: ../../source/faq.rst:8
+msgid "OpenModelica General"
+msgstr ""
+
+#: ../../source/faq.rst:11
+msgid "Q: OpenModelica does not read the MODELICAPATH environment variable,"
+msgstr ""
+
+#: ../../source/faq.rst:11
+msgid "even though this is part of the Modelica Language Specification."
+msgstr ""
+
+#: ../../source/faq.rst:18
+msgid "A: Use the OPENMODELICALIBRARY environment variable instead. We have"
+msgstr ""
+
+#: ../../source/faq.rst:14
+msgid ""
+"temporarily switched to this variable, in order not to interfere with "
+"other Modelica tools which might be installed on the same system. In the "
+"future, we might switch to a solution with a settings file, that also "
+"allows the user to turn on the MODELICAPATH functionality if desired."
+msgstr ""
+
+#: ../../source/faq.rst:21
+msgid "Q: How do I enter multi-line models into OMShell since it evaluates"
+msgstr ""
+
+#: ../../source/faq.rst:21
+msgid "when typing the Enter/Return key?"
+msgstr ""
+
+#: ../../source/faq.rst:29
+msgid "A: There are basically three methods: 1) load the model from a file"
+msgstr ""
+
+#: ../../source/faq.rst:24
+msgid ""
+"using the pull-down menu or the loadModel command. 2) Enter the "
+"model/function as one (possibly long) line. 3) Type in the model in "
+"another editor, where using multiple lines is no problem, and copy/paste "
+"the model into OMShell as one operation, then push Enter. Another option "
+"is to use OMNotebook instead to enter and evaluate models."
+msgstr ""
+
+#: ../../source/faq.rst:32
+msgid "OMNotebook"
+msgstr ""
+
+#: ../../source/faq.rst:34
+msgid "Q: OMNotebook hangs, what to do?"
+msgstr ""
+
+#: ../../source/faq.rst:40
+msgid "A: It is probably waiting for the omc.exe (compiler) process. (Under"
+msgstr ""
+
+#: ../../source/faq.rst:37
+msgid ""
+"windows): Kill the processes omc.exe, g++.exe (C-compiler), as.exe "
+"(assembler), if present. If OMNotebook then asks whether to restart OMC, "
+"answer yes. If not, kill the process OMNotebook.exe and restart manually."
+msgstr ""
+
+#: ../../source/faq.rst:43
+msgid "Q: After a previous session, when starting OMNotebook again, I get a"
+msgstr ""
+
+#: ../../source/faq.rst:43
+msgid "strange message."
+msgstr ""
+
+#: ../../source/faq.rst:47
+msgid "A: You probably quit the previous OpenModelica session in the wrong"
+msgstr ""
+
+#: ../../source/faq.rst:46
+msgid ""
+"way, which left the process omc.exe running. Kill that process, and try "
+"starting OMNotebook again."
+msgstr ""
+
+#: ../../source/faq.rst:51
+msgid "Q: I copy and paste a graphic figure from Word or some other"
+msgstr ""
+
+#: ../../source/faq.rst:50
+msgid ""
+"application into OMNotebook, but the graphic does not appear. What is "
+"wrong?"
+msgstr ""
+
+#: ../../source/faq.rst:58
+msgid "A: OMNotebook supports the graphic picture formats supported by Qt 4,"
+msgstr ""
+
+#: ../../source/faq.rst:54
+msgid ""
+"including the .png, .bmp (bitmap) formats, but not for example the gif "
+"format. Try to convert your picture into one of the supported formats, "
+"(e.g. in Word, first do paste as bitmap format), and then copy the "
+"converted version into a text cell in OMNotebook."
+msgstr ""
+
+#: ../../source/faq.rst:63
+msgid "Q: I select a cell, copy it (e.g. Ctrl-C), and try to paste it at"
+msgstr ""
+
+#: ../../source/faq.rst:61
+msgid ""
+"another place in the notebook. However, this does not work. Instead some "
+"other text that I earlier put on the clipboard is pasted into the nearest"
+" text cell."
+msgstr ""
+
+#: ../../source/faq.rst:72
+msgid "A: The problem is wrong choice of cursor mode, which can be text"
+msgstr ""
+
+#: ../../source/faq.rst:66
+msgid ""
+"insertion or cell insertion. If you click inside a cell, the cursor "
+"become vertical, and OMNotebook expects you to paste text inside the "
+"cell. To paste a cell, you must be in cell insertion mode, i.e., click "
+"between two cells (or after a cell), you will get a vertical line. Place "
+"the cursor carefully on that vertical line until you see a small "
+"horizontal cursor. Then you should past the cell."
+msgstr ""
+
+#: ../../source/faq.rst:75
+msgid "Q: I am trying to click in cells to place the vertical character"
+msgstr ""
+
+#: ../../source/faq.rst:75
+msgid "cursor, but it does not seem to react."
+msgstr ""
+
+#: ../../source/faq.rst:81
+msgid "A: This seems to be a Qt feature. You have probably made a selection"
+msgstr ""
+
+#: ../../source/faq.rst:78
+msgid ""
+"(e.g. for copying) in the output section of an evaluation cell. This "
+"seems to block cursor position. Click again in the output section to "
+"disable the selection. After that it will work normally."
+msgstr ""
+
+#: ../../source/faq.rst:85
+msgid "Q: I have copied a text cell and start writing at the beginning of"
+msgstr ""
+
+#: ../../source/faq.rst:84
+msgid ""
+"the cell. Strangely enough, the font becomes much smaller than it should "
+"be."
+msgstr ""
+
+#: ../../source/faq.rst:90
+msgid "A: This seems to be a Qt feature. Keep some of the old text and start"
+msgstr ""
+
+#: ../../source/faq.rst:88
+msgid ""
+"writing the new stuff inside the text, i.e., at least one character "
+"position to the right. Afterwards, delete the old text at the beginning "
+"of the cell."
+msgstr ""
+
+#: ../../source/faq.rst:93
+msgid "OMDev - OpenModelica Development Environment"
+msgstr ""
+
+#: ../../source/faq.rst:96
+msgid "Q: I get problems compiling and linking some files when using OMDev"
+msgstr ""
+
+#: ../../source/faq.rst:96
+msgid "with the MINGW (Gnu) C compiler under Windows."
+msgstr ""
+
+#: ../../source/faq.rst:101
+msgid "A: You probably have some Logitech software installed. There is a"
+msgstr ""
+
+#: ../../source/faq.rst:99
+msgid ""
+"known bug/incompatibility in Logitech products. For example, if "
+"lvprcsrv.exe is running, kill it and/or prevent it to start again at "
+"reboot; it does not do anything really useful, not needed for operation "
+"of web cameras or mice."
+msgstr ""
+

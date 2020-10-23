@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/omjulia.rst:2
+msgid "OMJulia – OpenModelica Julia Scripting"
+msgstr ""
+
+#: ../../source/omjulia.rst:4
+msgid ""
+"OMJulia – the OpenModelica Julia API is a free, open source, highly "
+"portable Julia based interactive session handler for Julia scripting of "
+"OpenModelica API functionality. It provides the modeler with components "
+"for creating a complete Julia-Modelica modeling, compilation and "
+"simulation environment based on the latest OpenModelica implementation "
+"and Modelica library standard available. OMJulia is architectured to "
+"combine both the solving strategy and model building. Thus, domain "
+"experts (people writing the models) and computational engineers (people "
+"writing the solver code) can work on one unified tool that is "
+"industrially viable for optimization of Modelica models, while offering a"
+" flexible platform for algorithm development and research. OMJulia is not"
+" a standalone package, it depends upon the OpenModelica installation."
+msgstr ""
+
+#: ../../source/omjulia.rst:18
+msgid ""
+"OMJulia is implemented in Julia and depends on ZeroMQ - high performance "
+"asynchronous messaging library and it supports the Modelica Standard "
+"Library version 3.2 that is included in starting with OpenModelica 1.9.2."
+msgstr ""
+
+#: ../../source/omjulia.rst:23
+msgid ""
+"To install OMJulia follow the instructions at "
+"https://github.com/OpenModelica/OMJulia.jl"
+msgstr ""
+
+#: ../../source/omjulia.rst:26
+msgid "Features of OMJulia"
+msgstr ""
+
+#: ../../source/omjulia.rst:27
+msgid "The OMJulia package contains the following features:"
+msgstr ""
+
+#: ../../source/omjulia.rst:29
+msgid ""
+"Interactive session handling, parsing, interpretation of commands and "
+"Modelica expressions for evaluation, simulation, plotting, etc."
+msgstr ""
+
+#: ../../source/omjulia.rst:31
+msgid "Connect with the OpenModelica compiler through zmq sockets"
+msgstr ""
+
+#: ../../source/omjulia.rst:32
+msgid ""
+"Able to interact with the OpenModelica compiler through the "
+":ref:`available API <scripting-api>`"
+msgstr ""
+
+#: ../../source/omjulia.rst:33
+msgid "Easy access to the Modelica Standard library."
+msgstr ""
+
+#: ../../source/omjulia.rst:34
+msgid ""
+"All the API calls are communicated with the help of the sendExpression "
+"method implemented in a Julia module"
+msgstr ""
+
+#: ../../source/omjulia.rst:35
+msgid "The results are returned as strings"
+msgstr ""
+
+#: ../../source/omjulia.rst:38
+msgid "Test Commands"
+msgstr ""
+
+#: ../../source/omjulia.rst:40
+msgid "To get started, create an OMJulia session object:"
+msgstr ""
+
+#: ../../source/omjulia.rst:57
+msgid "Advanced OMJulia Features"
+msgstr ""
+
+#: ../../source/omjulia.rst:58
+msgid ""
+"OMJulia package has advanced functionality for querying more information "
+"about the models and simulate them. A list of new user friendly API "
+"functionality allows user to extract information about models using julia"
+" objects. A list of API functionality is described below."
+msgstr ""
+
+#: ../../source/omjulia.rst:62
+msgid "To get started, create a ModelicaSystem object:"
+msgstr ""
+
+#: ../../source/omjulia.rst:68
+msgid ""
+"The object constructor requires a minimum of 2 input arguments which are "
+"strings, and third input argument which is optional ."
+msgstr ""
+
+#: ../../source/omjulia.rst:70
+msgid ""
+"The first input argument must be a string with the file name of the "
+"Modelica code, with Modelica file extension \".mo\". If the Modelica file"
+" is not in the current directory, then the file path must also be "
+"included."
+msgstr ""
+
+#: ../../source/omjulia.rst:73
+msgid ""
+"The second input argument must be a string with the name of the Modelica "
+"model including the namespace if the model is wrapped within a Modelica "
+"package."
+msgstr ""
+
+#: ../../source/omjulia.rst:76
+msgid ""
+"The third input argument (optional) is used to specify the list of "
+"dependent libraries or dependent Modelica files The argument can be "
+"passed as a string or array of strings e.g.,"
+msgstr ""
+
+#: ../../source/omjulia.rst:82
+msgid "WorkDirectory"
+msgstr ""
+
+#: ../../source/omjulia.rst:83
+msgid ""
+"For each OMJulia session a temporary work directory is created and the "
+"results are published in that working directory, Inorder to get the "
+"workdirectory the users can use the following API"
+msgstr ""
+
+#: ../../source/omjulia.rst:90
+msgid "BuildModel"
+msgstr ""
+
+#: ../../source/omjulia.rst:91
+msgid ""
+"The buildModel API can be used after ModelicaSystem(), in case the model "
+"needs to be updated or additional simulationflags needs to be set using "
+"sendExpression()"
+msgstr ""
+
+#: ../../source/omjulia.rst:97
+msgid "Standard get methods"
+msgstr ""
+
+#: ../../source/omjulia.rst:99
+msgid "getQuantities()"
+msgstr ""
+
+#: ../../source/omjulia.rst:100
+msgid "showQuantities()"
+msgstr ""
+
+#: ../../source/omjulia.rst:101
+msgid "getContinuous()"
+msgstr ""
+
+#: ../../source/omjulia.rst:102
+msgid "getInputs()"
+msgstr ""
+
+#: ../../source/omjulia.rst:103
+msgid "getOutputs()"
+msgstr ""
+
+#: ../../source/omjulia.rst:104
+msgid "getParameters()"
+msgstr ""
+
+#: ../../source/omjulia.rst:105
+msgid "getSimulationOptions()"
+msgstr ""
+
+#: ../../source/omjulia.rst:106
+msgid "getSolutions()"
+msgstr ""
+
+#: ../../source/omjulia.rst:108
+msgid ""
+"Three calling possibilities are accepted using getXXX() where \"XXX\" can"
+" be any of the above functions (eg:) getParameters()."
+msgstr ""
+
+#: ../../source/omjulia.rst:110
+msgid ""
+"getXXX() without input argument, returns a dictionary with names as keys "
+"and values as values."
+msgstr ""
+
+#: ../../source/omjulia.rst:111
+msgid "getXXX(S), where S is a string of names."
+msgstr ""
+
+#: ../../source/omjulia.rst:112
+msgid "getXXX([\"S1\",\"S2\"]) where S1 and S1 are array of string elements"
+msgstr ""
+
+#: ../../source/omjulia.rst:115
+msgid "Usage of getMethods"
+msgstr ""
+
+#: ../../source/omjulia.rst:152
+msgid "The getSolution method can be used in two different ways."
+msgstr ""
+
+#: ../../source/omjulia.rst:151
+msgid "using default result filename"
+msgstr ""
+
+#: ../../source/omjulia.rst:152
+msgid "use the result filenames provided by user"
+msgstr ""
+
+#: ../../source/omjulia.rst:154
+msgid ""
+"This provides a way to compare simulation results and perform regression "
+"testing"
+msgstr ""
+
+#: ../../source/omjulia.rst:169
+msgid "Standard set methods"
+msgstr ""
+
+#: ../../source/omjulia.rst:170
+msgid "setInputs()"
+msgstr ""
+
+#: ../../source/omjulia.rst:171
+msgid "setParameters()"
+msgstr ""
+
+#: ../../source/omjulia.rst:172
+msgid "setSimulationOptions()"
+msgstr ""
+
+#: ../../source/omjulia.rst:174
+msgid ""
+"Two setting possibilities are accepted using setXXXs(),where \"XXX\" can "
+"be any of above functions."
+msgstr ""
+
+#: ../../source/omjulia.rst:176
+msgid "setXXX(\"Name=value\") string of keyword assignments"
+msgstr ""
+
+#: ../../source/omjulia.rst:177
+msgid ""
+"setXXX([\"Name1=value1\",\"Name2=value2\",\"Name3=value3\"])  array of "
+"string of keyword assignments"
+msgstr ""
+
+#: ../../source/omjulia.rst:181
+msgid "Usage of setMethods"
+msgstr ""
+
+#: ../../source/omjulia.rst:195
+msgid "Advanced Simulation"
+msgstr ""
+
+#: ../../source/omjulia.rst:196
+msgid ""
+"An example of how to do advanced simulation to set parameter values using"
+" set methods and finally simulate the  \"BouncingBall.mo\" model is given"
+" below ."
+msgstr ""
+
+#: ../../source/omjulia.rst:203
+msgid ""
+"To check whether new values are updated to model , we can again query the"
+" getParameters()."
+msgstr ""
+
+#: ../../source/omjulia.rst:208
+msgid ""
+"Similary we can also use setInputs() to set a value for the inputs during"
+" various time interval can also be done using the following."
+msgstr ""
+
+#: ../../source/omjulia.rst:214
+msgid ""
+"And then finally we can simulate the model using, The simulate() API can "
+"be used in two methods"
+msgstr ""
+
+#: ../../source/omjulia.rst:213
+msgid "without any arguments"
+msgstr ""
+
+#: ../../source/omjulia.rst:214
+msgid ""
+"resultfile names provided by user (only filename is allowed and not the "
+"location)"
+msgstr ""
+
+#: ../../source/omjulia.rst:221
+msgid "Linearization"
+msgstr ""
+
+#: ../../source/omjulia.rst:222
+msgid "The following methods are available for linearization of a modelica model"
+msgstr ""
+
+#: ../../source/omjulia.rst:224
+msgid "linearize()"
+msgstr ""
+
+#: ../../source/omjulia.rst:225
+msgid "getLinearizationOptions()"
+msgstr ""
+
+#: ../../source/omjulia.rst:226
+msgid "setLinearizationOptions()"
+msgstr ""
+
+#: ../../source/omjulia.rst:227
+msgid "getLinearInputs()"
+msgstr ""
+
+#: ../../source/omjulia.rst:228
+msgid "getLinearOutputs()"
+msgstr ""
+
+#: ../../source/omjulia.rst:229
+msgid "getLinearStates()"
+msgstr ""
+
+#: ../../source/omjulia.rst:232
+msgid "Usage of Linearization methods"
+msgstr ""
+
+#: ../../source/omjulia.rst:252
+msgid "Sensitivity Analysis"
+msgstr ""
+
+#: ../../source/omjulia.rst:254
+msgid ""
+"A Method for computing numeric sensitivity of modelica model is available"
+" ."
+msgstr ""
+
+#: ../../source/omjulia.rst:256
+msgid "(res1,res2) = sensitivity(arg1,arg2,arg3)"
+msgstr ""
+
+#: ../../source/omjulia.rst:258
+msgid "The constructor requires a minimum of 3 input arguments ."
+msgstr ""
+
+#: ../../source/omjulia.rst:260
+msgid "arg1: Array of strings of Modelica Parameter names"
+msgstr ""
+
+#: ../../source/omjulia.rst:261
+msgid "arg2: Array of strings of Modelica Variable names"
+msgstr ""
+
+#: ../../source/omjulia.rst:262
+msgid "arg3: Array of float Excitations of parameters; defaults to scalar 1e-2"
+msgstr ""
+
+#: ../../source/omjulia.rst:264
+msgid "The results contains the following ."
+msgstr ""
+
+#: ../../source/omjulia.rst:266
+msgid "res1: Vector of Sensitivity names."
+msgstr ""
+
+#: ../../source/omjulia.rst:267
+msgid ""
+"res2: Array of sensitivies: vector of elements per parameter, each "
+"element containing time series per variable."
+msgstr ""
+
+#: ../../source/omjulia.rst:270
+msgid "Usage"
+msgstr ""
+
+#: ../../source/omjulia.rst:275
+msgid ""
+"With the above list of API calls implemented, the users can have more "
+"control over the result types, returned as Julia data structures."
+msgstr ""
+

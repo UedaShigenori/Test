@@ -1,0 +1,3999 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/omchelptext.rst:2
+msgid "OpenModelica Compiler Flags"
+msgstr ""
+
+#: ../../source/omchelptext.rst:3
+msgid "Usage: omc [Options] (Model.mo | Script.mos) [Libraries | .mo-files]"
+msgstr ""
+
+#: ../../source/omchelptext.rst:5
+msgid ""
+"Libraries: Fully qualified names of libraries to load before processing "
+"Model or Script. The libraries should be separated by spaces: Lib1 Lib2 "
+"... LibN."
+msgstr ""
+
+#: ../../source/omchelptext.rst:11
+msgid "Options"
+msgstr ""
+
+#: ../../source/omchelptext.rst:15
+msgid ":ref:`-d, --debug<omcflag-debug>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:17
+msgid ""
+"Sets debug flags. Use :ref:`--help=debug <omcflag-debug-section>` to see "
+"available flags."
+msgstr ""
+
+#: ../../source/omchelptext.rst:19 ../../source/omchelptext.rst:802
+#: ../../source/omchelptext.rst:810 ../../source/omchelptext.rst:818
+#: ../../source/omchelptext.rst:826 ../../source/omchelptext.rst:834
+#: ../../source/omchelptext.rst:842
+msgid "String list (default *empty*)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:23
+msgid ":ref:`-h, --help<omcflag-help>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:25
+msgid "Displays the help text. Use --help=topics for more information."
+msgstr ""
+
+#: ../../source/omchelptext.rst:27 ../../source/omchelptext.rst:328
+#: ../../source/omchelptext.rst:360 ../../source/omchelptext.rst:428
+#: ../../source/omchelptext.rst:452 ../../source/omchelptext.rst:526
+#: ../../source/omchelptext.rst:550 ../../source/omchelptext.rst:1055
+msgid "String (default *empty*)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:31
+msgid ":ref:`--v, --version<omcflag-version>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:33
+msgid "Print the version and exit."
+msgstr ""
+
+#: ../../source/omchelptext.rst:35 ../../source/omchelptext.rst:102
+#: ../../source/omchelptext.rst:110 ../../source/omchelptext.rst:118
+#: ../../source/omchelptext.rst:296 ../../source/omchelptext.rst:304
+#: ../../source/omchelptext.rst:312 ../../source/omchelptext.rst:320
+#: ../../source/omchelptext.rst:376 ../../source/omchelptext.rst:384
+#: ../../source/omchelptext.rst:392 ../../source/omchelptext.rst:400
+#: ../../source/omchelptext.rst:420 ../../source/omchelptext.rst:502
+#: ../../source/omchelptext.rst:510 ../../source/omchelptext.rst:518
+#: ../../source/omchelptext.rst:570 ../../source/omchelptext.rst:580
+#: ../../source/omchelptext.rst:588 ../../source/omchelptext.rst:619
+#: ../../source/omchelptext.rst:696 ../../source/omchelptext.rst:786
+#: ../../source/omchelptext.rst:883 ../../source/omchelptext.rst:925
+#: ../../source/omchelptext.rst:933 ../../source/omchelptext.rst:958
+#: ../../source/omchelptext.rst:966 ../../source/omchelptext.rst:990
+#: ../../source/omchelptext.rst:998 ../../source/omchelptext.rst:1022
+#: ../../source/omchelptext.rst:1076 ../../source/omchelptext.rst:1108
+#: ../../source/omchelptext.rst:1116 ../../source/omchelptext.rst:1124
+#: ../../source/omchelptext.rst:1132 ../../source/omchelptext.rst:1153
+msgid "Boolean (default ``false``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:39
+msgid ":ref:`--target<omcflag-target>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:41
+msgid "Sets the target compiler to use."
+msgstr ""
+
+#: ../../source/omchelptext.rst:43
+msgid "String (default gcc). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:45
+msgid "gcc"
+msgstr ""
+
+#: ../../source/omchelptext.rst:46
+msgid "msvc"
+msgstr ""
+
+#: ../../source/omchelptext.rst:47
+msgid "msvc10"
+msgstr ""
+
+#: ../../source/omchelptext.rst:48
+msgid "msvc12"
+msgstr ""
+
+#: ../../source/omchelptext.rst:49
+msgid "msvc13"
+msgstr ""
+
+#: ../../source/omchelptext.rst:50
+msgid "msvc15"
+msgstr ""
+
+#: ../../source/omchelptext.rst:51
+msgid "msvc19"
+msgstr ""
+
+#: ../../source/omchelptext.rst:52
+msgid "vxworks69"
+msgstr ""
+
+#: ../../source/omchelptext.rst:53
+msgid "debugrt"
+msgstr ""
+
+#: ../../source/omchelptext.rst:57
+msgid ":ref:`-g, --grammar<omcflag-grammar>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:59
+msgid "Sets the grammar and semantics to accept."
+msgstr ""
+
+#: ../../source/omchelptext.rst:61
+msgid "String (default  Modelica). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:63
+msgid "Modelica"
+msgstr ""
+
+#: ../../source/omchelptext.rst:64
+msgid "MetaModelica"
+msgstr ""
+
+#: ../../source/omchelptext.rst:65
+msgid "ParModelica"
+msgstr ""
+
+#: ../../source/omchelptext.rst:66
+msgid "Optimica"
+msgstr ""
+
+#: ../../source/omchelptext.rst:67
+msgid "PDEModelica"
+msgstr ""
+
+#: ../../source/omchelptext.rst:71
+msgid ":ref:`--annotationVersion<omcflag-annotationVersion>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:73
+msgid "Sets the annotation version that should be used."
+msgstr ""
+
+#: ../../source/omchelptext.rst:75
+msgid "String (default 3.x). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:77 ../../source/omchelptext.rst:89
+msgid "1.x"
+msgstr ""
+
+#: ../../source/omchelptext.rst:78 ../../source/omchelptext.rst:90
+msgid "2.x"
+msgstr ""
+
+#: ../../source/omchelptext.rst:79
+msgid "3.x"
+msgstr ""
+
+#: ../../source/omchelptext.rst:83
+msgid ":ref:`--std<omcflag-std>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:85
+msgid "Sets the language standard that should be used."
+msgstr ""
+
+#: ../../source/omchelptext.rst:87
+msgid "String (default  latest). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:91
+msgid "3.1"
+msgstr ""
+
+#: ../../source/omchelptext.rst:92
+msgid "3.2"
+msgstr ""
+
+#: ../../source/omchelptext.rst:93
+msgid "3.3"
+msgstr ""
+
+#: ../../source/omchelptext.rst:94
+msgid "latest"
+msgstr ""
+
+#: ../../source/omchelptext.rst:98
+msgid ":ref:`--showErrorMessages<omcflag-showErrorMessages>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:100
+msgid "Show error messages immediately when they happen."
+msgstr ""
+
+#: ../../source/omchelptext.rst:106
+msgid ":ref:`--showAnnotations<omcflag-showAnnotations>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:108
+msgid "Show annotations in the flattened code."
+msgstr ""
+
+#: ../../source/omchelptext.rst:114
+msgid ":ref:`--noSimplify<omcflag-noSimplify>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:116
+msgid "Do not simplify expressions if set."
+msgstr ""
+
+#: ../../source/omchelptext.rst:122
+msgid ":ref:`--preOptModules<omcflag-preOptModules>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:124
+msgid ""
+"Sets the pre optimization modules to use in the back end. See "
+":ref:`--help=optmodules <omcflag-optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:126
+msgid ""
+"String list (default "
+"normalInlineFunction,evaluateParameters,simplifyIfEquations,expandDerOperator,clockPartitioning,findStateOrder,replaceEdgeChange,inlineArrayEqn,removeEqualRHS,removeSimpleEquations,comSubExp,resolveLoops,evalFunc,encapsulateWhenConditions)."
+" Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:128
+msgid "introduceOutputAliases (Introduces aliases for top-level outputs.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:129
+msgid "clockPartitioning (Does the clock partitioning.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:130 ../../source/omchelptext.rst:224
+#: ../../source/omchelptext.rst:755
+msgid ""
+"collapseArrayExpressions (Simplifies {x[1],x[2],x[3]} → x for arrays of "
+"whole variable references (simplifies code generation).)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:131
+msgid ""
+"comSubExp (Introduces alias assignments for variables which are assigned "
+"to simple terms i.e. a = b/c; d = b/c; --> a=d)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:132 ../../source/omchelptext.rst:229
+msgid "dumpDAE (dumps the DAE representation of the current transformation state)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:133 ../../source/omchelptext.rst:230
+msgid ""
+"dumpDAEXML (dumps the DAE as xml representation of the current "
+"transformation state)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:134
+msgid ""
+"encapsulateWhenConditions (This module replaces each when condition with "
+"a boolean variable.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:135
+msgid "evalFunc (evaluates functions partially)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:136 ../../source/omchelptext.rst:231
+msgid ""
+"evaluateParameters (Evaluates parameters with annotation(Evaluate=true). "
+"Use '--evaluateFinalParameters=true' or '--"
+"evaluateProtectedParameters=true' to specify additional parameters to be "
+"evaluated. Use '--replaceEvaluatedParameters=true' if the evaluated "
+"parameters should be replaced in the DAE. To evaluate all parameters in "
+"the Frontend use -d=evaluateAllParameters.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:137
+msgid "expandDerOperator (Expands der(expr) using Derive.differentiteExpTime.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:138
+msgid "findStateOrder (Sets derivative information to states.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:139 ../../source/omchelptext.rst:235
+msgid ""
+"inlineArrayEqn (This module expands all array equations to scalar "
+"equations.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:140
+msgid ""
+"normalInlineFunction (Perform function inlining for function with "
+"annotation Inline=true.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:141
+msgid ""
+"inputDerivativesForDynOpt (Allowed derivatives of inputs in dyn. "
+"optimization.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:142
+msgid ""
+"introduceDerAlias (Adds for every der-call an alias equation e.g. dx = "
+"der(x).)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:143
+msgid ""
+"removeEqualRHS (Detects equal expressions of the form a=<exp> and b=<exp>"
+" and substitutes them to get speed up.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:144
+msgid ""
+"removeProtectedParameters (Replace all parameters with protected=true in "
+"the system.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:145 ../../source/omchelptext.rst:244
+msgid ""
+"removeSimpleEquations (Performs alias elimination and removes constant "
+"variables from the DAE, replacing all occurrences of the old variable "
+"reference with the new value (constants) or variable reference (alias "
+"elimination).)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:146
+msgid ""
+"removeUnusedParameter (Strips all parameter not present in the equations "
+"from the system.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:147
+msgid ""
+"removeUnusedVariables (Strips all variables not present in the equations "
+"from the system.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:148
+msgid ""
+"removeVerySimpleEquations ([Experimental] Like removeSimpleEquations, but"
+" less thorough. Note that this always uses the experimental new alias "
+"elimination, --removeSimpleEquations=new, which makes it unstable. In "
+"particular, MultiBody systems fail to translate correctly. It can be used"
+" for simple (but large) systems of equations.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:149
+msgid ""
+"replaceEdgeChange (Replace edge(b) = b and not pre(b) and change(b) = v "
+"<> pre(v).)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:150
+msgid ""
+"residualForm (Transforms simple equations x=y to zero-sum equations "
+"0=y-x.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:151
+msgid "resolveLoops (resolves linear equations in loops)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:152 ../../source/omchelptext.rst:248
+#: ../../source/omchelptext.rst:764
+msgid "simplifyAllExpressions (Does simplifications on all expressions.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:153
+msgid ""
+"simplifyIfEquations (Tries to simplify if equations by use of information"
+" from evaluated parameters.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:154
+msgid "sortEqnsVars (Heuristic sorting for equations and variables.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:155
+msgid ""
+"unitChecking (Does advanced unit checking which consists of two parts: 1."
+" calculation of unspecified unit information for variables; 2. "
+"consistency check for all equations based on unit information. Please "
+"note: This module is still experimental.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:156 ../../source/omchelptext.rst:259
+#: ../../source/omchelptext.rst:770
+msgid ""
+"wrapFunctionCalls (This module introduces variables for each function "
+"call and substitutes all these calls with the newly introduced "
+"variables.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:160
+msgid ":ref:`--cheapmatchingAlgorithm<omcflag-cheapmatchingAlgorithm>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:162
+msgid ""
+"Sets the cheap matching algorithm to use. A cheap matching algorithm "
+"gives a jump start matching by heuristics."
+msgstr ""
+
+#: ../../source/omchelptext.rst:164
+msgid "Integer (default ``3``). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:166
+msgid "0 (No cheap matching.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:167
+msgid ""
+"1 (Cheap matching, traverses all equations and match the first free "
+"variable.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:168
+msgid ""
+"3 (Random Karp-Sipser: R. M. Karp and M. Sipser. Maximum matching in "
+"sparse random graphs.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:172
+msgid ":ref:`--matchingAlgorithm<omcflag-matchingAlgorithm>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:174
+msgid ""
+"Sets the matching algorithm to use. See :ref:`--help=optmodules <omcflag-"
+"optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:176
+msgid "String (default PFPlusExt). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:178
+msgid "BFSB (Breadth First Search based algorithm.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:179
+msgid "DFSB (Depth First Search based algorithm.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:180
+msgid "MC21A (Depth First Search based algorithm with look ahead feature.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:181
+msgid "PF (Depth First Search based algorithm with look ahead feature.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:182
+msgid ""
+"PFPlus (Depth First Search based algorithm with look ahead feature and "
+"fair row traversal.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:183
+msgid "HK (Combined BFS and DFS algorithm.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:184
+msgid "HKDW (Combined BFS and DFS algorithm.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:185
+msgid "ABMP (Combined BFS and DFS algorithm.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:186
+msgid "PR (Matching algorithm using push relabel mechanism.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:187
+msgid "DFSBExt (Depth First Search based Algorithm external c implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:188
+msgid "BFSBExt (Breadth First Search based Algorithm external c implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:189
+msgid ""
+"MC21AExt (Depth First Search based Algorithm with look ahead feature "
+"external c implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:190
+msgid ""
+"PFExt (Depth First Search based Algorithm with look ahead feature "
+"external c implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:191
+msgid ""
+"PFPlusExt (Depth First Search based Algorithm with look ahead feature and"
+" fair row traversal external c implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:192
+msgid "HKExt (Combined BFS and DFS algorithm external c implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:193
+msgid "HKDWExt (Combined BFS and DFS algorithm external c implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:194
+msgid "ABMPExt (Combined BFS and DFS algorithm external c implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:195
+msgid ""
+"PRExt (Matching algorithm using push relabel mechanism external c "
+"implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:196
+msgid "BB (BBs try.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:200
+msgid ":ref:`--indexReductionMethod<omcflag-indexReductionMethod>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:202
+msgid ""
+"Sets the index reduction method to use. See :ref:`--help=optmodules "
+"<omcflag-optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:204
+msgid "String (default dynamicStateSelection). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:206
+msgid "none (Skip index reduction)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:207
+msgid "uode (Use the underlying ODE without the constraints.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:208
+msgid ""
+"dynamicStateSelection (Simple index reduction method, select (dynamic) "
+"dummy states based on analysis of the system.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:209
+msgid ""
+"dummyDerivatives (Simple index reduction method, select (static) dummy "
+"states based on heuristic.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:213
+msgid ":ref:`--postOptModules<omcflag-postOptModules>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:215
+msgid ""
+"Sets the post optimization modules to use in the back end. See "
+":ref:`--help=optmodules <omcflag-optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:217
+msgid ""
+"String list (default "
+"lateInlineFunction,wrapFunctionCalls,inlineArrayEqn,constantLinearSystem,simplifysemiLinear,removeSimpleEquations,simplifyComplexFunction,solveSimpleEquations,tearingSystem,inputDerivativesUsed,calculateStrongComponentJacobians,calculateStateSetsJacobians,symbolicJacobian,removeConstants,simplifyTimeIndepFuncCalls,simplifyAllExpressions,findZeroCrossings,collapseArrayExpressions)."
+" Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:219
+msgid "addScaledVars_states (added var_norm = var/nominal, where var is state)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:220
+msgid "addScaledVars_inputs (added var_norm = var/nominal, where var is input)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:221
+msgid ""
+"addTimeAsState (Experimental feature: this replaces each occurrence of "
+"variable time with a new introduced state $time with equation der($time) "
+"= 1.0)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:222
+msgid ""
+"calculateStateSetsJacobians (Generates analytical jacobian for dynamic "
+"state selection sets.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:223 ../../source/omchelptext.rst:754
+msgid ""
+"calculateStrongComponentJacobians (Generates analytical jacobian for torn"
+" linear and non-linear strong components. By default linear components "
+"and non-linear components with user-defined function calls are skipped. "
+"See also debug flags: LSanalyticJacobian, NLSanalyticJacobian and "
+"forceNLSanalyticJacobian)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:225 ../../source/omchelptext.rst:756
+msgid ""
+"constantLinearSystem (Evaluates constant linear systems (a*x+b*y=c; "
+"d*x+e*y=f; a,b,c,d,e,f are constants) at compile-time.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:226
+msgid "countOperations (Count the mathematical operations of the system.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:227
+msgid "cseBinary (Common Sub-expression Elimination)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:228
+msgid ""
+"dumpComponentsGraphStr (Dumps the assignment graph used to determine "
+"strong components to format suitable for Mathematica)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:232 ../../source/omchelptext.rst:757
+msgid "extendDynamicOptimization (Move loops to constraints.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:233
+msgid ""
+"generateSymbolicLinearization (Generates symbolic linearization matrices "
+"A,B,C,D for linear model::math:`\\dot{x} = Ax + Bu `:math:`y = Cx +Du`)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:234
+msgid ""
+"generateSymbolicSensitivities (Generates symbolic Sensivities matrix, "
+"where der(x) is differentiated w.r.t. param.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:236 ../../source/omchelptext.rst:760
+msgid ""
+"inputDerivativesUsed (Checks if derivatives of inputs are need to "
+"calculate the model.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:237
+msgid ""
+"lateInlineFunction (Perform function inlining for function with "
+"annotation LateInline=true.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:238
+msgid "partlintornsystem (partitions linear torn systems.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:239 ../../source/omchelptext.rst:761
+msgid "recursiveTearing (inline and repeat tearing)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:240 ../../source/omchelptext.rst:762
+msgid ""
+"reduceDynamicOptimization (Removes equations which are not needed for the"
+" calculations of cost and constraints. This module requires "
+"-d=reduceDynOpt.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:241
+msgid "relaxSystem (relaxation from gausian elemination)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:242
+msgid "removeConstants (Remove all constants in the system.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:243
+msgid ""
+"removeEqualRHS (Detects equal function calls of the form a=f(b) and "
+"c=f(b) and substitutes them to get speed up.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:245
+msgid ""
+"removeUnusedParameter (Strips all parameter not present in the equations "
+"from the system to get speed up for compilation of target code.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:246
+msgid ""
+"removeUnusedVariables (Strips all variables not present in the equations "
+"from the system to get speed up for compilation of target code.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:247
+msgid "reshufflePost (Reshuffles algebraic loops.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:249 ../../source/omchelptext.rst:765
+msgid ""
+"simplifyComplexFunction (Some simplifications on complex functions "
+"(complex refers to the internal data structure))"
+msgstr ""
+
+#: ../../source/omchelptext.rst:250 ../../source/omchelptext.rst:766
+msgid ""
+"simplifyConstraints (Rewrites nonlinear constraints into box constraints "
+"if possible. This module requires +gDynOpt.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:251 ../../source/omchelptext.rst:767
+msgid ""
+"simplifyLoops (Simplifies algebraic loops. This modules requires "
+"+simplifyLoops.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:252
+msgid ""
+"simplifyTimeIndepFuncCalls (Simplifies time independent built in function"
+" calls like pre(param) -> param, der(param) -> 0.0, change(param) -> "
+"false, edge(param) -> false.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:253
+msgid "simplifysemiLinear (Simplifies calls to semiLinear.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:254
+msgid "solveLinearSystem (solve linear system with newton step)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:255 ../../source/omchelptext.rst:768
+msgid "solveSimpleEquations (Solves simple equations)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:256
+msgid ""
+"symSolver (Rewrites the ode system for implicit Euler method. This module"
+" requires +symSolver.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:257
+msgid ""
+"symbolicJacobian (Detects the sparse pattern of the ODE system and "
+"calculates also the symbolic Jacobian if flag '--"
+"generateSymbolicJacobian' is enabled.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:258 ../../source/omchelptext.rst:769
+msgid "tearingSystem (For method selection use flag tearingMethod.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:263
+msgid ":ref:`--simCodeTarget<omcflag-simCodeTarget>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:265
+msgid "Sets the target language for the code generation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:267
+msgid "String (default C). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:269
+msgid "None"
+msgstr ""
+
+#: ../../source/omchelptext.rst:270
+msgid "Adevs"
+msgstr ""
+
+#: ../../source/omchelptext.rst:271
+msgid "C"
+msgstr ""
+
+#: ../../source/omchelptext.rst:272
+msgid "Cpp"
+msgstr ""
+
+#: ../../source/omchelptext.rst:273
+msgid "CSharp"
+msgstr ""
+
+#: ../../source/omchelptext.rst:274
+msgid "ExperimentalEmbeddedC"
+msgstr ""
+
+#: ../../source/omchelptext.rst:275
+msgid "Java"
+msgstr ""
+
+#: ../../source/omchelptext.rst:276
+msgid "JavaScript"
+msgstr ""
+
+#: ../../source/omchelptext.rst:277
+msgid "omsic"
+msgstr ""
+
+#: ../../source/omchelptext.rst:278
+msgid "sfmi"
+msgstr ""
+
+#: ../../source/omchelptext.rst:279
+msgid "XML"
+msgstr ""
+
+#: ../../source/omchelptext.rst:280
+msgid "MidC"
+msgstr ""
+
+#: ../../source/omchelptext.rst:284
+msgid ":ref:`--orderConnections<omcflag-orderConnections>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:286
+msgid "Orders connect equations alphabetically if set."
+msgstr ""
+
+#: ../../source/omchelptext.rst:288 ../../source/omchelptext.rst:460
+#: ../../source/omchelptext.rst:794 ../../source/omchelptext.rst:974
+#: ../../source/omchelptext.rst:1006 ../../source/omchelptext.rst:1014
+msgid "Boolean (default ``true``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:292
+msgid ":ref:`-t, --typeinfo<omcflag-typeinfo>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:294
+msgid "Prints out extra type information if set."
+msgstr ""
+
+#: ../../source/omchelptext.rst:300
+msgid ":ref:`-a, --keepArrays<omcflag-keepArrays>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:302
+msgid "Sets whether to split arrays or not."
+msgstr ""
+
+#: ../../source/omchelptext.rst:308
+msgid ":ref:`-m, --modelicaOutput<omcflag-modelicaOutput>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:310
+msgid "Enables valid modelica output for flat modelica."
+msgstr ""
+
+#: ../../source/omchelptext.rst:316
+msgid ":ref:`-q, --silent<omcflag-silent>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:318
+msgid "Turns on silent mode."
+msgstr ""
+
+#: ../../source/omchelptext.rst:324
+msgid ":ref:`-c, --corbaSessionName<omcflag-corbaSessionName>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:326
+msgid ""
+"Sets the name of the corba session if -d=interactiveCorba or "
+"--interactive=corba is used."
+msgstr ""
+
+#: ../../source/omchelptext.rst:332
+msgid ":ref:`-n, --numProcs<omcflag-numProcs>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:334
+msgid "Sets the number of processors to use (0=default=auto)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:336 ../../source/omchelptext.rst:344
+#: ../../source/omchelptext.rst:352 ../../source/omchelptext.rst:368
+#: ../../source/omchelptext.rst:436 ../../source/omchelptext.rst:627
+#: ../../source/omchelptext.rst:744 ../../source/omchelptext.rst:941
+msgid "Integer (default ``0``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:340
+msgid ":ref:`-l, --latency<omcflag-latency>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:342
+msgid "Sets the latency for parallel execution."
+msgstr ""
+
+#: ../../source/omchelptext.rst:348
+msgid ":ref:`-b, --bandwidth<omcflag-bandwidth>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:350
+msgid "Sets the bandwidth for parallel execution."
+msgstr ""
+
+#: ../../source/omchelptext.rst:356
+msgid ":ref:`-i, --instClass<omcflag-instClass>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:358
+msgid "Instantiate the class given by the fully qualified path."
+msgstr ""
+
+#: ../../source/omchelptext.rst:364
+msgid ":ref:`-v, --vectorizationLimit<omcflag-vectorizationLimit>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:366
+msgid ""
+"Sets the vectorization limit, arrays and matrices larger than this will "
+"not be vectorized."
+msgstr ""
+
+#: ../../source/omchelptext.rst:372
+msgid ":ref:`-s, --simulationCg<omcflag-simulationCg>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:374
+msgid "Turns on simulation code generation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:380
+msgid ":ref:`--evalAnnotationParams<omcflag-evalAnnotationParams>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:382
+msgid "Sets whether to evaluate parameters in annotations or not."
+msgstr ""
+
+#: ../../source/omchelptext.rst:388
+msgid ":ref:`--generateLabeledSimCode<omcflag-generateLabeledSimCode>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:390
+msgid "Turns on labeled SimCode generation for reduction algorithms."
+msgstr ""
+
+#: ../../source/omchelptext.rst:396
+msgid ":ref:`--reduceTerms<omcflag-reduceTerms>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:398
+msgid "Turns on reducing terms for reduction algorithms."
+msgstr ""
+
+#: ../../source/omchelptext.rst:404
+msgid ":ref:`--reductionMethod<omcflag-reductionMethod>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:406
+msgid "Sets the reduction method to be used."
+msgstr ""
+
+#: ../../source/omchelptext.rst:408
+msgid "String (default deletion). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:410
+msgid "deletion"
+msgstr ""
+
+#: ../../source/omchelptext.rst:411
+msgid "substitution"
+msgstr ""
+
+#: ../../source/omchelptext.rst:412
+msgid "linearization"
+msgstr ""
+
+#: ../../source/omchelptext.rst:416
+msgid ":ref:`--demoMode<omcflag-demoMode>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:418
+msgid "Disable Warning/Error Massages."
+msgstr ""
+
+#: ../../source/omchelptext.rst:424
+msgid ":ref:`--locale<omcflag-locale>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:426
+msgid "Override the locale from the environment."
+msgstr ""
+
+#: ../../source/omchelptext.rst:432
+msgid ":ref:`-o, --defaultOCLDevice<omcflag-defaultOCLDevice>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:434
+msgid "Sets the default OpenCL device to be used for parallel execution."
+msgstr ""
+
+#: ../../source/omchelptext.rst:440
+msgid ":ref:`--maxTraversals<omcflag-maxTraversals>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:442
+msgid "Maximal traversals to find simple equations in the acausal system."
+msgstr ""
+
+#: ../../source/omchelptext.rst:444
+msgid "Integer (default ``2``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:448
+msgid ":ref:`--dumpTarget<omcflag-dumpTarget>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:450
+msgid ""
+"Redirect the dump to file. If the file ends with .html HTML code is "
+"generated."
+msgstr ""
+
+#: ../../source/omchelptext.rst:456
+msgid ":ref:`--delayBreakLoop<omcflag-delayBreakLoop>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:458
+msgid ""
+"Enables (very) experimental code to break algebraic loops using the "
+"delay() operator. Probably messes with initialization."
+msgstr ""
+
+#: ../../source/omchelptext.rst:464
+msgid ":ref:`--tearingMethod<omcflag-tearingMethod>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:466
+msgid ""
+"Sets the tearing method to use. Select no tearing or choose tearing "
+"method."
+msgstr ""
+
+#: ../../source/omchelptext.rst:468
+msgid "String (default cellier). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:470
+msgid "noTearing (Skip tearing.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:471
+msgid "minimalTearing (Minimal tearing method based on a brute force approuch.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:472
+msgid "omcTearing (Tearing method developed by TU Dresden: Frenkel, Schubert.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:473
+msgid ""
+"cellier (Tearing based on Celliers method, revised by FH Bielefeld: "
+"Täuber, Patrick)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:477
+msgid ":ref:`--tearingHeuristic<omcflag-tearingHeuristic>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:479
+msgid "Sets the tearing heuristic to use for Cellier-tearing."
+msgstr ""
+
+#: ../../source/omchelptext.rst:481
+msgid "String (default MC3). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:483
+msgid ""
+"MC1 (Original cellier with consideration of impossible assignments and "
+"discrete Vars.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:484
+msgid "MC2 (Modified cellier, drop first step.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:485
+msgid "MC11 (Modified MC1, new last step 'count impossible assignments'.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:486
+msgid "MC21 (Modified MC2, new last step 'count impossible assignments'.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:487
+msgid "MC12 (Modified MC1, step 'count impossible assignments' before last step.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:488
+msgid "MC22 (Modified MC2, step 'count impossible assignments' before last step.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:489
+msgid ""
+"MC13 (Modified MC1, build sum of impossible assignment and causalizable "
+"equations, choose var with biggest sum.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:490
+msgid ""
+"MC23 (Modified MC2, build sum of impossible assignment and causalizable "
+"equations, choose var with biggest sum.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:491
+msgid "MC231 (Modified MC23, Two rounds, choose better potentials-set.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:492
+msgid ""
+"MC3 (Modified cellier, build sum of impossible assignment and "
+"causalizable equations for all vars, choose var with biggest sum.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:493
+msgid ""
+"MC4 (Modified cellier, use all heuristics, choose var that occurs most in"
+" potential sets)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:497
+msgid ":ref:`--disableLinearTearing<omcflag-disableLinearTearing>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:499
+msgid ""
+"Disables the tearing of linear systems. That might improve the "
+"performance of large linear systems(N>1000) in combination with a sparse "
+"solver (e.g. umfpack) at runtime (usage with: -ls umfpack). Deprecated "
+"flag: Use --maxSizeLinearTearing=0 instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:506
+msgid ":ref:`--scalarizeMinMax<omcflag-scalarizeMinMax>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:508
+msgid "Scalarizes the builtin min/max reduction operators if true."
+msgstr ""
+
+#: ../../source/omchelptext.rst:514
+msgid ":ref:`--scalarizeBindings<omcflag-scalarizeBindings>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:516
+msgid "Always scalarizes bindings if set."
+msgstr ""
+
+#: ../../source/omchelptext.rst:522
+msgid ""
+":ref:`--corbaObjectReferenceFilePath<omcflag-"
+"corbaObjectReferenceFilePath>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:524
+msgid ""
+"Sets the path for corba object reference file if -d=interactiveCorba is "
+"used."
+msgstr ""
+
+#: ../../source/omchelptext.rst:530
+msgid ":ref:`--hpcomScheduler<omcflag-hpcomScheduler>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:532
+msgid ""
+"Sets the scheduler for task graph scheduling (list | listr | level | "
+"levelfix | ext | metis | mcp | taskdep | tds | bls | rand | none). "
+"Default: level."
+msgstr ""
+
+#: ../../source/omchelptext.rst:534
+msgid "String (default level)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:538
+msgid ":ref:`--hpcomCode<omcflag-hpcomCode>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:540
+msgid ""
+"Sets the code-type produced by hpcom (openmp | pthreads | pthreads_spin |"
+" tbb | mpi). Default: openmp."
+msgstr ""
+
+#: ../../source/omchelptext.rst:542
+msgid "String (default openmp)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:546
+msgid ":ref:`--rewriteRulesFile<omcflag-rewriteRulesFile>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:548
+msgid ""
+"Activates user given rewrite rules for Absyn expressions. The rules are "
+"read from the given file and are of the form rewrite(fromExp, toExp);"
+msgstr ""
+
+#: ../../source/omchelptext.rst:554
+msgid ":ref:`--replaceHomotopy<omcflag-replaceHomotopy>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:556
+msgid ""
+"Replaces homotopy(actual, simplified) with the actual expression or the "
+"simplified expression. Good for debugging models which use homotopy. The "
+"default is to not replace homotopy."
+msgstr ""
+
+#: ../../source/omchelptext.rst:558 ../../source/omchelptext.rst:596
+#: ../../source/omchelptext.rst:683 ../../source/omchelptext.rst:1042
+msgid "String (default none). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:560
+msgid "none (Default, do not replace homotopy.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:561
+msgid "actual (Replace homotopy(actual, simplified) with actual.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:562
+msgid "simplified (Replace homotopy(actual, simplified) with simplified.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:566
+msgid ":ref:`--generateSymbolicJacobian<omcflag-generateSymbolicJacobian>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:568
+msgid ""
+"Generates symbolic Jacobian matrix, where der(x) is differentiated w.r.t."
+" x. This matrix can be used by dassl or ida solver with simulation flag "
+"'-jacobian'."
+msgstr ""
+
+#: ../../source/omchelptext.rst:574
+msgid ""
+":ref:`--generateSymbolicLinearization<omcflag-"
+"generateSymbolicLinearization>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:578
+msgid "Generates symbolic linearization matrices A,B,C,D for linear model:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:577
+msgid ":math:`\\dot x = Ax + Bu` :math:`y = Cx +Du`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:584
+msgid ":ref:`--intEnumConversion<omcflag-intEnumConversion>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:586
+msgid "Allow Integer to enumeration conversion."
+msgstr ""
+
+#: ../../source/omchelptext.rst:592
+msgid ":ref:`--profiling<omcflag-profiling>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:594
+msgid ""
+"Sets the profiling level to use. Profiled equations and functions record "
+"execution time and count for each time step taken by the integrator."
+msgstr ""
+
+#: ../../source/omchelptext.rst:598
+msgid "none (Generate code without profiling)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:599
+msgid ""
+"blocks (Generate code for profiling function calls as well as linear and "
+"non-linear systems of equations)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:600
+msgid ""
+"blocks+html (Like blocks, but also run xsltproc and gnuplot to generate "
+"an html report)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:601
+msgid "all (Generate code for profiling of all functions and equations)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:602
+msgid ""
+"all_perf (Generate code for profiling of all functions and equations with"
+" additional performance data using the papi-interface (cpp-runtime))"
+msgstr ""
+
+#: ../../source/omchelptext.rst:603
+msgid ""
+"all_stat (Generate code for profiling of all functions and equations with"
+" additional statistics (cpp-runtime))"
+msgstr ""
+
+#: ../../source/omchelptext.rst:607
+msgid ":ref:`--reshuffle<omcflag-reshuffle>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:609
+msgid ""
+"sets tolerance of reshuffling algorithm: 1: conservative, 2: more "
+"tolerant, 3 resolve all"
+msgstr ""
+
+#: ../../source/omchelptext.rst:611
+msgid "Integer (default ``1``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:615
+msgid ":ref:`--gDynOpt<omcflag-gDynOpt>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:617
+msgid "Generate dynamic optimization problem based on annotation approach."
+msgstr ""
+
+#: ../../source/omchelptext.rst:623
+msgid ":ref:`--maxSizeSolveLinearSystem<omcflag-maxSizeSolveLinearSystem>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:625
+msgid "Max size for solveLinearSystem."
+msgstr ""
+
+#: ../../source/omchelptext.rst:631
+msgid ":ref:`--cppFlags<omcflag-cppFlags>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:633
+msgid ""
+"Sets extra flags for compilation with the C++ compiler (e.g. "
+"+cppFlags=-O3,-Wall)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:635
+msgid "String list (default )."
+msgstr ""
+
+#: ../../source/omchelptext.rst:639
+msgid ":ref:`--removeSimpleEquations<omcflag-removeSimpleEquations>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:641
+msgid "Specifies method that removes simple equations."
+msgstr ""
+
+#: ../../source/omchelptext.rst:643
+msgid "String (default default). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:645 ../../source/omchelptext.rst:685
+msgid "none (Disables module)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:646
+msgid ""
+"default (Performs alias elimination and removes constant variables. "
+"Default case uses in preOpt phase the fastAcausal and in postOpt phase "
+"the causal implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:647
+msgid ""
+"causal (Performs alias elimination and removes constant variables. Causal"
+" implementation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:648
+msgid ""
+"fastAcausal (Performs alias elimination and removes constant variables. "
+"fastImplementation fastAcausal.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:649
+msgid ""
+"allAcausal (Performs alias elimination and removes constant variables. "
+"Implementation allAcausal.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:650
+msgid "new (New implementation (experimental))"
+msgstr ""
+
+#: ../../source/omchelptext.rst:654
+msgid ":ref:`--dynamicTearing<omcflag-dynamicTearing>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:656
+msgid ""
+"Activates dynamic tearing (TearingSet can be changed automatically during"
+" runtime, strict set vs. casual set.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:658
+msgid "String (default false). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:660
+msgid "false (No dynamic tearing.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:661
+msgid "true (Dynamic tearing for linear and nonlinear systems.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:662
+msgid "linear (Dynamic tearing only for linear systems.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:663
+msgid "nonlinear (Dynamic tearing only for nonlinear systems.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:667
+msgid ":ref:`--symSolver<omcflag-symSolver>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:669
+msgid "Activates symbolic implicit solver (original system is not changed)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:671
+msgid "String (default  none). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:673
+msgid "none"
+msgstr ""
+
+#: ../../source/omchelptext.rst:674
+msgid "impEuler"
+msgstr ""
+
+#: ../../source/omchelptext.rst:675
+msgid "expEuler"
+msgstr ""
+
+#: ../../source/omchelptext.rst:679
+msgid ":ref:`--loop2con<omcflag-loop2con>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:681
+msgid ""
+"Specifies method that transform loops in constraints. hint: using initial"
+" guess from file!"
+msgstr ""
+
+#: ../../source/omchelptext.rst:686
+msgid "lin (linear loops --> constraints)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:687
+msgid "noLin (no linear loops --> constraints)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:688
+msgid "all (loops --> constraints)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:692
+msgid ":ref:`--forceTearing<omcflag-forceTearing>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:694
+msgid "Use tearing set even if it is not smaller than the original component."
+msgstr ""
+
+#: ../../source/omchelptext.rst:700
+msgid ":ref:`--simplifyLoops<omcflag-simplifyLoops>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:702
+msgid "Simplify algebraic loops."
+msgstr ""
+
+#: ../../source/omchelptext.rst:704 ../../source/omchelptext.rst:716
+msgid "Integer (default ``0``). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:706 ../../source/omchelptext.rst:718
+msgid "0 (do nothing)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:707
+msgid "1 (special modification of residual expressions)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:708
+msgid "2 (special modification of residual expressions with helper variables)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:712
+msgid ":ref:`--recursiveTearing<omcflag-recursiveTearing>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:714
+msgid "Inline and repeat tearing."
+msgstr ""
+
+#: ../../source/omchelptext.rst:719
+msgid "1 (linear tearing set of size 1)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:720
+msgid "2 (linear tearing)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:724
+msgid ":ref:`--flowThreshold<omcflag-flowThreshold>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:726
+msgid "Sets the minium threshold for stream flow rates"
+msgstr ""
+
+#: ../../source/omchelptext.rst:728
+msgid "Real (default ``1e-07``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:732
+msgid ":ref:`--matrixFormat<omcflag-matrixFormat>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:734
+msgid ""
+"Sets the matrix format type in cpp runtime which should be used (dense | "
+"sparse ). Default: dense."
+msgstr ""
+
+#: ../../source/omchelptext.rst:736
+msgid "String (default dense)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:740
+msgid ":ref:`--partlintorn<omcflag-partlintorn>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:742
+msgid "Sets the limit for partitionin of linear torn systems."
+msgstr ""
+
+#: ../../source/omchelptext.rst:748
+msgid ":ref:`--initOptModules<omcflag-initOptModules>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:750
+msgid ""
+"Sets the initialization optimization modules to use in the back end. See "
+":ref:`--help=optmodules <omcflag-optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:752
+msgid ""
+"String list (default "
+"simplifyComplexFunction,tearingSystem,solveSimpleEquations,calculateStrongComponentJacobians,simplifyAllExpressions,collapseArrayExpressions)."
+" Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:758
+msgid ""
+"generateHomotopyComponents (Finds the parts of the DAE that have to be "
+"handled by the homotopy solver and creates a strong component out of it.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:759
+msgid ""
+"inlineHomotopy (Experimental: Inlines the homotopy expression to allow "
+"symbolic simplifications.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:763
+msgid ""
+"replaceHomotopyWithSimplified (Replaces the homotopy expression "
+"homotopy(actual, simplified) with the simplified part.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:774
+msgid ":ref:`--maxMixedDeterminedIndex<omcflag-maxMixedDeterminedIndex>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:776
+msgid ""
+"Sets the maximum mixed-determined index that is handled by the "
+"initialization."
+msgstr ""
+
+#: ../../source/omchelptext.rst:778
+msgid "Integer (default ``10``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:782
+msgid ":ref:`--useLocalDirection<omcflag-useLocalDirection>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:784
+msgid ""
+"Keeps the input/output prefix for all variables in the flat model, not "
+"only top-level ones."
+msgstr ""
+
+#: ../../source/omchelptext.rst:790
+msgid ":ref:`--defaultOptModulesOrdering<omcflag-defaultOptModulesOrdering>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:792
+msgid ""
+"If this is activated, then the specified pre-/post-/init-optimization "
+"modules will be rearranged to the recommended ordering."
+msgstr ""
+
+#: ../../source/omchelptext.rst:798
+msgid ":ref:`--preOptModules+<omcflag-preOptModules+>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:800
+msgid ""
+"Enables additional pre-optimization modules, e.g. "
+"--preOptModules+=module1,module2 would additionally enable module1 and "
+"module2. See :ref:`--help=optmodules <omcflag-optmodules-section>` for "
+"more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:806
+msgid ":ref:`--preOptModules-<omcflag-preOptModules->`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:808
+msgid ""
+"Disables a list of pre-optimization modules, e.g. "
+"--preOptModules-=module1,module2 would disable module1 and module2. See "
+":ref:`--help=optmodules <omcflag-optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:814
+msgid ":ref:`--postOptModules+<omcflag-postOptModules+>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:816
+msgid ""
+"Enables additional post-optimization modules, e.g. "
+"--postOptModules+=module1,module2 would additionally enable module1 and "
+"module2. See :ref:`--help=optmodules <omcflag-optmodules-section>` for "
+"more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:822
+msgid ":ref:`--postOptModules-<omcflag-postOptModules->`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:824
+msgid ""
+"Disables a list of post-optimization modules, e.g. "
+"--postOptModules-=module1,module2 would disable module1 and module2. See "
+":ref:`--help=optmodules <omcflag-optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:830
+msgid ":ref:`--initOptModules+<omcflag-initOptModules+>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:832
+msgid ""
+"Enables additional init-optimization modules, e.g. "
+"--initOptModules+=module1,module2 would additionally enable module1 and "
+"module2. See :ref:`--help=optmodules <omcflag-optmodules-section>` for "
+"more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:838
+msgid ":ref:`--initOptModules-<omcflag-initOptModules->`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:840
+msgid ""
+"Disables a list of init-optimization modules, e.g. "
+"--initOptModules-=module1,module2 would disable module1 and module2. See "
+":ref:`--help=optmodules <omcflag-optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:846
+msgid ":ref:`--instCacheSize<omcflag-instCacheSize>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:848
+msgid "Sets the size of the internal hash table used for instantiation caching."
+msgstr ""
+
+#: ../../source/omchelptext.rst:850
+msgid "Integer (default ``25343``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:854
+msgid ":ref:`--maxSizeLinearTearing<omcflag-maxSizeLinearTearing>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:856
+msgid "Sets the maximum system size for tearing of linear systems (default 200)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:858
+msgid "Integer (default ``200``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:862
+msgid ":ref:`--maxSizeNonlinearTearing<omcflag-maxSizeNonlinearTearing>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:864
+msgid ""
+"Sets the maximum system size for tearing of nonlinear systems (default "
+"10000)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:866
+msgid "Integer (default ``10000``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:870
+msgid ":ref:`--noTearingForComponent<omcflag-noTearingForComponent>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:872
+msgid ""
+"Deactivates tearing for the specified components. Use '-d=tearingdump' to"
+" find out the relevant indexes."
+msgstr ""
+
+#: ../../source/omchelptext.rst:875 ../../source/omchelptext.rst:906
+#: ../../source/omchelptext.rst:917 ../../source/omchelptext.rst:950
+msgid "Unknown default valueFlags.FlagData.INT_LIST_FLAG(data = {NIL})"
+msgstr ""
+
+#: ../../source/omchelptext.rst:879
+msgid ":ref:`--daeMode<omcflag-daeMode>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:881
+msgid ""
+"Generates code to simulate models in DAE mode. The whole system is passed"
+" directly to the DAE solver SUNDIALS/IDA and no algebraic solver is "
+"involved in the simulation process."
+msgstr ""
+
+#: ../../source/omchelptext.rst:887
+msgid ":ref:`--inlineMethod<omcflag-inlineMethod>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:889
+msgid ""
+"Sets the inline method to use. replace : This method inlines by replacing"
+" in place all expressions. Might lead to very long expression. append  : "
+"This method inlines by adding additional variables to the whole system. "
+"Might lead to much bigger system."
+msgstr ""
+
+#: ../../source/omchelptext.rst:893
+msgid "String (default  replace). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:895
+msgid "replace"
+msgstr ""
+
+#: ../../source/omchelptext.rst:896
+msgid "append"
+msgstr ""
+
+#: ../../source/omchelptext.rst:900
+msgid ":ref:`--setTearingVars<omcflag-setTearingVars>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:902
+msgid ""
+"Sets the tearing variables by its strong component indexes. Use "
+"'-d=tearingdump' to find out the relevant indexes. Use following format: "
+"'--setTearingVars=(sci,n,t1,...,tn)*', with sci = strong component index,"
+" n = number of tearing variables, t1,...tn = tearing variables. E.g.: '--"
+"setTearingVars=4,2,3,5' would select variables 3 and 5 in strong "
+"component 4."
+msgstr ""
+
+#: ../../source/omchelptext.rst:910
+msgid ":ref:`--setResidualEqns<omcflag-setResidualEqns>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:912
+msgid ""
+"Sets the residual equations by its strong component indexes. Use "
+"'-d=tearingdump' to find out the relevant indexes for the collective "
+"equations. Use following format: '--setResidualEqns=(sci,n,r1,...,rn)*', "
+"with sci = strong component index, n = number of residual equations, "
+"r1,...rn = residual equations. E.g.: '--setResidualEqns=4,2,3,5' would "
+"select equations 3 and 5 in strong component 4. Only works in combination"
+" with 'setTearingVars'."
+msgstr ""
+
+#: ../../source/omchelptext.rst:921
+msgid ""
+":ref:`--ignoreCommandLineOptionsAnnotation<omcflag-"
+"ignoreCommandLineOptionsAnnotation>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:923
+msgid "Ignores the command line options specified as annotation in the class."
+msgstr ""
+
+#: ../../source/omchelptext.rst:929
+msgid ":ref:`--calculateSensitivities<omcflag-calculateSensitivities>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:931
+msgid "Generates sensitivities variables and matrixes."
+msgstr ""
+
+#: ../../source/omchelptext.rst:937
+msgid ":ref:`-r, --alarm<omcflag-alarm>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:939
+msgid ""
+"Sets the number seconds until omc timeouts and exits. Used by the testing"
+" framework to terminate infinite running processes."
+msgstr ""
+
+#: ../../source/omchelptext.rst:945
+msgid ":ref:`--totalTearing<omcflag-totalTearing>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:947
+msgid ""
+"Activates total tearing (determination of all possible tearing sets) for "
+"the specified components. Use '-d=tearingdump' to find out the relevant "
+"indexes."
+msgstr ""
+
+#: ../../source/omchelptext.rst:954
+msgid ""
+":ref:`--ignoreSimulationFlagsAnnotation<omcflag-"
+"ignoreSimulationFlagsAnnotation>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:956
+msgid "Ignores the simulation flags specified as annotation in the class."
+msgstr ""
+
+#: ../../source/omchelptext.rst:962
+msgid ""
+":ref:`--dynamicTearingForInitialization<omcflag-"
+"dynamicTearingForInitialization>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:964
+msgid "Enable Dynamic Tearing also for the initialization system."
+msgstr ""
+
+#: ../../source/omchelptext.rst:970
+msgid ":ref:`--preferTVarsWithStartValue<omcflag-preferTVarsWithStartValue>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:972
+msgid "Prefer tearing variables with start value for initialization."
+msgstr ""
+
+#: ../../source/omchelptext.rst:978
+msgid ":ref:`--equationsPerFile<omcflag-equationsPerFile>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:980
+msgid ""
+"Generate code for at most this many equations per C-file (partially "
+"implemented in the compiler)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:982
+msgid "Integer (default ``2000``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:986
+msgid ":ref:`--evaluateFinalParameters<omcflag-evaluateFinalParameters>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:988
+msgid ""
+"Evaluates all the final parameters in addition to parameters with "
+"annotation(Evaluate=true)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:994
+msgid ":ref:`--evaluateProtectedParameters<omcflag-evaluateProtectedParameters>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:996
+msgid ""
+"Evaluates all the protected parameters in addition to parameters with "
+"annotation(Evaluate=true)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1002
+msgid ":ref:`--replaceEvaluatedParameters<omcflag-replaceEvaluatedParameters>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1004
+msgid "Replaces all the evaluated parameters in the DAE."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1010
+msgid ":ref:`--condenseArrays<omcflag-condenseArrays>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1012
+msgid ""
+"Sets whether array expressions containing function calls are condensed or"
+" not."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1018
+msgid ":ref:`--wfcAdvanced<omcflag-wfcAdvanced>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1020
+msgid ""
+"wrapFunctionCalls ignores more then default cases, e.g. exp, sin, cos, "
+"log, (experimental flag)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1026
+msgid ":ref:`--tearingStrictness<omcflag-tearingStrictness>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1028
+msgid ""
+"Sets the strictness of the tearing method regarding the solvability "
+"restrictions."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1030
+msgid "String (default strict). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1032
+msgid ""
+"casual (Loose tearing rules using ExpressionSolve to determine the "
+"solvability instead of considering the partial derivative. Allows to "
+"solve for everything that is analytically possible. This could lead to "
+"singularities during simulation.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1033
+msgid ""
+"strict (Robust tearing rules by consideration of the partial derivative. "
+"Allows to divide by parameters that are not equal to or close to zero.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1034
+msgid ""
+"veryStrict (Very strict tearing rules that do not allow to divide by any "
+"parameter. Use this if you aim at overriding parameters after compilation"
+" with values equal to or close to zero.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1038
+msgid ":ref:`--interactive<omcflag-interactive>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1040
+msgid "Sets the interactive mode for omc."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1044
+msgid "none (do nothing)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1045
+msgid "corba (Starts omc as a server listening on the socket interface.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1046
+msgid "tcp (Starts omc as a server listening on the Corba interface.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1047
+msgid "zmq (Starts omc as a ZeroMQ server listening on the socket interface.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1051
+msgid ":ref:`-z, --zeroMQFileSuffix<omcflag-zeroMQFileSuffix>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1053
+msgid "Sets the file suffix for zeroMQ port file if --interactive=zmq is used."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1059
+msgid ":ref:`--homotopyApproach<omcflag-homotopyApproach>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1061
+msgid "Sets the homotopy approach."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1063
+msgid "String (default equidistantGlobal). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1065
+msgid ""
+"equidistantLocal (Local homotopy approach with equidistant lambda steps. "
+"The homotopy parameter only effects the local strongly connected "
+"component.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1066
+msgid ""
+"adaptiveLocal (Local homotopy approach with adaptive lambda steps. The "
+"homotopy parameter only effects the local strongly connected component.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1067
+msgid ""
+"equidistantGlobal (Default, global homotopy approach with equidistant "
+"lambda steps. The homotopy parameter effects the entire initialization "
+"system.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1068
+msgid ""
+"adaptiveGlobal (Global homotopy approach with adaptive lambda steps. The "
+"homotopy parameter effects the entire initialization system.)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1072
+msgid ":ref:`--ignoreReplaceable<omcflag-ignoreReplaceable>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1074
+msgid "Sets whether to ignore replaceability or not when redeclaring."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1080
+msgid ":ref:`--postOptModulesDAE<omcflag-postOptModulesDAE>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1082
+msgid ""
+"Sets the optimization modules for the DAEmode in the back end. See "
+":ref:`--help=optmodules <omcflag-optmodules-section>` for more info."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1084
+msgid ""
+"String list (default "
+"lateInlineFunction,wrapFunctionCalls,simplifysemiLinear,simplifyComplexFunction,removeConstants,simplifyTimeIndepFuncCalls,simplifyAllExpressions,findZeroCrossings,createDAEmodeBDAE,detectDAEmodeSparsePattern,setEvaluationStage)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1088
+msgid ":ref:`--evalLoopLimit<omcflag-evalLoopLimit>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1090
+msgid "The loop iteration limit used when evaluating constant function calls."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1092
+msgid "Integer (default ``100000``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1096
+msgid ":ref:`--evalRecursionLimit<omcflag-evalRecursionLimit>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1098
+msgid "The recursion limit used when evaluating constant function calls."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1100
+msgid "Integer (default ``256``)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1104
+msgid ":ref:`--singleInstanceAglSolver<omcflag-singleInstanceAglSolver>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1106
+msgid "Sets to instantiate only  one algebraic loop solver all algebraic loops"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1112
+msgid ":ref:`--showStructuralAnnotations<omcflag-showStructuralAnnotations>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1114
+msgid "Show annotations affecting the solution process in the flattened code."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1120
+msgid ":ref:`--initialStateSelection<omcflag-initialStateSelection>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1122
+msgid ""
+"Activates the state selection inside initialization to avoid "
+"singularities."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1128
+msgid ":ref:`--strict<omcflag-strict>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1130
+msgid "Enables stricter enforcement of Modelica language rules."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1136
+msgid ":ref:`--linearizationDumpLanguage<omcflag-linearizationDumpLanguage>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1138
+msgid ""
+"Sets the target language for the produced code of linearization. Only "
+"works with '--generateSymbolicLinearization' and 'linearize(modelName)'."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1140
+msgid "String (default modelica). Valid options:"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1142
+msgid "modelica"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1143
+msgid "matlab"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1144
+msgid "julia"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1145
+msgid "python"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1149
+msgid ""
+":ref:`--convertAnalyticalSingularities<omcflag-"
+"convertAnalyticalSingularities>`"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1151
+msgid ""
+"Allows the compiler to try to convert analytical to structural "
+"singularities."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1159
+msgid "Debug flags"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1161
+msgid ""
+"The debug flag takes a comma-separated list of flags which are used by "
+"the compiler for debugging or experimental purposes. Flags prefixed with "
+"\"-\" or \"no\" will be disabled. The available flags are (+ are enabled "
+"by default, - are disabled):"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1170
+msgid ":ref:`Cache <omcflag-debug-Cache>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1170
+msgid "Turns off the instantiation cache."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1175
+msgid ""
+":ref:`LSanalyticJacobian <omcflag-debug-LSanalyticJacobian>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1175
+msgid ""
+"Enables analytical jacobian for linear strong components. Defaults to "
+"false"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1180
+msgid ""
+":ref:`NLSanalyticJacobian <omcflag-debug-NLSanalyticJacobian>` (default: "
+"on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1180
+msgid ""
+"Enables analytical jacobian for non-linear strong components without "
+"user-defined function calls, for that see forceNLSanalyticJacobian"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1185
+msgid ""
+":ref:`acceptTooManyFields <omcflag-debug-acceptTooManyFields>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1185
+msgid ""
+"Accepts passing records with more fields than expected to a function. "
+"This is not allowed, but is used in Fluid.Dissipation. See "
+"https://trac.modelica.org/Modelica/ticket/1245 for details."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1193
+msgid ":ref:`addDerAliases <omcflag-debug-addDerAliases>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1190
+msgid ""
+"Adds for every der-call an alias equation e.g. dx = der(x). It's a "
+"work-a-round flag, which helps in some cases to simulate the models e.g. "
+"Modelica.Fluid.Examples.HeatExchanger.HeatExchangerSimulation. Deprecated"
+" flag: Use --preOptModules+=introduceDerAlias instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1199
+msgid ":ref:`addScaledVars <omcflag-debug-addScaledVars>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1198
+msgid ""
+"Adds an alias equation var_nrom = var/nominal where var is state "
+"Deprecated flag: Use --postOptModules+=addScaledVars_states instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1205
+msgid ""
+":ref:`addScaledVarsInput <omcflag-debug-addScaledVarsInput>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1204
+msgid ""
+"Adds an alias equation var_nrom = var/nominal where var is input "
+"Deprecated flag: Use --postOptModules+=addScaledVars_inputs instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1210
+msgid ":ref:`aliasConflicts <omcflag-debug-aliasConflicts>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1210
+msgid "Dumps alias sets with different start or nominal values."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1215
+msgid ":ref:`backendKeepEnv <omcflag-debug-backendKeepEnv>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1215
+#, python-format
+msgid ""
+"When enabled, the environment is kept when entering the backend, which "
+"enables CevalFunction (function interpretation) to work. This module not "
+"essential for the backend to function in most cases, but can improve "
+"simulation performance by evaluating functions. The drawback to keeping "
+"the environment graph in memory is that it is huge (~80% of the total "
+"memory in use when returning the frontend DAE)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1220
+msgid ":ref:`backendReduceDAE <omcflag-debug-backendReduceDAE>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1220
+msgid "Prints all Reduce DAE debug information."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1225
+msgid ":ref:`backenddaeinfo <omcflag-debug-backenddaeinfo>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1225
+msgid ""
+"Enables dumping of back-end information about system (Number of equations"
+" before back-end,...)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1230
+msgid ":ref:`bltdump <omcflag-debug-bltdump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1230
+msgid "Dumps information from index reduction."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1235
+msgid ":ref:`bltmatrixdump <omcflag-debug-bltmatrixdump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1235
+msgid ""
+"Dumps the blt matrix in html file. IE seems to be very good in displaying"
+" large matrices."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1240
+msgid ":ref:`buildExternalLibs <omcflag-debug-buildExternalLibs>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1240
+msgid ""
+"Use the autotools project in the Resources folder of the library to build"
+" missing external libraries."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1245
+msgid ":ref:`ceval <omcflag-debug-ceval>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1245
+msgid "Prints extra information from Ceval."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1250
+msgid ":ref:`cgraph <omcflag-debug-cgraph>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1250
+msgid "Prints out connection graph information."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1255
+msgid ""
+":ref:`cgraphGraphVizFile <omcflag-debug-cgraphGraphVizFile>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1255
+msgid "Generates a graphviz file of the connection graph."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1260
+msgid ""
+":ref:`cgraphGraphVizShow <omcflag-debug-cgraphGraphVizShow>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1260
+msgid "Displays the connection graph with the GraphViz lefty tool."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1265
+msgid ":ref:`checkASUB <omcflag-debug-checkASUB>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1265
+msgid "Prints out a warning if an ASUB is created from a CREF expression."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1270
+msgid ":ref:`checkBackendDae <omcflag-debug-checkBackendDae>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1270
+msgid ""
+"Do some simple analyses on the datastructure from the frontend to check "
+"if it is consistent."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1275
+msgid ":ref:`checkDAECrefType <omcflag-debug-checkDAECrefType>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1275
+msgid "Enables extra type checking for cref expressions."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1280
+msgid ":ref:`checkSimplify <omcflag-debug-checkSimplify>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1280
+msgid ""
+"Enables checks for expression simplification and prints a notification "
+"whenever an undesirable transformation has been performed."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1285
+msgid ":ref:`constjac <omcflag-debug-constjac>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1285
+msgid ""
+"solves linear systems with constant Jacobian and variable b-Vector "
+"symbolically"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1290
+msgid ""
+":ref:`convertAnalyticalDump <omcflag-debug-convertAnalyticalDump>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1290
+msgid "Dumps the conversion process of analytical to structural singularities."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1295
+msgid ":ref:`countOperations <omcflag-debug-countOperations>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1295
+msgid "Count operations."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1300
+msgid ":ref:`daedumpgraphv <omcflag-debug-daedumpgraphv>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1300
+msgid "Dumps the DAE in graphviz format."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1305
+msgid ""
+":ref:`debugAlgebraicLoopsJacobian <omcflag-debug-"
+"debugAlgebraicLoopsJacobian>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1305
+msgid ""
+"Dumps debug output while creating symbolic jacobians for non-linear "
+"systems."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1310
+msgid ":ref:`debugAlias <omcflag-debug-debugAlias>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1310
+msgid "Dumps some information about the process of removeSimpleEquations."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1315
+msgid ":ref:`debugDAEmode <omcflag-debug-debugDAEmode>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1315
+msgid "Dump debug output for the DAEmode."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1320
+msgid ""
+":ref:`debugDifferentiation <omcflag-debug-debugDifferentiation>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1320
+msgid "Dumps debug output for the differentiation process."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1325
+msgid ""
+":ref:`debugDifferentiationVerbose <omcflag-debug-"
+"debugDifferentiationVerbose>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1325
+msgid "Dumps verbose debug output for the differentiation process."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1330
+msgid ":ref:`disableColoring <omcflag-debug-disableColoring>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1330
+msgid "Disables coloring algorithm while spasity detection."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1336
+msgid ":ref:`disableComSubExp <omcflag-debug-disableComSubExp>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1335
+msgid ""
+"Deactivates module 'comSubExp' Deprecated flag: Use "
+"--preOptModules-=comSubExp instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1341
+msgid ""
+":ref:`disableDirectionalDerivatives <omcflag-debug-"
+"disableDirectionalDerivatives>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1341
+msgid "For FMI 2.0 only dependecy analysis will be perform."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1346
+msgid ""
+":ref:`disableFMIDependency <omcflag-debug-disableFMIDependency>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1346
+msgid "Disables the dependency analysis and generation for FMI 2.0."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1351
+msgid ":ref:`disableJacsforSCC <omcflag-debug-disableJacsforSCC>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1351
+msgid ""
+"Disables calculation of jacobians to detect if a SCC is linear or non-"
+"linear. By disabling all SCC will handled like non-linear."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1357
+msgid ""
+":ref:`disablePartitioning <omcflag-debug-disablePartitioning>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1356
+msgid ""
+"Deactivates partitioning of entire equation system. Deprecated flag: Use "
+"--preOptModules-=clockPartitioning instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1362
+msgid ""
+":ref:`disableRecordConstructorOutput <omcflag-debug-"
+"disableRecordConstructorOutput>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1362
+msgid "Disables output of record constructors in the flat code."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1368
+msgid ""
+":ref:`disableSimplifyComplexFunction <omcflag-debug-"
+"disableSimplifyComplexFunction>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1367
+msgid ""
+"disable simplifyComplexFunction Deprecated flag: Use "
+"--postOptModules-=simplifyComplexFunction/--initOptModules-=simplifyComplexFunction"
+" instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1373
+msgid ""
+":ref:`disableSingleFlowEq <omcflag-debug-disableSingleFlowEq>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1373
+msgid "Disables the generation of single flow equations."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1378
+msgid ":ref:`disableStartCalc <omcflag-debug-disableStartCalc>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1378
+msgid "Deactivates the pre-calculation of start values during compile-time."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1383
+msgid ""
+":ref:`disableWindowsPathCheckWarning <omcflag-debug-"
+"disableWindowsPathCheckWarning>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1383
+msgid "Disables warnings on Windows if OPENMODELICAHOME/MinGW is missing."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1388
+msgid ":ref:`discreteinfo <omcflag-debug-discreteinfo>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1388
+msgid "Enables dumping of discrete variables. Extends -d=backenddaeinfo."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1393
+msgid ":ref:`dummyselect <omcflag-debug-dummyselect>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1393
+msgid "Dumps information from dummy state selection heuristic."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1398
+msgid ":ref:`dump <omcflag-debug-dump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1398
+msgid "Dumps the absyn representation of a program."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1403
+msgid ":ref:`dumpBackendInline <omcflag-debug-dumpBackendInline>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1403 ../../source/omchelptext.rst:1408
+msgid "Dumps debug output while inline function."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1408
+msgid ""
+":ref:`dumpBackendInlineVerbose <omcflag-debug-dumpBackendInlineVerbose>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1413
+msgid ":ref:`dumpCSE <omcflag-debug-dumpCSE>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1413 ../../source/omchelptext.rst:1418
+msgid "Additional output for CSE module."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1418
+msgid ":ref:`dumpCSE_verbose <omcflag-debug-dumpCSE_verbose>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1423
+msgid ":ref:`dumpConstrepl <omcflag-debug-dumpConstrepl>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1423
+msgid "Dump the found replacements for constants."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1428
+msgid ":ref:`dumpEArepl <omcflag-debug-dumpEArepl>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1428
+msgid ""
+"Dump the found replacements for evaluate annotations (evaluate=true) "
+"parameters."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1433
+msgid ""
+":ref:`dumpEncapsulateConditions <omcflag-debug-"
+"dumpEncapsulateConditions>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1433
+msgid "Dumps the results of the preOptModule encapsulateWhenConditions."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1438
+msgid ":ref:`dumpEqInUC <omcflag-debug-dumpEqInUC>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1438
+msgid "Dumps all equations handled by the unit checker."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1443
+msgid ":ref:`dumpEqUCStruct <omcflag-debug-dumpEqUCStruct>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1443
+msgid "Dumps all the equations handled by the unit checker as tree-structure."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1448
+msgid ""
+":ref:`dumpExcludedSymJacExps <omcflag-debug-dumpExcludedSymJacExps>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1448
+msgid ""
+"This flags dumps all expression that are excluded from differentiation of"
+" a symbolic Jacobian."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1453
+msgid ":ref:`dumpFPrepl <omcflag-debug-dumpFPrepl>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1453
+msgid "Dump the found replacements for final parameters."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1458
+msgid ":ref:`dumpFunctions <omcflag-debug-dumpFunctions>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1458
+msgid "Add functions to backend dumps."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1463
+msgid ":ref:`dumpHomotopy <omcflag-debug-dumpHomotopy>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1463
+msgid "Dumps the results of the postOptModule optimizeHomotopyCalls."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1468
+msgid ":ref:`dumpInlineSolver <omcflag-debug-dumpInlineSolver>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1468
+msgid "Dumps the inline solver equation system."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1473
+msgid ":ref:`dumpJL <omcflag-debug-dumpJL>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1473
+msgid "Dumps the absyn representation of a program as a Julia representation"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1478
+msgid ":ref:`dumpLoops <omcflag-debug-dumpLoops>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1478
+msgid "Dumps loop equation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1483
+msgid ":ref:`dumpPPrepl <omcflag-debug-dumpPPrepl>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1483
+msgid "Dump the found replacements for protected parameters."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1488
+msgid ":ref:`dumpParamrepl <omcflag-debug-dumpParamrepl>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1488
+msgid "Dump the found replacements for remove parameters."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1493
+msgid ""
+":ref:`dumpRecursiveTearing <omcflag-debug-dumpRecursiveTearing>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1493
+msgid "Dump between steps of recursiveTearing"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1498
+msgid ":ref:`dumpSCCGraphML <omcflag-debug-dumpSCCGraphML>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1498
+msgid "Dumps graphml files with the strongly connected components."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1503
+msgid ":ref:`dumpSimCode <omcflag-debug-dumpSimCode>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1503
+msgid "Dumps the simCode model used for code generation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1508
+msgid ":ref:`dumpSimplifyLoops <omcflag-debug-dumpSimplifyLoops>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1508
+msgid "Dump between steps of simplifyLoops"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1513
+msgid ""
+":ref:`dumpSortEqnsAndVars <omcflag-debug-dumpSortEqnsAndVars>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1513
+msgid "Dumps debug output for the modules sortEqnsVars."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1518
+msgid ":ref:`dumpSparsePattern <omcflag-debug-dumpSparsePattern>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1518
+msgid "Dumps sparse pattern with coloring used for simulation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1523
+msgid ""
+":ref:`dumpSparsePatternVerbose <omcflag-debug-dumpSparsePatternVerbose>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1523
+msgid "Dumps in verbose mode sparse pattern with coloring used for simulation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1528
+msgid ":ref:`dumpSynchronous <omcflag-debug-dumpSynchronous>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1528
+msgid "Dumps information of the clock partitioning."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1533
+msgid ""
+":ref:`dumpTransformedModelica <omcflag-debug-dumpTransformedModelica>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1533
+msgid ""
+"Dumps the back-end DAE to a Modelica-like model after all symbolic "
+"transformations are applied."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1538
+msgid ":ref:`dumpUnits <omcflag-debug-dumpUnits>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1538
+msgid "Dumps all the calculated units."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1543
+msgid ":ref:`dumpdaelow <omcflag-debug-dumpdaelow>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1543
+msgid "Dumps the equation system at the beginning of the back end."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1548
+msgid ":ref:`dumpdgesv <omcflag-debug-dumpdgesv>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1548
+msgid ""
+"Enables dumping of the information whether DGESV is used to solve linear "
+"systems."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1553
+msgid ":ref:`dumpeqninorder <omcflag-debug-dumpeqninorder>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1553
+msgid "Enables dumping of the equations in the order they are calculated."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1558
+msgid ":ref:`dumpindxdae <omcflag-debug-dumpindxdae>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1558
+msgid "Dumps the equation system after index reduction and optimization."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1563
+msgid ":ref:`dumpinitialsystem <omcflag-debug-dumpinitialsystem>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1563
+msgid "Dumps the initial equation system."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1568
+msgid ":ref:`dumprepl <omcflag-debug-dumprepl>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1568
+msgid "Dump the found replacements for simple equation removal."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1573
+msgid ":ref:`dynload <omcflag-debug-dynload>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1573
+msgid "Display debug information about dynamic loading of compiled functions."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1579
+msgid ":ref:`evalConstFuncs <omcflag-debug-evalConstFuncs>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1578
+msgid ""
+"Evaluates functions complete and partially and checks for constant "
+"output. Deprecated flag: Use --preOptModules+=evalFunc instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1584
+msgid ":ref:`evalFuncDump <omcflag-debug-evalFuncDump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1584
+msgid "dumps debug information about the function evaluation"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1589
+msgid ":ref:`evalOutputOnly <omcflag-debug-evalOutputOnly>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1589
+msgid "Generates equations to calculate outputs only."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1594
+msgid ":ref:`evalParameterDump <omcflag-debug-evalParameterDump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1594
+msgid "Dumps information for evaluating parameters."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1599
+msgid ":ref:`evalfunc <omcflag-debug-evalfunc>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1599
+msgid "Turns on/off symbolic function evaluation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1604
+msgid ""
+":ref:`evaluateAllParameters <omcflag-debug-evaluateAllParameters>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1604
+msgid "Evaluates all parameters if set."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1609
+msgid ":ref:`events <omcflag-debug-events>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1609
+msgid "Turns on/off events handling."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1614
+msgid ":ref:`execHash <omcflag-debug-execHash>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1614
+msgid ""
+"Measures the time it takes to hash all simcode variables before code "
+"generation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1619
+msgid ":ref:`execstat <omcflag-debug-execstat>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1619
+msgid "Prints out execution statistics for the compiler."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1624
+msgid ":ref:`execstatGCcollect <omcflag-debug-execstatGCcollect>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1624
+msgid "When running execstat, also perform an extra full garbage collection."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1629
+msgid ""
+":ref:`experimentalReductions <omcflag-debug-experimentalReductions>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1629
+msgid "Turns on custom reduction functions (OpenModelica extension)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1634
+msgid ":ref:`failtrace <omcflag-debug-failtrace>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1634
+msgid "Sets whether to print a failtrace or not."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1639
+msgid ":ref:`fmuExperimental <omcflag-debug-fmuExperimental>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1639
+msgid "Include an extra function in the FMU fmi2GetSpecificDerivatives."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1644
+msgid ""
+":ref:`forceNLSanalyticJacobian <omcflag-debug-forceNLSanalyticJacobian>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1644
+msgid ""
+"Forces calculation analytical jacobian also for non-linear strong "
+"components with user-defined functions."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1649
+msgid ":ref:`frontEndUnitCheck <omcflag-debug-frontEndUnitCheck>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1649
+msgid "Checks the consistency of units in equation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1654
+msgid ":ref:`gcProfiling <omcflag-debug-gcProfiling>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1654
+msgid "Prints garbage collection stats to standard output."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1659
+msgid ":ref:`gen <omcflag-debug-gen>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1659
+msgid ""
+"Turns on/off dynamic loading of functions that are compiled during "
+"translation. Only enable this if external functions are needed to "
+"calculate structural parameters or constants."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1664
+msgid ":ref:`gendebugsymbols <omcflag-debug-gendebugsymbols>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1664
+msgid "Generate code with debugging symbols."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1669
+msgid ":ref:`generateCodeCheat <omcflag-debug-generateCodeCheat>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1669
+msgid "Used to generate code for the bootstrapped compiler."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1674
+msgid ":ref:`graphInst <omcflag-debug-graphInst>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1674
+msgid "Do graph based instantiation."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1679
+msgid ":ref:`graphInstGenGraph <omcflag-debug-graphInstGenGraph>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1679
+msgid "Dumps a graph of the program. Use with -d=graphInst"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1684
+msgid ":ref:`graphInstRunDep <omcflag-debug-graphInstRunDep>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1684
+msgid "Run scode dependency analysis. Use with -d=graphInst"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1689
+msgid ""
+":ref:`graphInstShowGraph <omcflag-debug-graphInstShowGraph>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1689
+msgid "Display a graph of the program interactively. Use with -d=graphInst"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1694
+msgid ":ref:`graphml <omcflag-debug-graphml>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1694
+msgid ""
+"Dumps .graphml files for the bipartite graph after Index Reduction and a "
+"task graph for the SCCs. Can be displayed with yEd."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1699
+msgid ":ref:`graphviz <omcflag-debug-graphviz>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1699
+msgid "Dumps the absyn representation of a program in graphviz format."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1704
+msgid ":ref:`graphvizDump <omcflag-debug-graphvizDump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1704
+msgid ""
+"Activates additional graphviz dumps (as .dot files). It can be used in "
+"addition to one of the following flags: "
+"{dumpdaelow|dumpinitialsystems|dumpindxdae}."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1709
+msgid ""
+":ref:`hardcodedStartValues <omcflag-debug-hardcodedStartValues>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1709
+msgid ""
+"Embed the start values of variables and parameters into the c++ code and "
+"do not read it from xml file."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1714
+msgid ":ref:`hpcom <omcflag-debug-hpcom>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1714
+msgid "Enables parallel calculation based on task-graphs."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1719
+msgid ":ref:`hpcomDump <omcflag-debug-hpcomDump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1719
+msgid "Dumps additional information on the parallel execution with hpcom."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1724
+msgid ":ref:`hpcomMemoryOpt <omcflag-debug-hpcomMemoryOpt>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1724
+msgid "Optimize the memory structure regarding the selected scheduler"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1729
+msgid ":ref:`ignoreCycles <omcflag-debug-ignoreCycles>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1729
+msgid "Ignores cycles between constant/parameter components."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1734
+msgid ":ref:`implOde <omcflag-debug-implOde>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1734
+msgid "activates implicit codegen"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1739
+msgid ":ref:`infoXmlOperations <omcflag-debug-infoXmlOperations>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1739
+msgid ""
+"Enables output of the operations in the _info.xml file when translating "
+"models."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1744
+msgid ":ref:`initialization <omcflag-debug-initialization>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1744
+msgid "Shows additional information from the initialization process."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1749
+msgid ":ref:`inlineFunctions <omcflag-debug-inlineFunctions>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1749
+msgid "Controls if function inlining should be performed."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1754
+msgid ":ref:`inlineSolver <omcflag-debug-inlineSolver>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1754
+msgid "Generates code for inline solver."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1759
+msgid ":ref:`instance <omcflag-debug-instance>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1759
+msgid "Prints extra failtrace from InstanceHierarchy."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1764
+msgid ":ref:`interactive <omcflag-debug-interactive>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1764
+msgid "Starts omc as a server listening on the socket interface."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1769
+msgid ":ref:`interactiveCorba <omcflag-debug-interactiveCorba>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1769
+msgid "Starts omc as a server listening on the Corba interface."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1774
+msgid ":ref:`interactivedump <omcflag-debug-interactivedump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1774
+msgid "Prints out debug information for the interactive server."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1779
+msgid ":ref:`iterationVars <omcflag-debug-iterationVars>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1779
+msgid "Shows a list of all iteration variables."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1784
+msgid ""
+":ref:`listAppendWrongOrder <omcflag-debug-listAppendWrongOrder>` "
+"(default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1784
+msgid "Print notifications about bad usage of listAppend."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1789
+msgid ":ref:`lookup <omcflag-debug-lookup>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1789
+msgid "Print extra failtrace from lookup."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1794
+msgid ":ref:`mergeAlgSections <omcflag-debug-mergeAlgSections>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1794
+msgid "Disables coloring algorithm while sparsity detection."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1799
+msgid ""
+":ref:`metaModelicaRecordAllocWords <omcflag-debug-"
+"metaModelicaRecordAllocWords>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1799
+msgid ""
+"Instrument the source code to record memory allocations (requires run-"
+"time and generated files compiled with -DOMC_RECORD_ALLOC_WORDS)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1804
+msgid ":ref:`multirate <omcflag-debug-multirate>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1804
+msgid "The solver can switch partitions in the system."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1809
+msgid ":ref:`newInst <omcflag-debug-newInst>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1809
+msgid "Enables experimental new instantiation phase."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1814
+msgid ":ref:`nfAPI <omcflag-debug-nfAPI>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1814
+msgid "Enables experimental new instantiation use in the OMC API."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1819
+msgid ""
+":ref:`nfAPIDynamicSelect <omcflag-debug-nfAPIDynamicSelect>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1819
+msgid ""
+"Show DynamicSelect(static, dynamic) in annotations. Default to false and "
+"will select the first (static) expression"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1824
+msgid ":ref:`nfAPINoise <omcflag-debug-nfAPINoise>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1824
+msgid ""
+"Enables error display for the experimental new instantiation use in the "
+"OMC API."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1829
+msgid ""
+":ref:`nfEvalConstArgFuncs <omcflag-debug-nfEvalConstArgFuncs>` (default: "
+"on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1829
+msgid "Evaluate all functions with constant arguments in the new frontend."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1834
+msgid ":ref:`nfExpandFuncArgs <omcflag-debug-nfExpandFuncArgs>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1834
+msgid "Expand all function arguments in the new frontend."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1839
+msgid ":ref:`nfExpandOperations <omcflag-debug-nfExpandOperations>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1839
+msgid ""
+"Expand all unary/binary operations to scalar expressions in the new "
+"frontend."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1844
+msgid ":ref:`nfScalarize <omcflag-debug-nfScalarize>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1844
+msgid "Run scalarization in NF, default true."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1849
+msgid ""
+":ref:`oldFrontEndUnitCheck <omcflag-debug-oldFrontEndUnitCheck>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1849
+msgid "Checks the consistency of units in equation (for the old front-end)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1855
+msgid ":ref:`onRelaxation <omcflag-debug-onRelaxation>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1854
+msgid ""
+"Perform O(n) relaxation. Deprecated flag: Use "
+"--postOptModules+=relaxSystem instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1860
+msgid ":ref:`optdaedump <omcflag-debug-optdaedump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1860
+msgid "Dumps information from the optimization modules."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1865
+msgid ":ref:`parallelCodegen <omcflag-debug-parallelCodegen>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1865
+msgid ""
+"Enables code generation in parallel (disable this if compiling a model "
+"causes you to run out of RAM)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1870
+msgid ":ref:`paramdlowdump <omcflag-debug-paramdlowdump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1870
+msgid "Enables dumping of the parameters in the order they are calculated."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1875
+msgid ":ref:`parmodauto <omcflag-debug-parmodauto>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1875
+msgid ""
+"Experimental: Enable parallelization of independent systems of equations "
+"in the translated model."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1880
+msgid ""
+":ref:`partitionInitialization <omcflag-debug-partitionInitialization>` "
+"(default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1880
+msgid ""
+"This flag controls if partitioning is applied to the initialization "
+"system."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1885
+msgid ":ref:`patternmAllInfo <omcflag-debug-patternmAllInfo>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1885
+msgid ""
+"Adds notifications of all pattern-matching optimizations that are "
+"performed."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1890
+msgid ""
+":ref:`patternmDeadCodeElimination <omcflag-debug-"
+"patternmDeadCodeElimination>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1890
+msgid "Performs dead code elimination in match-expressions."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1895
+msgid ""
+":ref:`patternmMoveLastExp <omcflag-debug-patternmMoveLastExp>` (default: "
+"on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1895
+msgid ""
+"Optimization that moves the last assignment(s) into the result of a "
+"match-expression. For example: equation c = fn(b); then c; => then fn(b);"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1899
+msgid ""
+":ref:`patternmSkipFilterUnusedBindings <omcflag-debug-"
+"patternmSkipFilterUnusedBindings>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1905
+msgid ""
+":ref:`printStructuralParameters <omcflag-debug-"
+"printStructuralParameters>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1905
+msgid "Prints the structural parameters identified by the front-end"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1910
+msgid ":ref:`pthreads <omcflag-debug-pthreads>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1910
+msgid "Experimental: Unused parallelization."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1916
+msgid ":ref:`reduceDynOpt <omcflag-debug-reduceDynOpt>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1915
+msgid ""
+"remove eqs which not need for the calculations of cost and constraints "
+"Deprecated flag: Use --postOptModules+=reduceDynamicOptimization instead."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1921
+msgid ":ref:`relidx <omcflag-debug-relidx>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1921
+msgid ""
+"Prints out debug information about relations, that are used as zero "
+"crossings."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1926
+msgid ""
+":ref:`relocatableFunctions <omcflag-debug-relocatableFunctions>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1926
+msgid ""
+"Generates relocatable code: all functions become function pointers and "
+"can be replaced at run-time."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1931
+msgid ""
+":ref:`reportSerializedSize <omcflag-debug-reportSerializedSize>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1931
+msgid "Reports serialized sizes of various data structures used in the compiler."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1936
+msgid ":ref:`reshufflePost <omcflag-debug-reshufflePost>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1936
+msgid "Reshuffles the systems of equations."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1941
+msgid ":ref:`resolveLoopsDump <omcflag-debug-resolveLoopsDump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1941
+msgid "Debug Output for ResolveLoops Module."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1946
+msgid ":ref:`rml <omcflag-debug-rml>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1946
+msgid "Converts Modelica-style arrays to lists."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1951
+msgid ""
+":ref:`runtimeStaticLinking <omcflag-debug-runtimeStaticLinking>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1951
+msgid "Use the static simulation runtime libraries (C++ simulation runtime)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1956
+msgid ":ref:`scodeDep <omcflag-debug-scodeDep>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1956
+msgid "Does scode dependency analysis prior to instantiation. Defaults to true."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1961
+msgid ":ref:`semiLinear <omcflag-debug-semiLinear>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1961
+msgid ""
+"Enables dumping of the optimization information when optimizing calls to "
+"semiLinear."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1966
+msgid ":ref:`shortOutput <omcflag-debug-shortOutput>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1966
+msgid ""
+"Enables short output of the simulate() command. Useful for tools like "
+"OMNotebook."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1971
+msgid ":ref:`showDaeGeneration <omcflag-debug-showDaeGeneration>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1971
+msgid "Show the dae variable declarations as they happen."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1976
+msgid ""
+":ref:`showEquationSource <omcflag-debug-showEquationSource>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1976
+msgid ""
+"Display the element source information in the dumped DAE for easier "
+"debugging."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1981
+msgid ""
+":ref:`showExpandableInfo <omcflag-debug-showExpandableInfo>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1981
+msgid "Show information about expandable connector handling."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1986
+msgid ":ref:`showInstCacheInfo <omcflag-debug-showInstCacheInfo>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1986
+msgid ""
+"Prints information about instantiation cache hits and additions. Defaults"
+" to false."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1991
+msgid ":ref:`showStartOrigin <omcflag-debug-showStartOrigin>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1991
+msgid "Enables dumping of the DAE startOrigin attribute of the variables."
+msgstr ""
+
+#: ../../source/omchelptext.rst:1996
+msgid ":ref:`showStatement <omcflag-debug-showStatement>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:1996
+msgid ""
+"Shows the statement that is currently being evaluated when evaluating a "
+"script."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2001
+msgid ""
+":ref:`skipInputOutputSyntacticSugar <omcflag-debug-"
+"skipInputOutputSyntacticSugar>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2001
+msgid ""
+"Used when bootstrapping to preserve the input output parsing of the code "
+"output by the list command."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2006
+msgid ":ref:`stateselection <omcflag-debug-stateselection>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2006
+msgid "Enables dumping of selected states. Extends -d=backenddaeinfo."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2011
+msgid ":ref:`static <omcflag-debug-static>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2011
+msgid "Enables extra debug output from the static elaboration."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2016
+msgid ":ref:`stripPrefix <omcflag-debug-stripPrefix>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2016
+msgid "Strips the environment prefix from path/crefs. Defaults to true."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2021
+msgid ":ref:`susanDebug <omcflag-debug-susanDebug>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2021
+msgid ""
+"Makes Susan generate code using try/else to better debug which function "
+"broke the expected match semantics."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2026
+msgid ""
+":ref:`symJacConstantSplit <omcflag-debug-symJacConstantSplit>` (default: "
+"off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2026
+msgid "Generates all symbolic Jacobians with splitted constant parts."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2031
+msgid ":ref:`symjacdump <omcflag-debug-symjacdump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2031
+msgid ""
+"Dumps information about symbolic Jacobians. Can be used only with "
+"postOptModules: generateSymbolicJacobian, generateSymbolicLinearization."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2036
+msgid ":ref:`symjacdumpeqn <omcflag-debug-symjacdumpeqn>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2036
+msgid "Dump for debug purpose of symbolic Jacobians. (deactivated now)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2041
+msgid ":ref:`symjacdumpverbose <omcflag-debug-symjacdumpverbose>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2041
+msgid ""
+"Dumps information in verbose mode about symbolic Jacobians. Can be used "
+"only with postOptModules: generateSymbolicJacobian, "
+"generateSymbolicLinearization."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2046
+msgid ":ref:`symjacwarnings <omcflag-debug-symjacwarnings>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2046
+msgid "Prints warnings regarding symoblic jacbians."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2051
+msgid ":ref:`tail <omcflag-debug-tail>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2051
+msgid "Prints out a notification if tail recursion optimization has been applied."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2056
+msgid ":ref:`tearingdump <omcflag-debug-tearingdump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2056
+msgid "Dumps tearing information."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2061
+msgid ":ref:`tearingdumpV <omcflag-debug-tearingdumpV>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2061
+msgid "Dumps verbose tearing information."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2066
+msgid ":ref:`totaltearingdump <omcflag-debug-totaltearingdump>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2066
+msgid "Dumps total tearing information."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2071
+msgid ":ref:`totaltearingdumpV <omcflag-debug-totaltearingdumpV>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2071
+msgid "Dumps verbose total tearing information."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2076
+msgid ":ref:`tplPerfTimes <omcflag-debug-tplPerfTimes>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2076
+msgid "Enables output of template performance data for rendering text to file."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2081
+msgid ""
+":ref:`transformsbeforedump <omcflag-debug-transformsbeforedump>` "
+"(default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2081
+msgid ""
+"Applies transformations required for code generation before dumping flat "
+"code."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2086
+msgid ":ref:`types <omcflag-debug-types>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2086
+msgid "Prints extra failtrace from Types."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2091
+msgid ":ref:`uncertainties <omcflag-debug-uncertainties>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2091
+msgid "Enables dumping of status when calling modelEquationsUC."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2096
+msgid ":ref:`updmod <omcflag-debug-updmod>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2096
+msgid "Prints information about modification updates."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2101
+msgid ":ref:`useMPI <omcflag-debug-useMPI>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2101
+msgid "Add MPI init and finalize to main method (CPPruntime)."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2106
+msgid ":ref:`vectorize <omcflag-debug-vectorize>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2106
+msgid "Activates vectorization in the backend."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2111
+msgid ":ref:`visxml <omcflag-debug-visxml>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2111
+msgid "Outputs a xml-file that contains information for visualization."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2116
+msgid ":ref:`warnMinMax <omcflag-debug-warnMinMax>` (default: on)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2116
+msgid "Makes a warning assert from min/max variable attributes instead of error."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2121
+msgid ":ref:`warnNoNominal <omcflag-debug-warnNoNominal>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2121
+msgid ""
+"Prints the iteration variables in the initialization and simulation DAE, "
+"which do not have a nominal value."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2126
+msgid ":ref:`writeToBuffer <omcflag-debug-writeToBuffer>` (default: off)"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2126
+msgid "Enables writing simulation results to buffer."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2131
+msgid "Flags for Optimization Modules"
+msgstr ""
+
+#: ../../source/omchelptext.rst:2133
+msgid ""
+"Flags that determine which symbolic methods are used to produce the "
+"causalized equation system."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2135
+msgid ""
+"The :ref:`--preOptModules <omcflag-preOptModules>` flag sets the "
+"optimization modules which are used before the matching and index "
+"reduction in the back end. These modules are specified as a comma-"
+"separated list."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2138
+msgid ""
+"The :ref:`--matchingAlgorithm <omcflag-matchingAlgorithm>` sets the "
+"method that is used for the matching algorithm, after the pre "
+"optimization modules."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2140
+msgid ""
+"The :ref:`--indexReductionMethod <omcflag-indexReductionMethod>` sets the"
+" method that is used for the index reduction, after the pre optimization "
+"modules."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2142
+msgid ""
+"The :ref:`--initOptModules <omcflag-initOptModules>` then sets the "
+"optimization modules which are used after the index reduction to optimize"
+" the system for initialization, specified as a comma-separated list."
+msgstr ""
+
+#: ../../source/omchelptext.rst:2144
+msgid ""
+"The :ref:`--postOptModules <omcflag-postOptModules>` then sets the "
+"optimization modules which are used after the index reduction to optimize"
+" the system for simulation, specified as a comma-separated list."
+msgstr ""
+

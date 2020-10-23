@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/index.rst:2
+msgid "OpenModelica User's Guide"
+msgstr "OpenModelica ユーザーズガイド"
+
+#: ../../source/index.rst:6
+msgid "Generated on |date| at |time|"
+msgstr ""
+
+#: ../../source/releaselink.inc:3
+msgid ""
+"*Version:* `v1.14.1 "
+"<https://github.com/OpenModelica/OpenModelica/releases/tag/v1.14.1>`__ "
+"`(diff "
+"<https://github.com/OpenModelica/OpenModelica/compare/v1.14.0...v1.14.1>`__,"
+" `doc diff) <https://github.com/OpenModelica/OpenModelica-"
+"doc/compare/v1.14.0...v1.14.1>`__"
+msgstr ""
+
+#: ../../source/copyright.inc:1
+msgid "Open Source Modelica Consortium"
+msgstr ""
+
+#: ../../source/copyright.inc:3
+msgid ""
+"Copyright © 1998-\\ *CurrentYear*, Open Source Modelica Consortium "
+"(OSMC), c/o Linköpings universitet, Department of Computer and "
+"Information Science, SE-58183 Linköping, Sweden"
+msgstr ""
+
+#: ../../source/copyright.inc:7
+msgid "All rights reserved."
+msgstr ""
+
+#: ../../source/copyright.inc:9
+msgid ""
+"THIS PROGRAM IS PROVIDED UNDER THE TERMS OF GPL VERSION 3 LICENSE OR THIS"
+" OSMC PUBLIC LICENSE (OSMC-PL). ANY USE, REPRODUCTION OR DISTRIBUTION OF "
+"THIS PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THE OSMC PUBLIC "
+"LICENSE OR THE GPL VERSION 3, ACCORDING TO RECIPIENTS CHOICE."
+msgstr ""
+
+#: ../../source/copyright.inc:15
+msgid ""
+"The OpenModelica software and the OSMC (Open Source Modelica Consortium) "
+"Public License (OSMC-PL) are obtained from OSMC, either from the above "
+"address, from the URLs: https://www.openmodelica.org or "
+"http://www.ida.liu.se/projects/OpenModelica, and in the OpenModelica "
+"distribution. GNU version 3 is obtained from: "
+"http://www.gnu.org/copyleft/gpl.html."
+msgstr ""
+
+#: ../../source/copyright.inc:22
+msgid ""
+"This program is distributed WITHOUT ANY WARRANTY; without even the "
+"implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE, "
+"EXCEPT AS EXPRESSLY SET FORTH IN THE BY RECIPIENT SELECTED SUBSIDIARY "
+"LICENSE CONDITIONS OF OSMC-PL."
+msgstr ""
+
+#: ../../source/copyright.inc:27
+msgid "See the full OSMC Public License conditions for more details."
+msgstr ""
+
+#: ../../source/copyright.inc:29
+msgid "This document is part of OpenModelica: https://www.openmodelica.org"
+msgstr ""
+
+#: ../../source/copyright.inc:30
+msgid "Contact: OpenModelica@ida.liu.se"
+msgstr ""
+
+#: ../../source/copyright.inc:32
+msgid ""
+"Modelica\\ :sup:`®` is a registered trademark of the Modelica "
+"Association, https://www.Modelica.org"
+msgstr ""
+
+#: ../../source/copyright.inc:35
+msgid ""
+"Mathematica\\ :sup:`®` is a registered trademark of Wolfram Research Inc,"
+" http://www.wolfram.com"
+msgstr ""
+
+#: ../../source/copyright.inc:38
+msgid ""
+"This users guide provides documentation and examples on how to use the "
+"OpenModelica system, both for the Modelica beginners and advanced users."
+msgstr ""
+
+#: ../../source/index.rst:59
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../source/index.rst:60
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../source/index.rst:61
+msgid ":ref:`search`"
+msgstr ""
+
+#: ../../source/index.rst:65
+msgid "Copyright"
+msgstr ""
+

@@ -1,0 +1,274 @@
+sphinx-build -b latex -d build/doctrees  -D language='ja' source build/latex
+Running Sphinx v3.0.3
+loading translations [ja]... done
+2020-05-24 22:53:54,474 - OMPython - INFO - OMC Server is up and running at file:////tmp/openmodelica.uedashige.port.34d8a5d795f34b6ab2bfbb8bc668cda8 pid=8216
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+building [latex]: all documents
+updating environment: 0 added, 1 changed, 0 removed
+reading sources... [100%] index
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... /home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/sphinxcontribopenmodelica.py:68: RemovedInSphinx40Warning: sphinx.directives.CodeBlock is deprecated. Check CHANGES for Sphinx API modifications.
+  class ExecMosDirective(directives.CodeBlock):
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/tmp.rst: WARNING: document isn't included in any toctree
+done
+processing OpenModelicaUsersGuide.tex... index introduction omedit plotting solving debugger graphs fmitlm omsimulator encryption omnotebook optimization parametersensitivity pdemodelica mdt mdtdebugger profiler emscripten interop_c_python ompython ommatlab omjulia jupyteropenmodelica scripting_api omchelptext simulationflags technical_details dataReconciliation faq tracreleases contributors 
+resolving references...
+done
+writing... /home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/parametersensitivity.rst:53: WARNING: Pygments lexer name 'setCommandLineOptions("--calculateSensitivities");' is not known
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/pdemodelica.rst:8: WARNING: Pygments lexer name 'setCommandLineOptions("--grammar=PDEModelica")' is not known
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:255: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:622: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:735: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:1295: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:1587: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:1622: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:2542: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:2774: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:3216: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:4992: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide/source/scripting_api.rst:6076: WARNING: Could not lex literal_block as "modelica". Highlighting skipped.
+done
+copying images... [  0%] logo.pdf
+copying images... [  1%] media/systemoverview.pdf
+copying images... [  2%] dcmotor.pdf
+copying images... [  2%] switch.pdf
+copying images... [  3%] VanDerPol.pdf
+copying images... [  4%] media/bb-japanese.png
+copying images... [  4%] media/omedit_splashscreen.png
+copying images... [  5%] media/omedit-mainwindow-browsers.png
+copying images... [  6%] media/omedit-libraries-browser.png
+copying images... [  7%] media/omedit-documentation-browser.png
+copying images... [  7%] media/omedit-variables-browser.png
+copying images... [  8%] media/omedit-welcome.png
+copying images... [  9%] media/omedit-modeling-perspective.png
+copying images... [  9%] media/omedit-plotting-perspective.png
+copying images... [ 10%] media/omedit-debugging-perspective.png
+copying images... [ 11%] media/omedit-model-widget.png
+copying images... [ 11%] media/omedit-icons/connect-mode.pdf
+copying images... [ 12%] media/omedit-icons/plot-window.pdf
+copying images... [ 13%] media/omedit-icons/parametric-plot-window.pdf
+copying images... [ 14%] media/omedit-icons/array-plot-window.pdf
+copying images... [ 14%] media/omedit-icons/array-parametric-plot-window.pdf
+copying images... [ 15%] ../../../OMEdit/OMEdit/OMEditGUI/Resources/icons/modeling.png
+copying images... [ 16%] media/omedit-icons/re-simulate.pdf
+copying images... [ 16%] media/omedit_simulate_animation.png
+copying images... [ 17%] media/omedit_visualization.png
+copying images... [ 18%] media/pick_shape.png
+copying images... [ 19%] media/visual_features.png
+copying images... [ 19%] media/interactive_model.png
+copying images... [ 20%] media/omedit-user-defined-shapes.png
+copying images... [ 21%] media/new-state.png
+copying images... [ 21%] media/omedit-icons/transition-mode.pdf
+copying images... [ 22%] media/omedit-state-machine-simulation-settings.png
+copying images... [ 23%] media/omedit-open-directory.png
+copying images... [ 23%] media/omedit-directory-file.png
+copying images... [ 24%] media/omedit-search.png
+copying images... [ 25%] media/omedit-start-search.png
+copying images... [ 26%] media/omedit-search-results.png
+copying images... [ 26%] media/omedit-search-history.png
+copying images... [ 27%] helloworld.pdf
+copying images... [ 28%] helloworld-detailed.pdf
+copying images... [ 28%] media/omedit-debug-more.png
+copying images... [ 29%] media/omedit-transformationsbrowser.png
+copying images... [ 30%] media/omedit-add-breakpoint.png
+copying images... [ 30%] media/omedit-debug-config.png
+copying images... [ 31%] media/omedit-attach-to-process.png
+copying images... [ 32%] media/omedit-algorithmic-debugger.png
+copying images... [ 33%] media/taskgraph.png
+copying images... [ 33%] media/bipartit.png
+copying images... [ 34%] bouncingball_fmu.pdf
+copying images... [ 35%] media/tlm-double-pendulum-compositemodel.png
+copying images... [ 35%] media/omedit-icons/tlm-simulate.pdf
+copying images... [ 36%] media/tlm-library-browser-popup-menu.png
+copying images... [ 37%] media/tlm-cosimulation-setup.png
+copying images... [ 38%] media/tlm-cosimulation-progress.png
+copying images... [ 38%] media/tlm-plotting-cosimulation-results.png
+copying images... [ 39%] media/tlm-cosimulation-visualization.png
+copying images... [ 40%] media/tlm-loaded-external-models-library-browser.png
+copying images... [ 40%] media/tlm-new-compositemodel-textview.png
+copying images... [ 41%] media/tlm-add-submodels.png
+copying images... [ 42%] media/omedit-icons/interface-data.pdf
+copying images... [ 42%] media/tlm-fetch-interface-progress.png
+copying images... [ 43%] media/tlm-fetched-interface-points.png
+copying images... [ 44%] media/tlm-submodels-connection-dialog.png
+copying images... [ 45%] media/tlm-connecting-submodels-double-pendulum.png
+copying images... [ 45%] media/tlm-change-submodel-parameters-dialog.png
+copying images... [ 46%] media/omedit-icons/simulation-parameters.pdf
+copying images... [ 47%] media/tlm-change-cosimulation-parameters-popup-menu.png
+copying images... [ 47%] media/tlm-change-cosimulation-parameters-dialog.png
+copying images... [ 48%] media/mathematica-notebooks.pdf
+copying images... [ 49%] media/omnotebook-drmodelica.png
+copying images... [ 50%] media/omnotebook-helloworld.png
+copying images... [ 50%] media/omnotebook-drmodelica-ch9.png
+copying images... [ 51%] media/omnotebook-drmodelica-ex1.png
+copying images... [ 52%] media/omnotebook-drmodelica-ex1-answer.png
+copying images... [ 52%] media/omnotebook-feedback.png
+copying images... [ 53%] omnotebook-open-loop.pdf
+copying images... [ 54%] omnotebook-closed-loop.pdf
+copying images... [ 54%] media/omnotebook-mathematical-modeling-with-characteristic-equation.png
+copying images... [ 55%] omnotebook-drcontrol-negroots.pdf
+copying images... [ 56%] omnotebook-drcontrol-imgposroots.pdf
+copying images... [ 57%] media/omnotebook-step-pulse.png
+copying images... [ 57%] media/omnotebook-theory-kalman.png
+copying images... [ 58%] media/omnotebook-kalman-noisy-feedback.png
+copying images... [ 59%] nmpc-input.pdf
+copying images... [ 59%] nmpc-states.pdf
+copying images... [ 60%] media/casadi-input.png
+copying images... [ 61%] media/casadi-state.png
+copying images... [ 61%] media/omoptim-loaded.png
+copying images... [ 62%] media/omoptim-define-new-problem.png
+copying images... [ 63%] media/omoptim-setup-model.png
+copying images... [ 64%] media/omoptim-icons/Add.png
+copying images... [ 64%] media/omoptim-window-regions.png
+copying images... [ 65%] media/mdt-switch-workspace.png
+copying images... [ 66%] media/mdt-create-project.pdf
+copying images... [ 66%] media/mdt-disable-automatic-build.png
+copying images... [ 67%] media/mdt-build-project.png
+copying images... [ 68%] media/mdt-build-prompt.pdf
+copying images... [ 69%] media/mdt-build-log.png
+copying images... [ 69%] media/mdt-switch-perspective.png
+copying images... [ 70%] media/mdt-create-package.png
+copying images... [ 71%] media/mdt-create-class.png
+copying images... [ 71%] media/mdt-syntax-checking.png
+copying images... [ 72%] media/mdt-code-completion.png
+copying images... [ 73%] media/mdt-code-completion-call.png
+copying images... [ 73%] media/mdt-info-on-hover.png
+copying images... [ 74%] media/mdt-assist-mm-record.png
+copying images... [ 75%] media/mdt-console.png
+copying images... [ 76%] media/mdt-console-simulate.png
+copying images... [ 76%] media/mdt-debugger-overview.png
+copying images... [ 77%] media/mdt-debugger-config-1.png
+copying images... [ 78%] media/mdt-debugger-config-2.png
+copying images... [ 78%] media/mdt-debugger-breakpoint.png
+copying images... [ 79%] media/mdt-debugger-start-1.png
+copying images... [ 80%] media/mdt-debugger-start-2.png
+copying images... [ 80%] media/mdt-debugger-perspective.png
+copying images... [ 81%] media/mdt-debugger-switch-perspective.png
+copying images... [ 82%] ProfilingTest_prof.999.thumb.svg
+copying images... [ 83%] ProfilingTest_prof.fun0.thumb.svg
+copying images... [ 83%] ProfilingTest_prof.fun0_count.thumb.svg
+copying images... [ 84%] ProfilingTest_prof.eq0.thumb.svg
+copying images... [ 85%] ProfilingTest_prof.eq0_count.thumb.svg
+copying images... [ 85%] ProfilingTest_prof.eq12.thumb.svg
+copying images... [ 86%] ProfilingTest_prof.eq12_count.thumb.svg
+copying images... [ 87%] ProfilingTest_prof.eq20.thumb.svg
+copying images... [ 88%] ProfilingTest_prof.eq20_count.thumb.svg
+copying images... [ 88%] ProfilingTest_prof.eq22.thumb.svg
+copying images... [ 89%] ProfilingTest_prof.eq22_count.thumb.svg
+copying images... [ 90%] media/profiling-setup.png
+copying images... [ 90%] media/profiling-results.png
+copying images... [ 91%] media/emscripten-model.png
+copying images... [ 92%] media/emscripten-result.png
+copying images... [ 92%] externallibraries.pdf
+copying images... [ 93%] media/sineplot.png
+copying images... [ 94%] testmodel.pdf
+copying images... [ 95%] testmodel-plotall.pdf
+copying images... [ 95%] media/datareconciliationSplitter_Input.png
+copying images... [ 96%] media/datareconciliation_translationFlag.png
+copying images... [ 97%] media/datareconciliation_simulationFlag.png
+copying images... [ 97%] media/datareconciliation_resimulate.png
+copying images... [ 98%] media/datareconciliation_ResultDirectory.png
+copying images... [ 99%] media/datareconciliation_htmlreport.png
+copying images... [100%] media/datareconciliation_csv_report.png
+
+copying TeX support files... copying TeX support files...
+done
+build succeeded, 14 warnings.
+
+The LaTeX files are in build/latex.
+Run 'make' in that directory to run these through (pdf)latex
+(use `make latexpdf' here to do that automatically).
+
+Build finished; the LaTeX files are in build/latex.
+Run `make' in that directory to run these through (pdf)latex (use `make latexpdf' here to do that automatically).
+make addedPdfs
+make[1]: Entering directory '/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide'
+make[1]: Nothing to be done for 'addedPdfs'.
+make[1]: Leaving directory '/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/doc/UsersGuide'
+cp source/ProfilingTest_*.pdf build/latex/.
+sed -i "s/usepackage.utf8..inputenc./usepackage[utf8x]{inputenc}/" build/latex/OpenModelicaUsersGuide.tex
+sed -i -e "/^ *\\\\DeclareUnicodeCharacter/d" build/latex/OpenModelicaUsersGuide.tex
+# sphinx seems to only handle .* extension for images?
+sed -i "s,{\(media/[A-Za-z_0-9.-]*\)[.][*],{`pwd`/source/\1.pdf,g" build/latex/OpenModelicaUsersGuide.tex
+sed -i "s,{ProfilingTest_prof[.]\([^.]*\)[.]thumb}[.]svg,{`pwd`/source/ProfilingTest_prof-\1-thumb}.pdf,g" build/latex/OpenModelicaUsersGuide.tex
+(cd build/latex && latexmk -pdf OpenModelicaUsersGuide.tex)
+Use of uninitialized value $ENV{"LATEXOPTS"} in concatenation (.) or string at (eval 10) line 1, <GEN1> chunk 1.
+Use of uninitialized value $ENV{"LATEXOPTS"} in concatenation (.) or string at (eval 10) line 2, <GEN1> chunk 1.
+Latexmk: This is Latexmk, John Collins, 1 January 2015, version: 4.41.
+Rule 'makeindex OpenModelicaUsersGuide.idx': File changes, etc:
+   Non-existent destination files:
+      'OpenModelicaUsersGuide.ind'
+------------
+Run number 1 of rule 'makeindex OpenModelicaUsersGuide.idx'
+------------
+------------
+Running 'makeindex -s python.ist  -o "OpenModelicaUsersGuide.ind" "OpenModelicaUsersGuide.idx"'
+------------
+Latexmk: applying rule 'makeindex OpenModelicaUsersGuide.idx'...
+This is makeindex, version 2.15 [TeX Live 2017] (kpathsea + Thai support).
+Scanning style file ./python.ist.......done (7 attributes redefined, 0 ignored).
+Scanning input file OpenModelicaUsersGuide.idx...done (0 entries accepted, 0 rejected).
+Nothing written in OpenModelicaUsersGuide.ind.
+Transcript written in OpenModelicaUsersGuide.ilg.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'OpenModelicaUsersGuide.aux'
+      'OpenModelicaUsersGuide.ind'
+      'OpenModelicaUsersGuide.tex'
+   Non-existent destination files:
+      'OpenModelicaUsersGuide.pdf'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "OpenModelicaUsersGuide.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./OpenModelicaUsersGuide.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 30 language(s) loaded.
+(./sphinxmanual.cls
+Document Class: sphinxmanual 2019/12/01 v2.3.0 Document class (Sphinx manual)
+(/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jsbook.cls
+
+! LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \NeedsTeXFormat{pLaTeX2e}
+                              
+? ! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.26 \NeedsTeXFormat{pLaTeX2e}
+                              
+? )
+! Interruption.
+l.200333 
+         
+? ! Interruption.
+l.15028478 
+           
+? ! Interruption.
+l.17218468 
+           
+? ! Interruption.
+l.22028176 
+           
+? ! Interruption.
+l.25401754 
+           
+? ! Interruption.
+l.26804448 
+           
+? Makefile:214: recipe for target 'pdf' failed
+make: *** [pdf] Hangup

@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/mdtdebugger.rst:5
+msgid "MDT Debugger for Algorithmic Modelica"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:7
+msgid ""
+"The algorithmic code debugger, used for the algorithmic subset of the "
+"Modelica language as well as the MetaModelica language is described in "
+"Section :ref:`eclipse-based-debugger-algorithms`. Using this debugger "
+"replaces debugging of algorithmic code by primitive means such as print "
+"statements or asserts which is complex, time-consuming and error- prone. "
+"The usual debugging functionality found in debuggers for procedural or "
+"traditional object-oriented languages is supported, such as setting and "
+"removing breakpoints, stepping, inspecting variables, etc. The debugger "
+"is integrated with Eclipse."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:20
+msgid "The Eclipse-based Debugger for Algorithmic Modelica"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:22
+msgid ""
+"The debugging framework for the algorithmic subset of Modelica and "
+"MetaModelica is based on the Eclipse environment and is implemented as a "
+"set of plugins which are available from Modelica Development Tooling "
+"(MDT) environment. Some of the debugger functionality is presented below."
+" In the right part a variable value is explored. In the top-left part the"
+" stack trace is presented. In the middle-left part the execution point is"
+" presented."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:30
+msgid "The debugger provides the following general functionalities:"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:32
+msgid "Adding/Removing breakpoints."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:34
+msgid "Step Over – moves to the next line, skipping the function calls."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:36
+msgid "Step In – takes the user into the function call."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:39
+msgid "Step Return – complete the execution of the function and takes the"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:39
+msgid "user back to the point from where the function is called."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:41
+msgid "Suspend – interrupts the running program."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:45
+msgid "Debugging functionality."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:48
+msgid "Starting the Modelica Debugging Perspective"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:50
+msgid ""
+"To be able to run in debug mode, one has to go through the following "
+"steps:"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:53
+msgid "create a mos file"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:55
+msgid "setting the debug configuration"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:57
+msgid "setting breakpoints"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:59
+msgid "running the debug configuration"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:61
+msgid "All these steps are presented below using images."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:64
+msgid "Create mos file"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:66
+msgid ""
+"In order to debug Modelica code we need to load the Modelica files into "
+"the OpenModelica Compiler. For this we can write a small script file like"
+" this:"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:85
+msgid ""
+"So lets say that we want to debug HelloWorld.mo. For that we must load it"
+" into the compiler using the script file. Put all the Modelica files "
+"there in the script file to be loaded. We should also initiate the "
+"debugger by calling the starting function, in the above code "
+"``HelloWorld(120.0)``;"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:92
+msgid "Setting the debug configuration"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:94
+msgid ""
+"While the Modelica perspective is activated the user should click on the "
+"bug icon on the toolbar and select Debug in order to access the dialog "
+"for building debug configurations."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:100
+msgid "Accessing the debug configuration dialog."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:102
+msgid ""
+"To create the debug configuration, right click on the classification "
+"Modelica Development Tooling (MDT) GDB and select New as in figure below."
+" Then give a name to the configuration, select the debugging executable "
+"to be executed and give it command line parameters. There are several "
+"tabs in which the user can select additional debug configuration settings"
+" like the environment in which the executable should be run."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:109
+msgid ""
+"Note that we require Gnu Debugger (GDB) for debugging session. We must "
+"specify the GDB location, also we must pass our script file as an "
+"argument to OMC."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:115
+msgid "Creating the Debug Configuration."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:118
+msgid "Setting/Deleting Breakpoints"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:120
+msgid ""
+"The Eclipse interface allows to add/remove breakpoints. At the moment "
+"only line number based breakpoints are supported. Other alternative to "
+"set the breakpoints is; function breakpoints."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:126
+msgid "Setting/deleting breakpoints."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:129
+msgid "Starting the debugging session and enabling the debug perspective"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:133
+msgid "Starting the debugging session."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:137
+msgid "Eclipse will ask if the user wants to switch to the debugging perspective."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:140
+msgid "The Debugging Perspective"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:142
+msgid "The debug view primarily consists of two main views:"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:144
+msgid "Stack Frames View"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:146
+msgid "Variables View"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:148
+msgid ""
+"The stack frame view, shown in the figure below, shows a list of frames "
+"that indicates how the flow had moved from one function to another or "
+"from one file to another. This allows backtracing of the code. It is very"
+" much possible to select the previous frame in the stack and inspect the "
+"values of the variables in that frame. However, it is not possible to "
+"select any of the previous frame and start debugging from there. Each "
+"frame is shown as <function\\_name at file\\_name:line\\_number>."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:156
+msgid ""
+"The Variables view shows the list of variables at a certain point in the "
+"program, containing four colums:"
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:159
+msgid "Name – the variable name."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:161
+msgid "Declared Type – the Modelica type of the variable."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:163
+msgid "Value – the variable value."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:165
+msgid "Actual Type – the mapped C type."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:167
+msgid ""
+"By preserving the stack frames and variables it is possible to keep track"
+" of the variables values. If the value of any variable is changed while "
+"stepping then that variable will be highlighted yellow (the standard "
+"Eclipse way of showing the change)."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:174
+msgid "The debugging perspective."
+msgstr ""
+
+#: ../../source/mdtdebugger.rst:178
+msgid "Switching between perspectives."
+msgstr ""
+

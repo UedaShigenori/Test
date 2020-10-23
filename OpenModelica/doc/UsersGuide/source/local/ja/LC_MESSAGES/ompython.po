@@ -1,0 +1,459 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/ompython.rst:2
+msgid "OpenModelica Python Interface and PySimulator"
+msgstr ""
+
+#: ../../source/ompython.rst:4
+msgid "This chapter describes the OpenModelica Python integration facilities."
+msgstr ""
+
+#: ../../source/ompython.rst:6
+msgid ""
+"OMPython – the OpenModelica Python scripting interface, see "
+":ref:`ompython`."
+msgstr ""
+
+#: ../../source/ompython.rst:7
+msgid ""
+"EnhancedOMPython - Enhanced OMPython scripting interface, see "
+":ref:`enhancedompython`."
+msgstr ""
+
+#: ../../source/ompython.rst:8
+msgid ""
+"PySimulator – a Python package that provides simulation and post "
+"processing/analysis tools integrated with OpenModelica, see "
+":ref:`pysimulator`."
+msgstr ""
+
+#: ../../source/ompython.rst:14
+msgid "OMPython – OpenModelica Python Interface"
+msgstr ""
+
+#: ../../source/ompython.rst:16
+msgid ""
+"OMPython – OpenModelica Python API is a free, open source, highly "
+"portable Python based interactive session handler for Modelica scripting."
+" It provides the modeler with components for creating a complete Modelica"
+" modeling, compilation and simulation environment based on the latest "
+"OpenModelica library standard available. OMPython is architectured to "
+"combine both the solving strategy and model building. So domain experts "
+"(people writing the models) and computational engineers (people writing "
+"the solver code) can work on one unified tool that is industrially viable"
+" for optimization of Modelica models, while offering a flexible platform "
+"for algorithm development and research. OMPython is not a standalone "
+"package, it depends upon the OpenModelica installation."
+msgstr ""
+
+#: ../../source/ompython.rst:29
+msgid ""
+"OMPython is implemented in Python and depends either on the OmniORB and "
+"OmniORBpy - high performance CORBA ORBs for Python or ZeroMQ - high "
+"performance asynchronous messaging library and it supports the Modelica "
+"Standard Library version 3.2 that is included in starting with "
+"OpenModelica 1.9.2."
+msgstr ""
+
+#: ../../source/ompython.rst:36
+msgid ""
+"To install OMPython follow the instructions at "
+"https://github.com/OpenModelica/OMPython"
+msgstr ""
+
+#: ../../source/ompython.rst:39
+msgid "Features of OMPython"
+msgstr ""
+
+#: ../../source/ompython.rst:41
+msgid "OMPython provides user friendly features like:"
+msgstr ""
+
+#: ../../source/ompython.rst:43
+msgid ""
+"Interactive session handling, parsing, interpretation of commands and "
+"Modelica expressions for evaluation, simulation, plotting, etc."
+msgstr ""
+
+#: ../../source/ompython.rst:46
+msgid "Interface to the latest OpenModelica API calls."
+msgstr ""
+
+#: ../../source/ompython.rst:48
+msgid ""
+"Optimized parser results that give control over every element of the "
+"output."
+msgstr ""
+
+#: ../../source/ompython.rst:50
+msgid "Helper functions to allow manipulation on Nested dictionaries."
+msgstr ""
+
+#: ../../source/ompython.rst:52
+msgid "Easy access to the library and testing of OpenModelica commands."
+msgstr ""
+
+#: ../../source/ompython.rst:55
+msgid "Test Commands"
+msgstr ""
+
+#: ../../source/ompython.rst:57
+msgid ""
+"OMPython provides two classes for communicating with OpenModelica i.e., "
+"OMCSession and OMCSessionZMQ. Both classes have the same interface, the "
+"only difference is that OMCSession uses omniORB and OMCSessionZMQ uses "
+"ZeroMQ. All the examples listed down uses OMCSessionZMQ but if you want "
+"to test OMCSession simply replace OMCSessionZMQ with OMCSession. We "
+"recommend to use OMCSessionZMQ."
+msgstr ""
+
+#: ../../source/ompython.rst:64
+msgid ""
+"To test the command outputs, simply create an OMCSessionZMQ object by "
+"importing from the OMPython library within Python interepreter. The "
+"module allows you to interactively send commands to the OMC server and "
+"display their output."
+msgstr ""
+
+#: ../../source/ompython.rst:69
+msgid "To get started, create an OMCSessionZMQ object:"
+msgstr ""
+
+#: ../../source/ompython.rst:85
+msgid "We get the name and other properties of a class:"
+msgstr ""
+
+#: ../../source/ompython.rst:103
+msgid ""
+"The common combination of a simulation followed by getting a value and "
+"doing a plot:"
+msgstr ""
+
+#: ../../source/ompython.rst:114
+msgid "Import As Library"
+msgstr ""
+
+#: ../../source/ompython.rst:116
+msgid ""
+"To use the module from within another python program, simply import "
+"OMCSessionZMQ from within the using program."
+msgstr ""
+
+#: ../../source/ompython.rst:119
+msgid "For example:"
+msgstr ""
+
+#: ../../source/ompython.rst:136
+msgid "Implementation"
+msgstr ""
+
+#: ../../source/ompython.rst:139
+msgid "Client Implementation"
+msgstr ""
+
+#: ../../source/ompython.rst:141
+msgid ""
+"The OpenModelica Python API Interface – OMPython, attempts to mimic the "
+"OMShell's style of operations."
+msgstr ""
+
+#: ../../source/ompython.rst:144
+msgid "OMPython is designed to,"
+msgstr ""
+
+#: ../../source/ompython.rst:146
+msgid "Initialize the CORBA/ZeroMQ communication."
+msgstr ""
+
+#: ../../source/ompython.rst:148
+msgid "Send commands to the OMC server via the CORBA/ZeroMQ interface."
+msgstr ""
+
+#: ../../source/ompython.rst:150
+msgid "Receive the string results."
+msgstr ""
+
+#: ../../source/ompython.rst:152
+msgid "Use the Parser module to format the results."
+msgstr ""
+
+#: ../../source/ompython.rst:154
+msgid "Return or display the results."
+msgstr ""
+
+#: ../../source/ompython.rst:159
+msgid "Enhanced OMPython Features"
+msgstr ""
+
+#: ../../source/ompython.rst:160
+msgid ""
+"Some more improvements are added to OMPython functionality for querying "
+"more information about the models and simulate them. A list of new user "
+"friendly API functionality allows user to extract information about "
+"models using python objects. A list of API functionality is described "
+"below."
+msgstr ""
+
+#: ../../source/ompython.rst:164
+msgid "To get started, create a ModelicaSystem object:"
+msgstr ""
+
+#: ../../source/ompython.rst:172
+msgid ""
+"The object constructor requires a minimum of 2 input arguments which are "
+"strings, and may need a third string input argument."
+msgstr ""
+
+#: ../../source/ompython.rst:174
+msgid ""
+"The first input argument must be a string with the file name of the "
+"Modelica code, with Modelica file extension \".mo\". If the Modelica file"
+" is not in the current directory of Python, then the file path must also "
+"be included."
+msgstr ""
+
+#: ../../source/ompython.rst:177
+msgid ""
+"The second input argument must be a string with the name of the Modelica "
+"model including the namespace if the model is wrapped within a Modelica "
+"package."
+msgstr ""
+
+#: ../../source/ompython.rst:180
+msgid ""
+"The third input argument is used to specify the list of dependent "
+"libraries or dependent Modelica files e.g.,"
+msgstr ""
+
+#: ../../source/ompython.rst:184
+msgid ""
+"By default ModelicaSystem uses OMCSessionZMQ but if you want to use "
+"OMCSession then pass the argument `useCorba=True` to the constructor."
+msgstr ""
+
+#: ../../source/ompython.rst:188
+msgid "BuildModel"
+msgstr ""
+
+#: ../../source/ompython.rst:189
+msgid ""
+"The buildModel API can be used after ModelicaSystem(), in case the model "
+"needs to be updated or additional simulationflags needs to be set using "
+"sendExpression()"
+msgstr ""
+
+#: ../../source/ompython.rst:195
+msgid "Standard get methods"
+msgstr ""
+
+#: ../../source/ompython.rst:197
+msgid "getQuantities()"
+msgstr ""
+
+#: ../../source/ompython.rst:198
+msgid "getContinuous()"
+msgstr ""
+
+#: ../../source/ompython.rst:199
+msgid "getInputs()"
+msgstr ""
+
+#: ../../source/ompython.rst:200
+msgid "getOutputs()"
+msgstr ""
+
+#: ../../source/ompython.rst:201
+msgid "getParameters()"
+msgstr ""
+
+#: ../../source/ompython.rst:202
+msgid "getSimulationOptions()"
+msgstr ""
+
+#: ../../source/ompython.rst:203
+msgid "getSolutions()"
+msgstr ""
+
+#: ../../source/ompython.rst:206
+msgid ""
+"Three calling possibilities are accepted using getXXX() where \"XXX\" can"
+" be any of the above functions (eg:) getParameters()."
+msgstr ""
+
+#: ../../source/ompython.rst:208
+msgid ""
+"getXXX() without input argument, returns a dictionary with names as keys "
+"and values as values."
+msgstr ""
+
+#: ../../source/ompython.rst:209
+msgid "getXXX(S), where S is a string of names."
+msgstr ""
+
+#: ../../source/ompython.rst:210
+msgid "getXXX([\"S1\",\"S2\"]) where S1 and S1 are list of string elements"
+msgstr ""
+
+#: ../../source/ompython.rst:213
+msgid "Usage of getMethods"
+msgstr ""
+
+#: ../../source/ompython.rst:250
+msgid "The getSolution method can be used in two different ways."
+msgstr ""
+
+#: ../../source/ompython.rst:249
+msgid "using default result filename"
+msgstr ""
+
+#: ../../source/ompython.rst:250
+msgid "use the result filenames provided by user"
+msgstr ""
+
+#: ../../source/ompython.rst:252
+msgid ""
+"This provides a way to compare simulation results and perform regression "
+"testing"
+msgstr ""
+
+#: ../../source/ompython.rst:265
+msgid "Standard set methods"
+msgstr ""
+
+#: ../../source/ompython.rst:266
+msgid "setInputs()"
+msgstr ""
+
+#: ../../source/ompython.rst:267
+msgid "setParameters()"
+msgstr ""
+
+#: ../../source/ompython.rst:268
+msgid "setSimulationOptions()"
+msgstr ""
+
+#: ../../source/ompython.rst:270
+msgid ""
+"Two setting possibilities are accepted using setXXXs(),where \"XXX\" can "
+"be any of above functions."
+msgstr ""
+
+#: ../../source/ompython.rst:272
+msgid "setXXX(\"Name=value\") string of keyword assignments"
+msgstr ""
+
+#: ../../source/ompython.rst:273
+msgid ""
+"setXXX([\"Name1=value1\",\"Name2=value2\",\"Name3=value3\"])  list of "
+"string of keyword assignments"
+msgstr ""
+
+#: ../../source/ompython.rst:276
+msgid "Usage of setMethods"
+msgstr ""
+
+#: ../../source/ompython.rst:288
+msgid "Simulation"
+msgstr ""
+
+#: ../../source/ompython.rst:289
+msgid ""
+"An example of how to get parameter names and change the value of "
+"parameters using set methods and finally simulate the  "
+"\"BouncingBall.mo\" model is given below."
+msgstr ""
+
+#: ../../source/ompython.rst:296
+msgid ""
+"To check whether new values are updated to model , we can again query the"
+" getParameters()."
+msgstr ""
+
+#: ../../source/ompython.rst:303
+msgid ""
+"And then finally we can simulate the model using, The simulate() API can "
+"be used in two methods"
+msgstr ""
+
+#: ../../source/ompython.rst:302
+msgid "without any arguments"
+msgstr ""
+
+#: ../../source/ompython.rst:303
+msgid ""
+"resultfile names provided by user (only filename is allowed and not the "
+"location)"
+msgstr ""
+
+#: ../../source/ompython.rst:309
+msgid "Linearization"
+msgstr ""
+
+#: ../../source/ompython.rst:310
+msgid "The following methods are proposed for linearization."
+msgstr ""
+
+#: ../../source/ompython.rst:312
+msgid "linearize()"
+msgstr ""
+
+#: ../../source/ompython.rst:313
+msgid "getLinearizationOptions()"
+msgstr ""
+
+#: ../../source/ompython.rst:314
+msgid "setLinearizationOptions()"
+msgstr ""
+
+#: ../../source/ompython.rst:315
+msgid "getLinearInputs()"
+msgstr ""
+
+#: ../../source/ompython.rst:316
+msgid "getLinearOutputs()"
+msgstr ""
+
+#: ../../source/ompython.rst:317
+msgid "getLinearStates()"
+msgstr ""
+
+#: ../../source/ompython.rst:320
+msgid "Usage of Linearization methods"
+msgstr ""
+
+#: ../../source/ompython.rst:342
+msgid "PySimulator"
+msgstr ""
+
+#: ../../source/ompython.rst:344
+msgid ""
+"PySimulator provides a graphical user interface for performing analyses "
+"and simulating different model types (currently Functional Mockup Units "
+"and Modelica Models are supported), plotting result variables and "
+"applying simulation result analysis tools like Fast Fourier Transform."
+msgstr ""
+
+#: ../../source/ompython.rst:353
+msgid ""
+"Read more about the PySimulator at "
+"https://github.com/PySimulator/PySimulator."
+msgstr ""
+

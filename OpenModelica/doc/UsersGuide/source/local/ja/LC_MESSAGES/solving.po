@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/solving.rst:4
+msgid "Solving Modelica Models"
+msgstr ""
+
+#: ../../source/solving.rst:11
+msgid "Integration Methods"
+msgstr ""
+
+#: ../../source/solving.rst:13
+msgid ""
+"By default OpenModelica transforms a Modelica model into an ODE "
+"representation to perform a simulation by using numerical integration "
+"methods. This section contains additional information about the different"
+" integration methods in OpenModelica. They can be selected by the method "
+"parameter of the :ref:`simulate` command or the :ref:`-s simflag "
+"<simflag-s>`."
+msgstr ""
+
+#: ../../source/solving.rst:19
+msgid ""
+"The different methods are also called solver and can be distinguished by "
+"their characteristic:"
+msgstr ""
+
+#: ../../source/solving.rst:22
+msgid "explicit vs. implicit"
+msgstr ""
+
+#: ../../source/solving.rst:23
+msgid "order"
+msgstr ""
+
+#: ../../source/solving.rst:24
+msgid "step size control"
+msgstr ""
+
+#: ../../source/solving.rst:25
+msgid "multi step"
+msgstr ""
+
+#: ../../source/solving.rst:27
+msgid ""
+"A good introduction on this topic may be found in :cite:`Cellier:2006` "
+"and a more mathematical approach can be found in :cite:`Hairer:1993`."
+msgstr ""
+
+#: ../../source/solving.rst:33
+msgid "DASSL"
+msgstr ""
+
+#: ../../source/solving.rst:35
+msgid ""
+"DASSL is the default solver in OpenModelica, because of a severals "
+"reasons. It is an implicit, higher order, multi-step solver with a step-"
+"size control and with these properties it is quite stable for a wide "
+"range of models. Furthermore it has a mature source code, which was "
+"originally developed in the eighties an initial description may be found "
+"in :cite:`PetzoldDASSL:1982`."
+msgstr ""
+
+#: ../../source/solving.rst:41
+msgid ""
+"This solver is based on backward differentiation formula (BDF), which is "
+"a family of implicit methods for numerical integration. The used "
+"implementation is called DASPK2.0 (see [#f3]_) and it is translated "
+"automatically to C by f2c (see [#f4]_)."
+msgstr ""
+
+#: ../../source/solving.rst:46
+msgid ""
+"The following simulation flags can be used to adjust the behavior of the "
+"solver for specific simulation problems: :ref:`jacobian <simflag-"
+"jacobian>`, :ref:`noRootFinding <simflag-norootfinding>`, :ref:`noRestart"
+" <simflag-norestart>`, :ref:`initialStepSize <simflag-initialstepsize>`, "
+":ref:`maxStepSize <simflag-maxstepsize>`, :ref:`maxIntegrationOrder "
+"<simflag-maxintegrationorder>`, :ref:`noEquidistantTimeGrid <simflag-"
+"noequidistanttimegrid>`."
+msgstr ""
+
+#: ../../source/solving.rst:60
+msgid "IDA"
+msgstr ""
+
+#: ../../source/solving.rst:62
+msgid ""
+"The IDA solver is part of a software family called sundials: SUite of "
+"Nonlinear and DIfferential/ALgebraic equation Solvers "
+":cite:`Hindmarsh:2005`. The implementation is based on DASPK with an "
+"extended linear solver interface, which includes an interface to the high"
+" performance sparse linear solver KLU :cite:`Davis:2010`."
+msgstr ""
+
+#: ../../source/solving.rst:68
+msgid ""
+"The simulation flags of :ref:`dassl` are also valid for the IDA solver "
+"and furthermore it has the following IDA specific flags: :ref:`idaLS "
+"<simflag-idaLS>`, :ref:`idaMaxNonLinIters <simflag-idaMaxNonLinIters>`, "
+":ref:`idaMaxConvFails <simflag-idaMaxConvFails>`, :ref:`idaNonLinConvCoef"
+" <simflag-idaNonLinConvCoef>`, :ref:`idaMaxErrorTestFails <simflag-"
+"idaMaxErrorTestFails>`."
+msgstr ""
+
+#: ../../source/solving.rst:77
+msgid "Basic Explicit Solvers"
+msgstr ""
+
+#: ../../source/solving.rst:79
+msgid ""
+"The basic explicit solvers are performing with a fixed step-size and "
+"differ only in the integration order. The step-size is based on the "
+"numberOfIntervals, the startTime and stopTime parameters in the "
+":ref:`simulate` command: :math:`\\mbox{stepSize} \\approx "
+"\\cfrac{\\mbox{stopTime} - \\mbox{startTime}}{\\mbox{numberOfIntervals}}`"
+msgstr ""
+
+#: ../../source/solving.rst:85
+msgid "euler - order 1"
+msgstr ""
+
+#: ../../source/solving.rst:86
+msgid "heun - order 2"
+msgstr ""
+
+#: ../../source/solving.rst:87
+msgid "rungekutta - order 4"
+msgstr ""
+
+#: ../../source/solving.rst:90
+msgid "Basic Implicit Solvers"
+msgstr ""
+
+#: ../../source/solving.rst:92
+msgid ""
+"The basic implicit solvers are all based on the non-linear solver KINSOL "
+"from the SUNDIALS suite. The underlining linear solver can be modified "
+"with the simflag :ref:`-impRKLS <simflag-imprkls>`. The step-size is "
+"determined as for the basic explicit solvers."
+msgstr ""
+
+#: ../../source/solving.rst:97
+msgid "impeuler  - order 1"
+msgstr ""
+
+#: ../../source/solving.rst:98
+msgid "trapezoid - order 2"
+msgstr ""
+
+#: ../../source/solving.rst:99
+msgid ""
+"imprungekutta - Based on Radau IIA and Lobatto IIIA defined by its "
+"Butcher tableau where the order can be adjusted by :ref:`-impRKorder "
+"<simflag-imprkorder>`."
+msgstr ""
+
+#: ../../source/solving.rst:104
+msgid "Experimental Solvers"
+msgstr ""
+
+#: ../../source/solving.rst:106
+msgid ""
+"The following solvers are marked as experimental, mostly because they are"
+" till now not tested very well."
+msgstr ""
+
+#: ../../source/solving.rst:109
+msgid ""
+"rungekuttaSsc - Runge-Kutta based on Novikov (2016) - explicit, step-size"
+" control, order 4-5"
+msgstr ""
+
+#: ../../source/solving.rst:110
+msgid ""
+"irksco - Own developed Runge-Kutta solver - implicit, step-size control, "
+"order 1-2"
+msgstr ""
+
+#: ../../source/solving.rst:111
+msgid ""
+"symSolver - Symbolic inline solver (requires :ref:`--symSolver <omcflag-"
+"symSolver>`) - fixed step-size, order 1"
+msgstr ""
+
+#: ../../source/solving.rst:112
+msgid ""
+"symSolverSsc - Symbolic implicit inline Euler with step-size control "
+"(requires :ref:`--symSolver<omcflag-symSolver>`) - step-size control, "
+"order 1-2"
+msgstr ""
+
+#: ../../source/solving.rst:113
+msgid "qss - A QSS solver"
+msgstr ""
+
+#: ../../source/solving.rst:116
+msgid "DAE Mode Simulation"
+msgstr ""
+
+#: ../../source/solving.rst:118
+msgid ""
+"Beside the default ODE simulation, OpenModelica is able to simulate "
+"models in `DAE mode`. The `DAE mode` is enabled by the flag "
+":ref:`--daeMode <omcflag-daeMode>`. In general the whole equation system "
+"of a model is passed to the DAE integrator, including all algebraic "
+"loops. This reduces the amount of work that needs to be done in the post "
+"optimization phase of the OpenModelica backend. Thus models with large "
+"algebraic loops might compile faster in `DAE mode`."
+msgstr ""
+
+#: ../../source/solving.rst:125
+msgid ""
+"Once a model is compiled in `DAE mode` the simulation can be only "
+"performed with :ref:`SUNDIALS/IDA <sundials_ida>` integrator and with "
+"enabled :ref:`-daeMode <simflag-daeMode>` simulation flag. Both are "
+"enabled automatically by default, when a simulation run is started."
+msgstr ""
+
+#: ../../source/solving.rst:132
+msgid "References"
+msgstr ""
+
+#: ../../source/solving.rst:137
+msgid "Footnotes"
+msgstr ""
+
+#: ../../source/solving.rst:138
+msgid ""
+"`Sundials Webpage <http://computation.llnl.gov/projects/sundials-suite-"
+"nonlinear-differential-algebraic-equation-solvers>`__"
+msgstr ""
+
+#: ../../source/solving.rst:139
+msgid "`DASPK Webpage <https://cse.cs.ucsb.edu/software>`__"
+msgstr ""
+
+#: ../../source/solving.rst:140
+msgid "`Cdaskr source <https://github.com/wibraun/Cdaskr>`__"
+msgstr ""
+

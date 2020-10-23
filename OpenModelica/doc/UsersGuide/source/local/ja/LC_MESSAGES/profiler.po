@@ -1,0 +1,814 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-25 22:58+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/profiler.rst:2
+msgid "Modelica Performance Analyzer"
+msgstr ""
+
+#: ../../source/profiler.rst:4
+#, python-format
+msgid ""
+"A common problem when simulating models in an equation-based language "
+"like Modelica is that the model may contain non-linear equation systems. "
+"These are solved in each time-step by extrapolating an initial guess and "
+"running a non-linear system solver. If the simulation takes too long to "
+"simulate, it is useful to run the performance analysis tool. The tool has"
+" around 5~25% overhead, which is very low compared to instruction-level "
+"profilers (30x-100x overhead). Due to being based on a single simulation "
+"run, the report may contain spikes in the charts."
+msgstr ""
+
+#: ../../source/profiler.rst:13
+msgid ""
+"When running a simulation for performance analysis, execution times of "
+"user-defined functions as well as linear, non-linear and mixed equation "
+"systems are recorded."
+msgstr ""
+
+#: ../../source/profiler.rst:17
+msgid ""
+"To start a simulation in this mode, turn on profiling with the following "
+"command line flag >>> setCommandLineOptions(\"--profiling=all\")"
+msgstr ""
+
+#: ../../source/profiler.rst:21
+msgid ""
+"The generated report is in HTML format (with images in the SVG format), "
+"stored in a file modelname\\_prof.html, but the XML database and measured"
+" times that generated the report and graphs are also available if you "
+"want to customize the report for comparison with other tools."
+msgstr ""
+
+#: ../../source/profiler.rst:26
+msgid "Below we use the performance profiler on the simple model A:"
+msgstr ""
+
+#: ../../source/profiler.rst:48
+msgid "We simulate as usual, after setting the profiling flag:"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:2
+msgid "Profiling information for ProfilingTest"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:5
+msgid "Information"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:7
+msgid ""
+"All times are measured using a real-time wall clock. This means context "
+"switching produces bad worst-case execution times (max times) for blocks."
+" If you want better results, use a CPU-time clock or run the command "
+"using real-time priviliges (avoiding context switches)."
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:12
+msgid ""
+"Note that for blocks where the individual execution time is close to the "
+"accuracy of the real-time clock, the maximum measured time may deviate a "
+"lot from the average."
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:16
+msgid ""
+"For more details, see `ProfilingTest\\_prof.xml "
+"<ProfilingTest_prof.xml>`__."
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:20
+msgid "Settings"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:23
+#: ../../source/ProfilingTest_prof.inc:76
+#: ../../source/ProfilingTest_prof.inc:85
+#: ../../source/ProfilingTest_prof.inc:100
+#: ../../source/ProfilingTest_prof.inc:155
+msgid "Name"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:23
+msgid "Value"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:25
+msgid "Integration method"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:25
+msgid "dassl"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:27
+msgid "Output format"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:27
+msgid "mat"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:29
+msgid "Output name"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:29
+msgid "`ProfilingTest\\_res.mat <ProfilingTest_res.mat>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:31
+msgid "Output size"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:31
+msgid "24.0 kB"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:33
+msgid "Profiling data"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:33
+msgid "`ProfilingTest\\_prof.data <ProfilingTest_prof.data>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:35
+msgid "Profiling size"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:35
+msgid "0 B"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:39
+msgid "Summary"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:42
+msgid "Task"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:42
+#: ../../source/ProfilingTest_prof.inc:76
+#: ../../source/ProfilingTest_prof.inc:85
+msgid "Time"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:42
+#: ../../source/ProfilingTest_prof.inc:67
+#: ../../source/ProfilingTest_prof.inc:76
+#: ../../source/ProfilingTest_prof.inc:85
+msgid "Fraction"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:44
+msgid "Pre-Initialization"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:44
+msgid "0.000979"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:44
+msgid "3.47%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:46
+msgid "Initialization"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:46
+msgid "0.000665"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:46
+msgid "2.36%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:48
+msgid "Event-handling"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:48
+msgid "0.000000"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:48
+msgid "0.00%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:50
+msgid "Creating output file"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:50
+msgid "0.002876"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:50
+msgid "10.19%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:52
+msgid "Linearization"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:52
+#: ../../source/ProfilingTest_prof.inc:58
+msgid "NaN%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:54
+msgid "Time steps"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:54
+#: ../../source/ProfilingTest_prof.inc:69
+msgid "0.019230"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:54
+#: ../../source/ProfilingTest_prof.inc:69
+msgid "68.16%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:56
+msgid "Overhead"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:56
+msgid "0.001048"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:56
+msgid "3.71%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:58
+msgid "Unknown"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:58
+msgid "NaN"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:60
+msgid "Total simulation time"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:60
+msgid "0.028215"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:60
+msgid "100.00%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:64
+msgid "Global Steps"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:67
+msgid "Steps"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:67
+msgid "Total Time"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:67
+msgid "Average Time"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:67
+#: ../../source/ProfilingTest_prof.inc:76
+#: ../../source/ProfilingTest_prof.inc:85
+msgid "Max Time"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:67
+#: ../../source/ProfilingTest_prof.inc:76
+#: ../../source/ProfilingTest_prof.inc:85
+msgid "Deviation"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:69
+msgid "|Graph thumbnail 999|"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:69
+msgid "499"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:69
+msgid "0.0000385370741482966"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:69
+msgid "0.000507107"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:69
+msgid "12.16x"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:73
+msgid "Measured Function Calls"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:76
+#: ../../source/ProfilingTest_prof.inc:85
+msgid "Calls"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:78
+msgid "|Graph thumbnail function fun0|\\ |Graph thumbnail count function fun0|"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:78
+msgid "`ProfilingTest.f <#line=0>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:78
+msgid "506"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:78
+msgid "0.000282193"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:78
+msgid "1.00%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:78
+msgid "0.000004807"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:78
+msgid "7.62x"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:82
+msgid "Measured Blocks"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:87
+msgid "|Graph thumbnail eq0|\\ |Graph thumbnail count eq0|"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:87
+msgid "` <#eq0>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:87
+msgid "7"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:87
+msgid "0.000285550"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:87
+msgid "1.01%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:87
+msgid "0.000290307"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:87
+msgid "6.12x"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:89
+msgid "|Graph thumbnail eq12|\\ |Graph thumbnail count eq12|"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:89
+msgid "` <#eq12>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:89
+msgid "2"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:89
+msgid "0.000010614"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:89
+msgid "0.04%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:89
+msgid "0.000011407"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:89
+msgid "1.15x"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:91
+msgid "|Graph thumbnail eq20|\\ |Graph thumbnail count eq20|"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:91
+msgid "` <#eq20>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:91
+#: ../../source/ProfilingTest_prof.inc:93
+msgid "504"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:91
+msgid "0.002699978"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:91
+msgid "9.57%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:91
+msgid "0.000049407"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:91
+msgid "8.22x"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:93
+msgid "|Graph thumbnail eq22|\\ |Graph thumbnail count eq22|"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:93
+msgid "` <#eq22>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:93
+msgid "0.003833978"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:93
+msgid "13.59%"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:93
+msgid "0.000045107"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:93
+msgid "4.93x"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:97
+msgid "Equations"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:100
+#: ../../source/ProfilingTest_prof.inc:152
+msgid "Variables"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:102
+msgid "eq0"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:104
+msgid "eq1"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:104
+msgid "`y <#var1000>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:106
+msgid "eq2"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:106
+msgid "`s <#var1005>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:108
+msgid "eq3"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:110
+msgid "eq4"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:110
+#: ../../source/ProfilingTest_prof.inc:130
+msgid "`z2 <#var1004>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:112
+msgid "eq5"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:114
+msgid "eq6"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:114
+#: ../../source/ProfilingTest_prof.inc:116
+#: ../../source/ProfilingTest_prof.inc:118
+#: ../../source/ProfilingTest_prof.inc:120
+#: ../../source/ProfilingTest_prof.inc:134
+#: ../../source/ProfilingTest_prof.inc:136
+#: ../../source/ProfilingTest_prof.inc:138
+#: ../../source/ProfilingTest_prof.inc:140
+msgid "` <#var0>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:116
+msgid "eq7"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:118
+msgid "eq8"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:120
+msgid "eq9"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:122
+msgid "eq10"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:122
+#: ../../source/ProfilingTest_prof.inc:142
+msgid "`z1 <#var1003>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:124
+msgid "eq11"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:126
+msgid "eq12"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:126
+#: ../../source/ProfilingTest_prof.inc:146
+msgid "`x <#var1002>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:128
+msgid "eq13"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:128
+msgid "`der(y) <#var1001>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:130
+msgid "eq14"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:132
+msgid "eq15"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:134
+msgid "eq16"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:136
+msgid "eq17"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:138
+msgid "eq18"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:140
+msgid "eq19"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:142
+msgid "eq20"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:144
+msgid "eq21"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:146
+msgid "eq22"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:148
+msgid "eq23"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:155
+msgid "Comment"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:157
+#, python-format
+msgid "`y <%3Cinteractive%3E#line=8>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:159
+#, python-format
+msgid "`der(y) <%3Cinteractive%3E#line=8>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:161
+#, python-format
+msgid "`x <%3Cinteractive%3E#line=7>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:161
+msgid "This is x"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:163
+#, python-format
+msgid "`z1 <%3Cinteractive%3E#line=9>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:165
+#, python-format
+msgid "`z2 <%3Cinteractive%3E#line=10>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:167
+#, python-format
+msgid "`s <%3Cinteractive%3E#line=6>`__"
+msgstr ""
+
+#: ../../source/ProfilingTest_prof.inc:172
+msgid ""
+"This report was generated by `OpenModelica <http://openmodelica.org>`__ "
+"on 2020-05-25 22:59:58."
+msgstr ""
+
+#: ../../source/profiler.rst:74
+msgid "Genenerated JSON for the Example"
+msgstr ""
+
+#: ../../source/profiler.rst:76
+msgid "ProfilingTest_prof.json"
+msgstr ""
+
+#: ../../source/profiler.rst:81
+msgid "Using the Profiler from OMEdit"
+msgstr ""
+
+#: ../../source/profiler.rst:83
+msgid ""
+"When running a simulation from OMEdit, it is possible to enable profiling"
+" information, which can be combined with the :ref:`transformations "
+"browser <transformations-browser>`."
+msgstr ""
+
+#: ../../source/profiler.rst:89
+msgid "Setting up the profiler from OMEdit."
+msgstr ""
+
+#: ../../source/profiler.rst:91
+msgid ""
+"When profiling the DoublePendulum example from MSL, the following output "
+"in :numref:`profiling-doublependulum` is a typical result. This "
+"information clearly shows which system takes longest to simulate (a "
+"linear system, where most of the time overhead probably comes from "
+"initializing `LAPACK <http://www.netlib.org/lapack/>`_ over and over)."
+msgstr ""
+
+#: ../../source/profiler.rst:98
+msgid ""
+"Profiling results of the Modelica standard library DoublePendulum "
+"example, sorted by execution time."
+msgstr ""
+
+#~ msgid "0.000814"
+#~ msgstr ""
+
+#~ msgid "2.92%"
+#~ msgstr ""
+
+#~ msgid "0.000597"
+#~ msgstr ""
+
+#~ msgid "2.14%"
+#~ msgstr ""
+
+#~ msgid "0.002780"
+#~ msgstr ""
+
+#~ msgid "9.97%"
+#~ msgstr ""
+
+#~ msgid "0.019519"
+#~ msgstr ""
+
+#~ msgid "70.00%"
+#~ msgstr ""
+
+#~ msgid "0.001070"
+#~ msgstr ""
+
+#~ msgid "3.84%"
+#~ msgstr ""
+
+#~ msgid "0.027883"
+#~ msgstr ""
+
+#~ msgid "0.0000391162324649299"
+#~ msgstr ""
+
+#~ msgid "0.000442642"
+#~ msgstr ""
+
+#~ msgid "10.32x"
+#~ msgstr ""
+
+#~ msgid "0.000337004"
+#~ msgstr ""
+
+#~ msgid "1.21%"
+#~ msgstr ""
+
+#~ msgid "0.000003942"
+#~ msgstr ""
+
+#~ msgid "4.92x"
+#~ msgstr ""
+
+#~ msgid "0.000253096"
+#~ msgstr ""
+
+#~ msgid "0.91%"
+#~ msgstr ""
+
+#~ msgid "0.000257642"
+#~ msgstr ""
+
+#~ msgid "6.13x"
+#~ msgstr ""
+
+#~ msgid "0.000009385"
+#~ msgstr ""
+
+#~ msgid "0.03%"
+#~ msgstr ""
+
+#~ msgid "0.000010142"
+#~ msgstr ""
+
+#~ msgid "1.16x"
+#~ msgstr ""
+
+#~ msgid "0.002803919"
+#~ msgstr ""
+
+#~ msgid "10.06%"
+#~ msgstr ""
+
+#~ msgid "0.000042442"
+#~ msgstr ""
+
+#~ msgid "6.63x"
+#~ msgstr ""
+
+#~ msgid "0.003928619"
+#~ msgstr ""
+
+#~ msgid "14.09%"
+#~ msgstr ""
+
+#~ msgid "0.000037942"
+#~ msgstr ""
+
+#~ msgid "3.87x"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This report was generated by "
+#~ "`OpenModelica <http://openmodelica.org>`__ on "
+#~ "2020-05-23 21:24:17."
+#~ msgstr ""
+

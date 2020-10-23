@@ -1,0 +1,18 @@
+OMBUILDDIR=/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/build
+ANTLRJAR=/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/build/share/omc/java/antlr-3.2.jar
+
+CC=clang
+CXX=clang++
+CFLAGS=-c -g -O2
+CPPFLAGS= -I/home/uedashige/work/OM/OMBuild/20200101_2/OpenModelica/build/include/x86_64-linux-gnu/omc/antlr3
+ifeq (x86_64,x86_64)
+ANTLR64=--enable-64bit
+endif
+ifeq (arm,x86_64)
+ANTLRDEBUG="--disable-antlrdebug --disable-abiflags"
+endif
+
+include Makefile.lib.common
+
+Makefile.lib.unix: Makefile.lib.unix.in
+	(cd ../../.. && ./config.status)

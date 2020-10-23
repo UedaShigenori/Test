@@ -1,0 +1,579 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/fmitlm.rst:2
+msgid "FMI and TLM-Based Simulation and Co-simulation of External Models"
+msgstr ""
+
+#: ../../source/fmitlm.rst:5
+msgid "Functional Mock-up Interface - FMI"
+msgstr ""
+
+#: ../../source/fmitlm.rst:7
+msgid ""
+"The new standard for model exchange and co-simulation with Functional "
+"Mockup Interface (`FMI <http://www.fmi-standard.org>`_) allows export of "
+"pre-compiled models, i.e., C-code or binary code, from a tool for import "
+"in another tool, and vice versa. The FMI standard is Modelica "
+"independent. Import and export works both between different Modelica "
+"tools, or between certain non-Modelica tools. OpenModelica supports FMI "
+"1.0 & 2.0,"
+msgstr ""
+
+#: ../../source/fmitlm.rst:14
+msgid "Model Exchange"
+msgstr ""
+
+#: ../../source/fmitlm.rst:16
+msgid "Co-Simulation (under development)"
+msgstr ""
+
+#: ../../source/fmitlm.rst:19
+msgid "FMI Export"
+msgstr ""
+
+#: ../../source/fmitlm.rst:21
+msgid ""
+"To export the FMU use the OpenModelica command "
+"`translateModelFMU(ModelName) "
+"<https://build.openmodelica.org/Documentation/OpenModelica.Scripting.translateModelFMU.html>`_"
+" from command line interface, OMShell, OMNotebook or MDT. The export FMU "
+"command is also integrated with OMEdit. Select FMI > Export FMU the FMU "
+"package is generated in the current directory of omc. You can use the "
+"cd() command to see the current location. You can set which version of "
+"FMI to export through OMEdit settings, see section :ref:`omedit-options-"
+"fmi`."
+msgstr ""
+
+#: ../../source/fmitlm.rst:30
+msgid "To export the bouncing ball example to an FMU, use the following commands:"
+msgstr ""
+
+#: ../../source/fmitlm.rst:39
+msgid ""
+"After the command execution is complete you will see that a file "
+"BouncingBall.fmu has been created. Its contents varies depending on the "
+"current platform. On the machine generating this documentation, the "
+"contents in :numref:`BouncingBall FMU contents` are generated (along with"
+" the C source code)."
+msgstr ""
+
+#: ../../source/fmitlm.rst:45
+msgid "BouncingBall FMU contents"
+msgstr ""
+
+#: ../../source/fmitlm.rst:49
+msgid ""
+"A log file for FMU creation is also generated named ModelName\\_FMU.log. "
+"If there are some errors while creating FMU they will be shown in the "
+"command line window and logged in this log file as well."
+msgstr ""
+
+#: ../../source/fmitlm.rst:53
+msgid ""
+"By default an FMU that can be used for both Model Exchange and Co-"
+"Simulation is generated. We only support FMI 2.0 for Co-Simulation FMUs."
+msgstr ""
+
+#: ../../source/fmitlm.rst:56
+msgid ""
+"Currently the Co-Simulation FMU supports only the forward Euler solver "
+"with root finding which does an Euler step of communicationStepSize in "
+"fmi2DoStep. Events are checked for before and after the call to "
+"fmi2GetDerivatives."
+msgstr ""
+
+#: ../../source/fmitlm.rst:62
+msgid "FMI Import"
+msgstr ""
+
+#: ../../source/fmitlm.rst:64
+msgid "To import the FMU package use the OpenModelica command importFMU,"
+msgstr ""
+
+#: ../../source/fmitlm.rst:71
+msgid ""
+"The command could be used from command line interface, OMShell, "
+"OMNotebook or MDT. The importFMU command is also integrated with OMEdit. "
+"Select FMI > Import FMU the FMU package is extracted in the directory "
+"specified by workdir, since the workdir parameter is optional so if its "
+"not specified then the current directory of omc is used. You can use the "
+"cd() command to see the current location."
+msgstr ""
+
+#: ../../source/fmitlm.rst:78
+msgid ""
+"The implementation supports FMI for Model Exchange 1.0 & 2.0 and FMI for "
+"Co-Simulation 1.0 stand-alone. The support for FMI Co-Simulation is still"
+" under development."
+msgstr ""
+
+#: ../../source/fmitlm.rst:82
+msgid ""
+"The FMI Import is currently a prototype. The prototype has been tested in"
+" OpenModelica with several examples. It has also been tested with example"
+" FMUs from FMUSDK and Dymola. A more fullfleged version for FMI Import "
+"will be released in the near future."
+msgstr ""
+
+#: ../../source/fmitlm.rst:87
+msgid ""
+"When importing the model into OMEdit, roughly the following commands will"
+" be executed:"
+msgstr ""
+
+#: ../../source/fmitlm.rst:95
+msgid "The imported FMU can then be simulated like any normal model:"
+msgstr ""
+
+#: ../../<OMC gnuplot>:1
+msgid "Height of the bouncing ball, simulated through an FMU."
+msgstr ""
+
+#: ../../source/fmitlm.rst:107
+msgid "Transmission Line Modeling (TLM) Based Co-Simulation"
+msgstr ""
+
+#: ../../source/fmitlm.rst:109
+msgid ""
+"This chapter gives a short description how to get started using the TLM-"
+"Based co-simulation accessible via OMEdit."
+msgstr ""
+
+#: ../../source/fmitlm.rst:112
+msgid ""
+"The TLM Based co-simulation provides the following general "
+"functionalities:"
+msgstr ""
+
+#: ../../source/fmitlm.rst:114
+msgid ""
+"Import and add External non-Modelica models such as **Matlab/SimuLink**, "
+"**Adams**, and **BEAST** models"
+msgstr ""
+
+#: ../../source/fmitlm.rst:116
+msgid ""
+"Import and add External Modelica models e.g. from tools such as "
+"**Dymola** or **Wolfram SystemModeler**, etc."
+msgstr ""
+
+#: ../../source/fmitlm.rst:118
+msgid "Specify startup methods and interfaces of the external model"
+msgstr ""
+
+#: ../../source/fmitlm.rst:120
+msgid "Build the composite models by connecting the external models"
+msgstr ""
+
+#: ../../source/fmitlm.rst:122
+msgid "Set the co-simulation parameters in the composite model"
+msgstr ""
+
+#: ../../source/fmitlm.rst:124
+msgid "Simulate the composite models using TLM based co-simulation"
+msgstr ""
+
+#: ../../source/fmitlm.rst:127
+msgid "Composite Model Editing of External Models"
+msgstr ""
+
+#: ../../source/fmitlm.rst:129
+msgid ""
+"The graphical composite model editor is an extension and specialization "
+"of the OpenModelica connection editor OMEdit. A composite model is "
+"composed of several external sub-models including the interconnections "
+"between these sub-models. External models are models which need not be in"
+" Modelica, they can be FMUs, or models accessed by proxies for co-"
+"simulation and connected by TLM-connections. The standard way to store a "
+"composite model is in an XML format. The XML schema standard is "
+"accessible from tlmModelDescription.xsd. Currently composite models can "
+"only be used for TLM based co-simulation of external models."
+msgstr ""
+
+#: ../../source/fmitlm.rst:139
+msgid "Loading a Composite Model for Co-Simulation"
+msgstr ""
+
+#: ../../source/fmitlm.rst:141
+msgid ""
+"To load the composite model, select **File > Open Composite Model(s)** "
+"from the menu and select compositemodel.xml."
+msgstr ""
+
+#: ../../source/fmitlm.rst:144
+msgid ""
+"OMEdit loads the composite model and show it in the **Libraries "
+"Browser**. Double-clicking the composite model in the **Libraries "
+"Browser** will display the composite model as shown below in :numref"
+":`tlm-double-pendulum-compositemodel`."
+msgstr ""
+
+#: ../../source/fmitlm.rst:152
+msgid "Composite Model with 3D View."
+msgstr ""
+
+#: ../../source/fmitlm.rst:155
+msgid "Co-Simulating the Composite Model"
+msgstr ""
+
+#: ../../source/fmitlm.rst:157
+msgid "There are two ways to start co-simulation:"
+msgstr ""
+
+#: ../../source/fmitlm.rst:159
+msgid ""
+"Click **TLM Co-Simulation setup button** (|tlm-simulate|) from the "
+"toolbar (requires a composite model to be active in ModelWidget)"
+msgstr ""
+
+#: ../../source/fmitlm.rst:165
+msgid ""
+"Right click the composite model in the **Libraries Browser** and choose "
+"**TLM Co-Simulation setup** from the popup menu (see :numref:`tlm-"
+"library-browser-popup-menu`)"
+msgstr ""
+
+#: ../../source/fmitlm.rst:170
+msgid ""
+"Co-simulating and Fetching Interface Data of a composite model from the "
+"Popup Menu ."
+msgstr ""
+
+#: ../../source/fmitlm.rst:172
+msgid ""
+"The TLM Co-Simulation setup appears as shown below in :numref:`tlm-"
+"cosimulation-setup`."
+msgstr ""
+
+#: ../../source/fmitlm.rst:177
+msgid "TLM Co-simulation Setup."
+msgstr ""
+
+#: ../../source/fmitlm.rst:179
+msgid ""
+"Click **Simulate** from the Co-simulation setup to confirm the co-"
+"simulation. :numref:`tlm-cosimulation-progress` will appears in which you"
+" will be able to see the progress information of the running co-"
+"simulation."
+msgstr ""
+
+#: ../../source/fmitlm.rst:186
+msgid "TLM Co-Simulation Progress."
+msgstr ""
+
+#: ../../source/fmitlm.rst:188
+msgid ""
+"The editor also provides the means of reading the log files generated by "
+"the simulation manager and monitor. When the simulation ends, click "
+"**Open Manager Log File** or **Open Monitor Log File** from the co-"
+"simulation progress bar to check the log files."
+msgstr ""
+
+#: ../../source/fmitlm.rst:193
+msgid "Plotting the Simulation Results"
+msgstr ""
+
+#: ../../source/fmitlm.rst:195
+msgid ""
+"When the co-simulation of the composite model is completed successful, "
+"simulation results are collected and visualized in the OMEdit plotting "
+"perspective as shown in :numref:`tlm-plotting-cosimulation-results` and "
+":numref:`tlm-cosimulation-visualization`. The **Variables Browser** "
+"display variables that can be plotted. Each variable has a checkbox, "
+"checking it will plot the variable."
+msgstr ""
+
+#: ../../source/fmitlm.rst:202
+msgid "TLM Co-Simulation Results Plotting."
+msgstr ""
+
+#: ../../source/fmitlm.rst:207
+msgid "TLM Co-Simulation Visualization."
+msgstr ""
+
+#: ../../source/fmitlm.rst:210
+msgid "Preparing External Models"
+msgstr ""
+
+#: ../../source/fmitlm.rst:212
+msgid ""
+"First step in co-simulation Modeling is to prepare the different external"
+" simulation models with TLM interfaces. Each external model belongs to a "
+"specific simulation tool, such as **MATLAB/Simulink***, **BEAST**, "
+"**MSC/ADAMS**, **Dymola** and **Wolfram SystemModeler**."
+msgstr ""
+
+#: ../../source/fmitlm.rst:216
+msgid ""
+"When the external models have all been prepared, the next step is to load"
+" external models in OMEdit by selecting the **File > Load External "
+"Model(s)** from the menu."
+msgstr ""
+
+#: ../../source/fmitlm.rst:219
+msgid ""
+"OMEdit loads the external model and show it in the **Libraries Browser** "
+"as shown below in :numref:`tlm-loaded-external-models-library-browser`."
+msgstr ""
+
+#: ../../source/fmitlm.rst:225
+msgid "External Models in OMEdit."
+msgstr ""
+
+#: ../../source/fmitlm.rst:228
+msgid "Creating a New Composite Model"
+msgstr ""
+
+#: ../../source/fmitlm.rst:230
+msgid ""
+"We will use the \"Double pendulum\" composite model which is a multibody "
+"system that consists of three sub-models: Two OpenModelica **Shaft** sub-"
+"models (**Shaft1** and **Shaft2**) and one **SKF/BEAST bearing** sub-"
+"model that together build a double pendulum. The **SKF/BEAST bearing** "
+"sub-model is a simplified model with only three balls to speed up the "
+"simulation. **Shaft1** is connected with a spherical joint to the world "
+"coordinate system. The end of **Shaft1** is connected via a TLM interface"
+" to the outer ring of the BEAST bearing model. The inner ring of the "
+"bearing model is connected via another TLM interface to **Shaft2**. "
+"Together they build the double pendulum with two **shafts**, one "
+"spherical OpenModelica joint, and one BEAST bearing."
+msgstr ""
+
+#: ../../source/fmitlm.rst:241
+msgid ""
+"To create a new composite model select **File > New Composite Model** "
+"from the menu."
+msgstr ""
+
+#: ../../source/fmitlm.rst:243
+msgid ""
+"Your new composite model will appear in the in the **Libraries Browser** "
+"once created. To facilitate the process of textual composite modeling and"
+" to provide users with a starting point, the **Text View** (see :numref"
+":`tlm-new-compositemodel-textview`) includes the composite model XML "
+"elements and the default simulation parameters."
+msgstr ""
+
+#: ../../source/fmitlm.rst:251
+msgid "New composite model text view."
+msgstr ""
+
+#: ../../source/fmitlm.rst:254
+msgid "Adding Submodels"
+msgstr ""
+
+#: ../../source/fmitlm.rst:256
+msgid ""
+"It is possible to build the double pendulum by drag-and-drop of each "
+"simulation model component (sub-model) from the **Libraries Browser** to "
+"the Diagram View. To place a component in the Diagram View of the double "
+"pendulum model, drag each external sub-model of the double pendulum (i.e."
+" **Shaft1**, **Shaft2**, and **BEAST bearing** sub-model) from the "
+"**Libraries Browser** to the **Diagram View**."
+msgstr ""
+
+#: ../../source/fmitlm.rst:265
+msgid "Adding sub-models to the double pendulum composite model."
+msgstr ""
+
+#: ../../source/fmitlm.rst:268
+msgid "Fetching Submodels Interface Data"
+msgstr ""
+
+#: ../../source/fmitlm.rst:270
+msgid ""
+"To retrieve list of TLM interface data for sub-models, do any of the "
+"following methods:"
+msgstr ""
+
+#: ../../source/fmitlm.rst:272
+msgid ""
+"Click **Fetch Interface Data button** (|interface-data|) from the toolbar"
+" (requires a composite model to be active in ModelWidget)"
+msgstr ""
+
+#: ../../source/fmitlm.rst:278
+msgid ""
+"Right click the composite model in the **Library Browser** and choose "
+"**Fetch Interface Data** from the popup menu (see :numref:`tlm-library-"
+"browser-popup-menu`)."
+msgstr ""
+
+#: ../../source/fmitlm.rst:281
+msgid "To retrieve list of TLM interface data for a specific sub-model,"
+msgstr ""
+
+#: ../../source/fmitlm.rst:283
+msgid ""
+"Right click the sub-model inside the composite model and choose **Fetch "
+"Interface Data** from the popup menu."
+msgstr ""
+
+#: ../../source/fmitlm.rst:285
+msgid ""
+":numref:`tlm-fetch-interface-progress` will appear in which you will be "
+"able to see the progress information of fetching the interface data."
+msgstr ""
+
+#: ../../source/fmitlm.rst:291
+msgid "Fetching Interface Data Progress."
+msgstr ""
+
+#: ../../source/fmitlm.rst:293
+msgid ""
+"Once the TLM interface data of the sub-models are retrieved, the "
+"interface points will appear in the diagram view as shown below in "
+":numref:`tlm-fetched-interface-points`."
+msgstr ""
+
+#: ../../source/fmitlm.rst:299
+msgid "Fetching Interface Data."
+msgstr ""
+
+#: ../../source/fmitlm.rst:302
+msgid "Connecting Submodels"
+msgstr ""
+
+#: ../../source/fmitlm.rst:304
+msgid ""
+"When the sub-models and interface points have all been placed in the "
+"Diagram View, similar to :numref:`tlm-fetched-interface-points`, the next"
+" step is to connect the sub-models. Sub-models are connected using the "
+"**Connection Line Button** (|connect-mode|) from the toolbar."
+msgstr ""
+
+#: ../../source/fmitlm.rst:313
+msgid ""
+"To connect two sub-models, select the Connection Line Button and place "
+"the mouse cursor over an interface and click the left mouse button, then "
+"drag the cursor to the other sub-model interface, and click the left "
+"mouse button again. A connection dialog box as shown below in :numref"
+":`tlm-submodels-connection-dialog` will appear in which you will be able "
+"to specify the connection attributes."
+msgstr ""
+
+#: ../../source/fmitlm.rst:321
+msgid "Sub-models Connection Dialog."
+msgstr ""
+
+#: ../../source/fmitlm.rst:323
+msgid ""
+"Continue to connect all sub-models until the composite model **Diagram "
+"View** looks like the one in :numref:`tlm-connecting-submodels-double-"
+"pendulum` below."
+msgstr ""
+
+#: ../../source/fmitlm.rst:328
+msgid "Connecting sub-models of the Double Pendulum Composite Model."
+msgstr ""
+
+#: ../../source/fmitlm.rst:331
+msgid "Changing Parameter Values of Submodels"
+msgstr ""
+
+#: ../../source/fmitlm.rst:333
+msgid ""
+"To change a parameter value of a sub-model, do any of the following "
+"methods:"
+msgstr ""
+
+#: ../../source/fmitlm.rst:335
+msgid "Double-click on the sub-model you want to change its parameter"
+msgstr ""
+
+#: ../../source/fmitlm.rst:336
+msgid "Right click on the sub-model and choose **Attributes** from the popup menu"
+msgstr ""
+
+#: ../../source/fmitlm.rst:338
+msgid ""
+"The parameter dialog of that sub-model appears as shown below in :numref"
+":`tlm-change-submodel-parameters-dialog` in which you will be able to "
+"specify the sub-models attributes."
+msgstr ""
+
+#: ../../source/fmitlm.rst:344
+msgid "Changing Parameter Values of Sub-models Dialog."
+msgstr ""
+
+#: ../../source/fmitlm.rst:347
+msgid "Changing Parameter Values of Connections"
+msgstr ""
+
+#: ../../source/fmitlm.rst:349
+msgid ""
+"To change a parameter value of a connection, do any of the following "
+"methods:"
+msgstr ""
+
+#: ../../source/fmitlm.rst:351
+msgid "Double-click on the connection you want to change its parameter"
+msgstr ""
+
+#: ../../source/fmitlm.rst:352
+msgid ""
+"Right click on the connection and choose **Attributes** from the popup "
+"menu."
+msgstr ""
+
+#: ../../source/fmitlm.rst:354
+msgid ""
+"The parameter dialog of that connection appears (see :numref:`tlm-"
+"submodels-connection-dialog`) in which you will be able to specify the "
+"connections attributes."
+msgstr ""
+
+#: ../../source/fmitlm.rst:358
+msgid "Changing Co-Simulation Parameters"
+msgstr ""
+
+#: ../../source/fmitlm.rst:360
+msgid "To change the co-simulation parameters, do any of the following methods:"
+msgstr ""
+
+#: ../../source/fmitlm.rst:362
+msgid ""
+"Click Simulation Parameters button (|simulation-parameters|) from the "
+"toolbar (requires a composite model to be active in ModelWidget)"
+msgstr ""
+
+#: ../../source/fmitlm.rst:368
+msgid ""
+"Right click an empty location in the Diagram View of the composite model "
+"and choose **Simulation Parameters** from the popup menu (see :numref"
+":`tlm-change-cosimulation-parameters-popup-menu`)"
+msgstr ""
+
+#: ../../source/fmitlm.rst:374
+msgid "Changing Co-Simulation Parameters from the Popup Menu."
+msgstr ""
+
+#: ../../source/fmitlm.rst:376
+msgid ""
+"The co-simulation parameter dialog of the composite model appears as "
+"shown below in :numref:`tlm-change-cosimulation-parameters-dialog` in "
+"which you will be able to specify the simulation parameters."
+msgstr ""
+
+#: ../../source/fmitlm.rst:382
+msgid "Changing Co-Simulation Parameters Dialog."
+msgstr ""
+

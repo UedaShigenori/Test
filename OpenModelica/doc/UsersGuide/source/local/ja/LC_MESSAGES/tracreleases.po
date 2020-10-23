@@ -1,0 +1,2823 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/tracreleases.rst:3
+msgid "Major OpenModelica Releases"
+msgstr ""
+
+#: ../../source/tracreleases.rst:5
+msgid ""
+"This Appendix lists the most important OpenModelica releases and a brief "
+"description of their contents. Right now versions from 1.3.1 to 2.0.0 are"
+" described."
+msgstr ""
+
+#: ../../source/tracreleases.rst:9
+msgid "Release Notes for OpenModelica 2.0.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:13 ../../source/tracreleases.rst:33
+#: ../../source/tracreleases.rst:53 ../../source/tracreleases.rst:73
+#: ../../source/tracreleases.rst:230 ../../source/tracreleases.rst:342
+#: ../../source/tracreleases.rst:447 ../../source/tracreleases.rst:500
+#: ../../source/tracreleases.rst:559 ../../source/tracreleases.rst:648
+#: ../../source/tracreleases.rst:731 ../../source/tracreleases.rst:841
+#: ../../source/tracreleases.rst:1001 ../../source/tracreleases.rst:1091
+#: ../../source/tracreleases.rst:1172 ../../source/tracreleases.rst:1239
+#: ../../source/tracreleases.rst:1299 ../../source/tracreleases.rst:1357
+#: ../../source/tracreleases.rst:1394 ../../source/tracreleases.rst:1437
+#: ../../source/tracreleases.rst:1509 ../../source/tracreleases.rst:1548
+#: ../../source/tracreleases.rst:1580 ../../source/tracreleases.rst:1648
+msgid "OpenModelica Compiler (OMC)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:16 ../../source/tracreleases.rst:36
+#: ../../source/tracreleases.rst:56 ../../source/tracreleases.rst:98
+#: ../../source/tracreleases.rst:264 ../../source/tracreleases.rst:392
+#: ../../source/tracreleases.rst:476 ../../source/tracreleases.rst:510
+#: ../../source/tracreleases.rst:578 ../../source/tracreleases.rst:680
+#: ../../source/tracreleases.rst:927 ../../source/tracreleases.rst:1065
+#: ../../source/tracreleases.rst:1142 ../../source/tracreleases.rst:1206
+msgid "Graphic Editor OMEdit"
+msgstr ""
+
+#: ../../source/tracreleases.rst:19 ../../source/tracreleases.rst:39
+#: ../../source/tracreleases.rst:59 ../../source/tracreleases.rst:169
+#: ../../source/tracreleases.rst:286 ../../source/tracreleases.rst:418
+#: ../../source/tracreleases.rst:485 ../../source/tracreleases.rst:529
+#: ../../source/tracreleases.rst:612 ../../source/tracreleases.rst:703
+#: ../../source/tracreleases.rst:824 ../../source/tracreleases.rst:1075
+#: ../../source/tracreleases.rst:1155
+msgid "FMI Support"
+msgstr ""
+
+#: ../../source/tracreleases.rst:22 ../../source/tracreleases.rst:42
+#: ../../source/tracreleases.rst:62 ../../source/tracreleases.rst:174
+#: ../../source/tracreleases.rst:297 ../../source/tracreleases.rst:425
+msgid "Other things"
+msgstr ""
+
+#: ../../source/tracreleases.rst:24
+msgid ""
+"`-,col=changelog,group=component,format=table) "
+"<TicketQuery(milestone=2.0.0,status=closed,severity!=trivial,resolution=fixed>`__"
+msgstr ""
+
+#: ../../source/tracreleases.rst:29
+msgid "Release Notes for OpenModelica 1.16.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:44
+msgid ""
+"`-,col=changelog,group=component,format=table) "
+"<TicketQuery(milestone=1.16.0,status=closed,severity!=trivial,resolution=fixed>`__"
+msgstr ""
+
+#: ../../source/tracreleases.rst:49
+msgid "Release Notes for OpenModelica 1.15.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:64
+msgid ""
+"`-,col=changelog,group=component,format=table) "
+"<TicketQuery(milestone=1.15.0,status=closed,severity!=trivial,resolution=fixed>`__"
+msgstr ""
+
+#: ../../source/tracreleases.rst:69
+msgid "Release Notes for OpenModelica 1.14.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:75
+msgid ""
+"The most dramatic enhancement of the OpenModelica Compiler is the New "
+"Frontend, which on the average gives a factor of 10-20 speed improvement "
+"in the flattening phase of compilation. The new frontend is default in "
+"this release, but a feature is implemented that allows the user to switch"
+" to the old frontend if problems appear for a specific model The speed of"
+" the OMEdit GUI has only slightly increased in this version, since it is "
+"still dependent mostly on the old frontend. Further GUI speed increases "
+"are available in the coming OpenModelica.1.15.0. About 200 issues have "
+"been fixed, including enhancements, compared to the previous 1.13.2 "
+"release. The bug fixes are on trac."
+msgstr ""
+
+#: ../../source/tracreleases.rst:86
+msgid ""
+"OpenModelica Compiler New Frontend news: • Implementation of expandable "
+"connectors completed, a rather large piece of work. • A number of smaller"
+" enhancements and fixes • The New Frontend (NF)gives slightly better "
+"simulation coverage on MSL 3.2.3 than the Old Frontend • The New Frontend"
+" is on the average about 20 times faster on flattening. • Remaining work "
+"is mainly on further bug fixing and testing the new frontend for all "
+"other libraries, as well as more work on modifiers of arrays in "
+"conjunction with non-expanded arrays. (The array modifiers have now been "
+"implemented in 1.16.0 but not yet it 1.14.0 in order to not delay the "
+"1.14.0 release)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:100
+msgid "Drag and drop for the text layer. • Auto completion of class names,"
+msgstr ""
+
+#: ../../source/tracreleases.rst:101
+msgid ""
+"components and annotations. • GUI for data reconciliation – a method for "
+"increasing sensor data precision • Improved duplication functionality for"
+" copying classes. • Better handling of Compiler flags. • Partly "
+"completed: annotations for dynamic icon update. • Support for "
+"connectorSizing annotation • Several bug fixes. You can find the list "
+"here. • Docs: "
+"https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/omedit.html . "
+"• Autocomplete annotations. • Support for Icon/Diagram map annotation • "
+"Copy paste functionality • Reset OMEdit settings/options. • Array plots "
+"update on re-simulation • Support for connectorSizing annotation. • Drag "
+"and drop class names to text layer in OMEdit • OMPlot: Improved plotting "
+"e.g., top and bottom margins for better view, snap to curve etc. • GUI "
+"support for replaceable libraries is being tested in a separate branch "
+"and will be made available in the coming 1.15.0 release."
+msgstr ""
+
+#: ../../source/tracreleases.rst:117
+msgid "OMC backend and run-time system"
+msgstr ""
+
+#: ../../source/tracreleases.rst:119
+msgid "A new more efficient and correct implementation of arrays and records."
+msgstr ""
+
+#: ../../source/tracreleases.rst:120
+msgid "The FMI OMSimulator API calls are now also available in the OMC API"
+msgstr ""
+
+#: ../../source/tracreleases.rst:121
+msgid "functions, e.g. for use from OMNotebook, Jupyter notebooks."
+msgstr ""
+
+#: ../../source/tracreleases.rst:124
+msgid "Backend new features"
+msgstr ""
+
+#: ../../source/tracreleases.rst:126
+msgid "Added possibility to generate analytic Jacobians for linear strong"
+msgstr ""
+
+#: ../../source/tracreleases.rst:127
+msgid "components"
+msgstr ""
+
+#: ../../source/tracreleases.rst:129
+msgid ""
+"``   * -Use flag LSanalyticJacobian to enable analytical Jacobian for "
+"linear loops. Default false.``"
+msgstr ""
+
+#: ../../source/tracreleases.rst:131
+msgid "Added output language options for linearization: matlab, python,"
+msgstr ""
+
+#: ../../source/tracreleases.rst:132
+msgid ""
+"julia. • Available with "
+"--linearizationDumpLanguage=modelica/matlab/python/julia. Default is "
+"modelica."
+msgstr ""
+
+#: ../../source/tracreleases.rst:137
+msgid "Backend enhancements"
+msgstr ""
+
+#: ../../source/tracreleases.rst:139
+msgid "Unified Jacobian evaluation from DASSL and IDA integrators • Added"
+msgstr ""
+
+#: ../../source/tracreleases.rst:140
+msgid ""
+"result check for linear solvers Lis, Klu, Total Pivot and Umfpack if a "
+"residual function is available. • Improved debug dumping"
+msgstr ""
+
+#: ../../source/tracreleases.rst:143
+msgid "``   * -d=bltdump (Index reduction information)``"
+msgstr ""
+
+#: ../../source/tracreleases.rst:144
+msgid "``   * -d=initialization``"
+msgstr ""
+
+#: ../../source/tracreleases.rst:145
+msgid "``   * -d=dumpLoops``"
+msgstr ""
+
+#: ../../source/tracreleases.rst:147
+msgid "Improved warning for iteration variables:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:149
+msgid ""
+"``   * Only warn about non-linear iteration variables with default start "
+"attribute.``"
+msgstr ""
+
+#: ../../source/tracreleases.rst:150
+msgid "``   * Other variables have no influence on simulation at all.``"
+msgstr ""
+
+#: ../../source/tracreleases.rst:152
+msgid "Build instructions for OpenModelica on Windows Subsystem for Linux •"
+msgstr ""
+
+#: ../../source/tracreleases.rst:153
+msgid ""
+"Improved Jacobian evaluation with translation flag -d=symJacConstantSplit"
+" (requires --generateSymbolicJacobian) Generate Jacobians with separated "
+"constant part to split equations that are independent of the seed vector."
+" These equations only need to be evaluated only once per Jacobian "
+"evaluation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:160
+msgid "Backend bugfixes"
+msgstr ""
+
+#: ../../source/tracreleases.rst:162
+msgid "Homotopy: Use simplified version only during initialization to avoid"
+msgstr ""
+
+#: ../../source/tracreleases.rst:163
+msgid ""
+"errors during matching and differentiation. • Logging for Homotopy path "
+"fixed so log can be loaded in OMEdit. • Support general function call "
+"differentiation for equations in residual form. • Equations in residual "
+"form don't fail during index reduction any more."
+msgstr ""
+
+#: ../../source/tracreleases.rst:171
+msgid "Bug fixes to FMI export, see below"
+msgstr ""
+
+#: ../../source/tracreleases.rst:176
+msgid ""
+"`-,col=changelog,group=component,format=table) "
+"<TicketQuery(milestone=1.14.0,status=closed,severity!=trivial,resolution=fixed>`__"
+msgstr ""
+
+#: ../../source/tracreleases.rst:181
+msgid "Release Notes for OpenModelica 1.13.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:184
+msgid "OMSimulator 2.0 – the second release of our efficient FMI Simulation"
+msgstr ""
+
+#: ../../source/tracreleases.rst:185
+#, python-format
+msgid ""
+"tool including a GUI for FMI Composition, co-simulation and model-"
+"exchange simulation, and SSP standard support. - Model and library "
+"encryption/decryption support. (Only for usage by OSMC member "
+"organizations) - Improved OpenModelica DAEMode for efficient solution of "
+"large Modelica models. - Julia scripting API to OpenModelica. - Basic "
+"Matlab scripting API to OpenModelica. - OMSysIdent - parameter estimation"
+" module for linear and non-linear parametric dynamic models. - "
+"Interactive simulation and control of simulations with OPC-UA. - "
+"PDEModelica1 - experimental support for one-dimensional PDEs in Modelica."
+" - Analytic directional derivatives for FMI export and efficient "
+"calculation of multiple Jacobian columns – giving much faster simulation "
+"for some models - Enhanced OMEdit – including fast multi-file search. - "
+"Improved error messages and stability. - A version of the new fast "
+"compiler frontend available for testing, can be enabled by a flag "
+"Currently (December 10), simulates about 84% of MSL 3.2.2"
+msgstr ""
+
+#: ../../source/tracreleases.rst:201
+msgid ""
+"Note: the replaceable GUI support has been moved to OpenModelica 1.14.0 "
+"and will be available in nightly builds."
+msgstr ""
+
+#: ../../source/tracreleases.rst:204
+msgid ""
+"`-,col=changelog,group=component,format=table) "
+"<TicketQuery(milestone=1.13.0,status=closed,severity!=trivial,resolution=fixed>`__"
+msgstr ""
+
+#: ../../source/tracreleases.rst:209
+msgid "Release Notes for OpenModelica 1.12.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:212
+msgid ""
+"A new (stand-alone) FMI- and TLM-based simulation tool OMSimulator, first"
+" version for connected FMUs, TLM objects, Simulink models (via wrappers),"
+" Adams models (via wrappers), BEAST models (via wrappers), Modelica "
+"models"
+msgstr ""
+
+#: ../../source/tracreleases.rst:216 ../../source/tracreleases.rst:291
+msgid "Graphic configuration editing of composite models consisting of FMUs"
+msgstr ""
+
+#: ../../source/tracreleases.rst:217
+msgid "Basic graphical editing support for state machines and transitions"
+msgstr ""
+
+#: ../../source/tracreleases.rst:218
+msgid ""
+"Faster lookup processing, making some libraries faster to browse and "
+"compile"
+msgstr ""
+
+#: ../../source/tracreleases.rst:220
+msgid "Additional advanced visualization features for multibody animation"
+msgstr ""
+
+#: ../../source/tracreleases.rst:221
+msgid ""
+"Increased library coverage including significantly increased verification"
+" coverage"
+msgstr ""
+
+#: ../../source/tracreleases.rst:223
+msgid ""
+"Increased tool interoperability by addition of the ZeroMQ communications "
+"protocol"
+msgstr ""
+
+#: ../../source/tracreleases.rst:225
+msgid ""
+"Further enhanced OMPython including linearization, now also working with "
+"Python 3"
+msgstr ""
+
+#: ../../source/tracreleases.rst:227 ../../source/tracreleases.rst:313
+msgid "Support for RedHat/Fedora binary builds of OpenModelica"
+msgstr ""
+
+#: ../../source/tracreleases.rst:232
+msgid "Faster lookup processing"
+msgstr ""
+
+#: ../../source/tracreleases.rst:233
+msgid "Initializing external objects together with parameters"
+msgstr ""
+
+#: ../../source/tracreleases.rst:234
+msgid "Handle exceptions in numeric solvers"
+msgstr ""
+
+#: ../../source/tracreleases.rst:235
+msgid "Support for higher-index discrete clock partitions"
+msgstr ""
+
+#: ../../source/tracreleases.rst:236
+msgid "Improved unit checking"
+msgstr ""
+
+#: ../../source/tracreleases.rst:237
+msgid "Improved initialization of start values"
+msgstr ""
+
+#: ../../source/tracreleases.rst:238
+msgid "Decreased compilation time of models with large size arrays"
+msgstr ""
+
+#: ../../source/tracreleases.rst:239
+msgid "New approach for homotopy-based initialization (still experimental)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:240
+msgid "A bunch of fixes: Bugs, regressions, performance issues"
+msgstr ""
+
+#: ../../source/tracreleases.rst:241
+msgid "Improved Dynamic Tearing by adding constraints for the casual set"
+msgstr ""
+
+#: ../../source/tracreleases.rst:242
+msgid ""
+"Improved module wrapFunctionCalls with one-time evaluation of Constant "
+"CSE-variables"
+msgstr ""
+
+#: ../../source/tracreleases.rst:244
+msgid "Added initOptModule for inlineHomotopy"
+msgstr ""
+
+#: ../../source/tracreleases.rst:245
+msgid "Added configuration flag tearingStrictness to influence solvability"
+msgstr ""
+
+#: ../../source/tracreleases.rst:246
+msgid ""
+"New methods for inline integration for continuous equations in clocked "
+"partitions, now covering: ExplicitEuler, ImplicitEuler, SemiImplicitEuler"
+" and ImplicitTrapezoid"
+msgstr ""
+
+#: ../../source/tracreleases.rst:249
+msgid "Complete implementation of synchronous features in C++ runtime"
+msgstr ""
+
+#: ../../source/tracreleases.rst:250
+msgid "Refactored linear solver of C++ runtime"
+msgstr ""
+
+#: ../../source/tracreleases.rst:251
+msgid "Improved Modelica\\_synchronous\\_cpp coverage"
+msgstr ""
+
+#: ../../source/tracreleases.rst:252
+msgid "New common linear solver module, optionally sparse, for the C++ runtime"
+msgstr ""
+
+#: ../../source/tracreleases.rst:254
+msgid "Coverage of most of the OpenHydraulics library"
+msgstr ""
+
+#: ../../source/tracreleases.rst:255
+msgid "Improved coverage of ThermoSysPro, IdealizedContact and Chemical libraries"
+msgstr ""
+
+#: ../../source/tracreleases.rst:257
+msgid ""
+"Support of time events for cpp-simulation and enabled time events in cpp-"
+"FMUs"
+msgstr ""
+
+#: ../../source/tracreleases.rst:259
+msgid "Global homotopy method for initialization"
+msgstr ""
+
+#: ../../source/tracreleases.rst:260
+msgid ""
+"Scripting API to compute accumulated errors (1-norm, 2-norm, max. error) "
+"of 2 time series"
+msgstr ""
+
+#: ../../source/tracreleases.rst:266
+msgid ""
+"Additional advanced visualization features for multibody animation "
+"(transparency, textures, change colours by dialog)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:268
+msgid "An HTML WYSIWYG Editor, e.g. useful for documentation"
+msgstr ""
+
+#: ../../source/tracreleases.rst:269
+msgid "Support for choices(checkBox=true) annotation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:270
+msgid "Support for loadSelector & saveSelector attribute of Dialog annotation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:272
+msgid "Panning of icon/diagram view and plot window."
+msgstr ""
+
+#: ../../source/tracreleases.rst:273
+msgid ""
+"AutoComplete feature in text editing for keywords, types, common Modelica"
+" constructs"
+msgstr ""
+
+#: ../../source/tracreleases.rst:275
+msgid "Follow connector transformation from Diagram View to Icon View."
+msgstr ""
+
+#: ../../source/tracreleases.rst:276
+msgid "Further stability improvements"
+msgstr ""
+
+#: ../../source/tracreleases.rst:277
+msgid "Improved performance for rendering some icons using the interactive API"
+msgstr ""
+
+#: ../../source/tracreleases.rst:279
+msgid ""
+"Improved handling of parameters that cannot be evaluated in Icon "
+"annotations"
+msgstr ""
+
+#: ../../source/tracreleases.rst:281
+msgid ""
+"Basic graphic editing support for state machines and transitions (not yet"
+" support for showing state internals on diagram layer)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:283
+msgid "Interactive state manipulation for FMU-based animations"
+msgstr ""
+
+#: ../../source/tracreleases.rst:288
+msgid ""
+"A new (stand-alone) FMI- and TLM-based simulation tool OMSimulator, first"
+" version (a main deliverable of the OPENCPS project, significant "
+"contributions and code donations from SKF)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:292
+msgid ""
+"Co-simulation/simulation of connected FMUs, TLM objects, Simulink models "
+"(via wrappers), Adams models (via wrappers), BEAST models (via wrappers),"
+" Modelica models."
+msgstr ""
+
+#: ../../source/tracreleases.rst:299
+msgid ""
+"Increased OpenModelica tool interoperability by adding the ZeroMQ "
+"communications protocol in addition to the previously available Corba. "
+"This also enables Python 3 usage in OMPython on all platforms."
+msgstr ""
+
+#: ../../source/tracreleases.rst:302
+msgid ""
+"Textual support through the OpenModelica API and graphical support in "
+"OMEdit for generation of single or multiple requirement verification "
+"scenarios"
+msgstr ""
+
+#: ../../source/tracreleases.rst:305
+msgid ""
+"VVDRlib – a small library for connecting requirements and models "
+"together, with notions for mediators, scenarios, design alternatives"
+msgstr ""
+
+#: ../../source/tracreleases.rst:307
+msgid ""
+"Further enhanced OMPython including linearization, now also working with "
+"Python 3.¨"
+msgstr ""
+
+#: ../../source/tracreleases.rst:309
+msgid "Jupyter notebooks also supported with OMPython and Python 3"
+msgstr ""
+
+#: ../../source/tracreleases.rst:310
+msgid "New enhanced library testing script (libraries.openmodelica.org/branches)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:312
+msgid "Addition of mutable reference data types in MetaModelica"
+msgstr ""
+
+#: ../../source/tracreleases.rst:314
+msgid ""
+"Support for exporting the system of equations in GraphML (yEd) format for"
+" debugging"
+msgstr ""
+
+#: ../../source/tracreleases.rst:317
+msgid ""
+"`-,col=changelog,group=component,format=table) "
+"<TicketQuery(milestone=1.12.0,status=closed,severity!=trivial,resolution=fixed>`__"
+msgstr ""
+
+#: ../../source/tracreleases.rst:322
+msgid "Release Notes for OpenModelica 1.11.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:325
+msgid ""
+"Dramatically improved compilation speed and performance, in particular "
+"for large models."
+msgstr ""
+
+#: ../../source/tracreleases.rst:327 ../../source/tracreleases.rst:427
+msgid ""
+"3D animation visualization of regular MSL MultiBody simulations and for "
+"real-time FMUs."
+msgstr ""
+
+#: ../../source/tracreleases.rst:329
+#, python-format
+msgid ""
+"Better support for synchronous and state machine language elements, now "
+"supports 90% of the clocked synchronous library."
+msgstr ""
+
+#: ../../source/tracreleases.rst:331
+msgid "Several OMEdit improvements including folding of large annotations."
+msgstr ""
+
+#: ../../source/tracreleases.rst:332
+msgid "64-bit OM on Windows further stabilized"
+msgstr ""
+
+#: ../../source/tracreleases.rst:333 ../../source/tracreleases.rst:429
+msgid ""
+"An updated OMDev (OpenModelica Development Environment), involving msys2."
+" This was needed for the shift to 64-bit on Windows."
+msgstr ""
+
+#: ../../source/tracreleases.rst:335
+msgid ""
+"Integration of Sundials/IDA DAE solver with potentially large increase of"
+" simulation performance for large models with sparse structure."
+msgstr ""
+
+#: ../../source/tracreleases.rst:338
+msgid "Improved library coverage."
+msgstr ""
+
+#: ../../source/tracreleases.rst:339
+msgid "Parameter sensitivity analysis added to OMC."
+msgstr ""
+
+#: ../../source/tracreleases.rst:344
+msgid ""
+"Real-time synchronization support by using simFlag -rt=1.0 (or some other"
+" time scaling factor)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:346
+msgid ""
+"A prototype implementation of OPC UA using an `open source OPC UA "
+"implementation <http://open62541.org>`__. The old OPC implementation was "
+"not maintained and relied on a Windows-only proprietary OPC DA+UA "
+"package. (At the moment, OPC is experimental and lacks documentation; it "
+"only handles reading/writing Real/Boolean input/state variables. It is "
+"planned for OMEdit to use OPC UA to re-implement interactive simulations "
+"and plotting.)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:353
+msgid ""
+"Dramatically improved compilation speed and dramatically reduced memory "
+"requirements for very large models. In Nov 2015, the largest power "
+"generation and transmission system model that OMC could handle had 60000 "
+"equations and it took 700 seconds to generate the simulation executable "
+"code; it now takes only 45 seconds to do so with OMC 1.11.0, which can "
+"also handle a model 10 times bigger (600 000 equations) in less than 15 "
+"minutes and with less than 32 GB of RAM. Simulation times are comparable "
+"to domain-specific simulation tools. See for example `ScalableTestSuite "
+"<https://test.openmodelica.org/libraries/ScalableTestSuite_Experimental/BuildModelRecursive.html>`__"
+" for some of the improvements."
+msgstr ""
+
+#: ../../source/tracreleases.rst:364
+msgid "Improved library coverage"
+msgstr ""
+
+#: ../../source/tracreleases.rst:365
+#, python-format
+msgid ""
+"Better support for synchronous and state machine language elements, now "
+"simulates 90% of the clocked synchronous library."
+msgstr ""
+
+#: ../../source/tracreleases.rst:367
+msgid "Enhanced Cpp runtime to support the PowerSystems library."
+msgstr ""
+
+#: ../../source/tracreleases.rst:368
+msgid "Integration of Sundials/IDA solver as an alternative to DASSL."
+msgstr ""
+
+#: ../../source/tracreleases.rst:369
+msgid ""
+"A DAEMode solver mode was added, which allows to use the sparse IDA "
+"solver to handle the DAEs directly. This can lead to substantially faster"
+" simulation on large systems with sparse structure, compared to the "
+"traditional approach."
+msgstr ""
+
+#: ../../source/tracreleases.rst:373
+msgid ""
+"The direct sparse solvers KLU and SuperLU have been added, with benefits "
+"for models with large algebraic loops."
+msgstr ""
+
+#: ../../source/tracreleases.rst:375
+msgid "Multi-parameter sensitivity analysis added to OMC."
+msgstr ""
+
+#: ../../source/tracreleases.rst:376
+msgid "Progress on more efficient inline function mechanism."
+msgstr ""
+
+#: ../../source/tracreleases.rst:377
+msgid "Stabilized 64-bit Windows support."
+msgstr ""
+
+#: ../../source/tracreleases.rst:378
+msgid "Performance improvement of parameter evaluation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:379
+msgid ""
+"Enhanced tearing support, with prefer iteration variables and user-"
+"defined tearing."
+msgstr ""
+
+#: ../../source/tracreleases.rst:381
+msgid ""
+"Support for external object aliases in connectors and equations (a non-"
+"standard Modelica extension)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:383
+msgid "Code generation directly to file (saves maximum memory used). #3356"
+msgstr ""
+
+#: ../../source/tracreleases.rst:384
+msgid ""
+"Code generation in parallel is enabled since #3356 (controlled by omc "
+"flag \\`-n\\`). This improves performance since generating code directly "
+"to file avoid memory allocation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:387
+msgid ""
+"Allowing mixed dense and sparse linear solvers in the generated "
+"simulation (chosen depending on simflags \\`-ls\\` (dense solver), "
+"\\`-lss\\` (sparse solver), \\`-lssMaxDensity\\` and \\`-lssMinSize\\`)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:394
+msgid "Significantly faster browsing of most libraries."
+msgstr ""
+
+#: ../../source/tracreleases.rst:395
+msgid "Several GUI improvements including folding of multi-line annotations."
+msgstr ""
+
+#: ../../source/tracreleases.rst:396
+msgid "Further improved code formatting preservation during edits."
+msgstr ""
+
+#: ../../source/tracreleases.rst:397
+msgid "Support for all simulation logging flags."
+msgstr ""
+
+#: ../../source/tracreleases.rst:398
+msgid "Select and export variables after simulation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:399
+msgid ""
+"Support for `Byte Order Mark "
+"<https://en.wikipedia.org/wiki/Byte_order_mark>`__. Added support enables"
+" other tools to correctly read the files written by OMEdit."
+msgstr ""
+
+#: ../../source/tracreleases.rst:403
+msgid "Save files with line endings according to OS (Windows (CRLF), Unix (LF))."
+msgstr ""
+
+#: ../../source/tracreleases.rst:405
+msgid ""
+"Added OMEdit support for FMU cross compilation. This makes it possible to"
+" launch OMEdit on a remote or virtual Linux machine using a Windows X "
+"server and export an FMU with Windows binaries."
+msgstr ""
+
+#: ../../source/tracreleases.rst:408
+msgid "Support of DisplayUnit and unit conversion."
+msgstr ""
+
+#: ../../source/tracreleases.rst:409
+msgid "Fixed automatic save."
+msgstr ""
+
+#: ../../source/tracreleases.rst:410
+msgid ""
+"Initial support for DynamicSelect in model diagrams (texts and visible "
+"attribute after simulation, no expressions yet)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:412
+msgid ""
+"An HTML documentation editor (not WYSIWYG; that editor will be available "
+"in the subsequent release)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:414
+msgid ""
+"Improved logging in OMEdit of structured messages and standard output "
+"streams for simulations."
+msgstr ""
+
+#: ../../source/tracreleases.rst:420
+msgid ""
+"Cross compilation of C++ FMU export. Compared to the C runtime, the C++ "
+"cross compilation covers the whole runtime for model exchange."
+msgstr ""
+
+#: ../../source/tracreleases.rst:422
+msgid "Improved Newton solver for C++ FMUs (scaling and step size control)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:431
+msgid ""
+"`OMWebbook <http://omwebbook.openmodelica.org/>`__, a web version of "
+"OMNotebook online. Also, a script is available to convert an OMNotebook "
+"to an OMWebbook."
+msgstr ""
+
+#: ../../source/tracreleases.rst:434
+msgid "A Jupyter notebook Modelica mode, available in OpenModelica."
+msgstr ""
+
+#: ../../source/tracreleases.rst:436
+msgid ""
+"`1.11.0,status=closed,severity!=trivial,resolution=fixed\\|-,col=changelog,group=component,format=table)"
+" <TicketQuery(milestone=1.10.0>`__"
+msgstr ""
+
+#: ../../source/tracreleases.rst:441
+msgid "Release Notes for OpenModelica 1.10.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:444
+msgid "The most important enhancements in the OpenModelica 1.10.0 release:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:449
+msgid "New features:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:451
+msgid "Real-time synchronization support by using simFlag -rt=1.0 (or some"
+msgstr ""
+
+#: ../../source/tracreleases.rst:452
+msgid ""
+"other time scaling factor). - A prototype implementation of OPC UA using "
+"an `open source OPC UA implementation <http://open62541.org>`__. The old "
+"OPC implementation was not maintained and relied on a Windows-only "
+"proprietary OPC DA+UA package. (At the moment, OPC is experimental and "
+"lacks documentation; it only handles reading/writing Real/Boolean "
+"input/state variables. It is planned for OMEdit to use OPC UA to re-"
+"implement interactive simulations and plotting.)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:460
+msgid "Performance enhancements:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:462
+msgid "Code generation directly to file (saves maximum memory used). #3356 -"
+msgstr ""
+
+#: ../../source/tracreleases.rst:463
+msgid ""
+"Code generation in parallel enabled since #3356 allows this without "
+"allocating too much memory (controlled by omc flag \\`-n\\`). - Various "
+"scalability enhancements, allowing the compiler to handle hundreds of "
+"thousands of equations. See for example `ScalableTestSuite "
+"<https://test.openmodelica.org/libraries/ScalableTestSuite_Experimental/BuildModelRecursive.html>`__"
+" for some of the improvements. - Better defaults for handling tearing "
+"(OMC flags \\`--maxSizeLinearTearing\\` and "
+"\\`--maxSizeNonlinearTearing\\`). - Allowing mixed dense and sparse "
+"linear solvers in the generated simulation (chosen depending on simflags "
+"\\`-ls\\` (dense solver), \\`-lss\\` (sparse solver), "
+"\\`-lssMaxDensity\\` and \\`-lssMinSize\\`)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:479 ../../source/tracreleases.rst:590
+#: ../../source/tracreleases.rst:906 ../../source/tracreleases.rst:1045
+#: ../../source/tracreleases.rst:1118 ../../source/tracreleases.rst:1194
+#: ../../source/tracreleases.rst:1262 ../../source/tracreleases.rst:1343
+#: ../../source/tracreleases.rst:1372 ../../source/tracreleases.rst:1405
+#: ../../source/tracreleases.rst:1468 ../../source/tracreleases.rst:1523
+#: ../../source/tracreleases.rst:1601 ../../source/tracreleases.rst:1672
+msgid "OpenModelica Notebook (OMNotebook)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:482 ../../source/tracreleases.rst:600
+#: ../../source/tracreleases.rst:697 ../../source/tracreleases.rst:818
+msgid "Optimization"
+msgstr ""
+
+#: ../../source/tracreleases.rst:488 ../../source/tracreleases.rst:617
+#: ../../source/tracreleases.rst:921 ../../source/tracreleases.rst:1060
+#: ../../source/tracreleases.rst:1135 ../../source/tracreleases.rst:1268
+#: ../../source/tracreleases.rst:1422 ../../source/tracreleases.rst:1496
+#: ../../source/tracreleases.rst:1565 ../../source/tracreleases.rst:1621
+#: ../../source/tracreleases.rst:1688
+msgid "OpenModelica Development Environment (OMDev)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:493
+msgid "Release Notes for OpenModelica 1.9.4"
+msgstr ""
+
+#: ../../source/tracreleases.rst:496
+msgid ""
+"OpenModelica v1.9.4 was released 2016-03-09. These notes cover the v1.9.4"
+" release and its subsequent bug-fix releases (now up to 1.9.7)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:502
+#, python-format
+msgid ""
+"Improved simulation speed for many models. simulation speed went up for "
+"80% of the models. The compiler frontend became faster for almost all "
+"models, average about 40% faster."
+msgstr ""
+
+#: ../../source/tracreleases.rst:505
+msgid ""
+"Initial support for synchronous models with clocked equations as defined "
+"in the Modelica 3.3 standard"
+msgstr ""
+
+#: ../../source/tracreleases.rst:507
+msgid "Support for homotopy operator"
+msgstr ""
+
+#: ../../source/tracreleases.rst:512
+msgid "Undo/Redo support."
+msgstr ""
+
+#: ../../source/tracreleases.rst:513
+msgid ""
+"Preserving text formatting, including indentation and whitespace. This is"
+" especially important for diff/merge with several collaborating "
+"developers possibly using several different Modelica tools."
+msgstr ""
+
+#: ../../source/tracreleases.rst:517
+msgid "Better support for inherited classes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:518
+msgid "Allow simulating models using visual studio compiler."
+msgstr ""
+
+#: ../../source/tracreleases.rst:519
+msgid "Support for saving Modelica package in a folder structure."
+msgstr ""
+
+#: ../../source/tracreleases.rst:520
+msgid "Allow reordering of classes inside a package."
+msgstr ""
+
+#: ../../source/tracreleases.rst:521
+msgid "Highlight matching parentheses in text view."
+msgstr ""
+
+#: ../../source/tracreleases.rst:522
+msgid "When copying the text retain the text highlighting and formatting."
+msgstr ""
+
+#: ../../source/tracreleases.rst:523
+msgid ""
+"Support for global head definition in the documentation by using "
+"\\`\\_\\_OpenModelica\\_infoHeader\\` annotation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:525
+msgid "Support for expandable connectors."
+msgstr ""
+
+#: ../../source/tracreleases.rst:526
+msgid "Support for uses annotation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:531
+msgid "Full FMI 2.0 co-simulation support now available"
+msgstr ""
+
+#: ../../source/tracreleases.rst:532
+msgid ""
+"Upgrade Cpp runtime from C++03 to C++11 standard, minimizing external "
+"link dependencies. Exported FMUs don't depend on additional libraries "
+"such as boost anymore"
+msgstr ""
+
+#: ../../source/tracreleases.rst:535
+msgid "FMI 2.0 is broken for some models in 1.9.4. Upgrading to 1.9.6 is advised."
+msgstr ""
+
+#: ../../source/tracreleases.rst:541
+msgid "Release Notes for OpenModelica 1.9.3"
+msgstr ""
+
+#: ../../source/tracreleases.rst:544
+msgid "The most important enhancements in the OpenModelica 1.9.3 release:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:546
+msgid ""
+"Enhanced collaborative development and testing of OpenModelica by moving "
+"to the GIT-hub framework for versioning and parallel development."
+msgstr ""
+
+#: ../../source/tracreleases.rst:549
+msgid ""
+"More accessible and up-to-date automatically generated documentation "
+"provided in both `html "
+"<https://www.openmodelica.org/doc/OpenModelicaUsersGuide/latest/>`__ and "
+"`pdf <https://openmodelica.org/doc/OpenModelicaUsersGuide"
+"/OpenModelicaUsersGuide-latest.pdf>`__."
+msgstr ""
+
+#: ../../source/tracreleases.rst:554
+msgid "Further improved simulation speed and coverage of several libraries."
+msgstr ""
+
+#: ../../source/tracreleases.rst:555
+msgid "OMEdit graphic connection editor improvements."
+msgstr ""
+
+#: ../../source/tracreleases.rst:556
+msgid "OMNotebook improvements."
+msgstr ""
+
+#: ../../source/tracreleases.rst:561 ../../source/tracreleases.rst:650
+#: ../../source/tracreleases.rst:733
+msgid ""
+"This release mainly includes improvements of the OpenModelica Compiler "
+"(OMC), including, but not restricted to the following:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:564
+msgid "Further improved simulation speed and coverage for several libraries."
+msgstr ""
+
+#: ../../source/tracreleases.rst:565
+msgid ""
+"Faster generated code for functions involving arrays, factor 2 speedup "
+"for many power generation models."
+msgstr ""
+
+#: ../../source/tracreleases.rst:567 ../../source/tracreleases.rst:673
+msgid "Better initialization."
+msgstr ""
+
+#: ../../source/tracreleases.rst:568
+msgid "An implicit inline Euler solver available."
+msgstr ""
+
+#: ../../source/tracreleases.rst:569
+msgid "Code generation to enable vectorization of for-loops."
+msgstr ""
+
+#: ../../source/tracreleases.rst:570 ../../source/tracreleases.rst:675
+msgid "Improved non-linear, linear and mixed system solving."
+msgstr ""
+
+#: ../../source/tracreleases.rst:571
+msgid "Cross-compilation for the ARMhf architecture."
+msgstr ""
+
+#: ../../source/tracreleases.rst:572
+msgid "A prototype state machine implementation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:573
+msgid "Improved performance and stability of the C++ runtime option."
+msgstr ""
+
+#: ../../source/tracreleases.rst:574
+msgid ""
+"More accessible and up-to-date automatically generated documentation "
+"provided in both html and .pdf."
+msgstr ""
+
+#: ../../source/tracreleases.rst:580
+msgid ""
+"There are several improvements to the OpenModelica graphic connection "
+"editor OMEdit:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:583
+msgid "Support for uses annotations."
+msgstr ""
+
+#: ../../source/tracreleases.rst:584
+msgid "Support for declaring components as vectors."
+msgstr ""
+
+#: ../../source/tracreleases.rst:585
+msgid "Faster messages browser with clickable error messages."
+msgstr ""
+
+#: ../../source/tracreleases.rst:586
+msgid "Support for managing the stacking order of graphical shapes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:587
+msgid "Several improvements to the plot tool and text editor in OMEdit."
+msgstr ""
+
+#: ../../source/tracreleases.rst:592
+msgid "Several improvements:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:594
+msgid "Support for moving cells from one place to another in a notebook."
+msgstr ""
+
+#: ../../source/tracreleases.rst:595
+msgid "A button for evaluation of whole notebooks."
+msgstr ""
+
+#: ../../source/tracreleases.rst:596
+msgid ""
+"A new cell type called Latex cells, supporting Latex formatted input that"
+" provides mathematical typesetting of formulae when evaluated."
+msgstr ""
+
+#: ../../source/tracreleases.rst:602
+msgid ""
+"Several improvements of the Dynamic Optimization module with collocation,"
+" using Ipopt:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:605
+msgid ""
+"Better performance due to smart treatment of algebraic loops for "
+"optimization."
+msgstr ""
+
+#: ../../source/tracreleases.rst:607
+msgid ""
+"Improved formulation of optimization problems with an annotation approach"
+" which also allows graphical problem formulation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:609
+msgid "Proper handling of constraints at final time."
+msgstr ""
+
+#: ../../source/tracreleases.rst:614
+msgid "Further improved FMI 2.0 co-simulation support."
+msgstr ""
+
+#: ../../source/tracreleases.rst:619
+msgid ""
+"A big change: version handling and parallel development has been improved"
+" by moving from SVN to GIThub. This makes it easier for each developer to"
+" test his/her fixes and enhancements before committing the code. "
+"Automatic mirroring of all code is still performed to the OpenModelica "
+"SVN site."
+msgstr ""
+
+#: ../../source/tracreleases.rst:628
+msgid "Release Notes for OpenModelica 1.9.2"
+msgstr ""
+
+#: ../../source/tracreleases.rst:631
+msgid ""
+"The OpenModelica 1.9.2 Beta release is available now, January 31, 2015. "
+"Please try it and give feedback! The final release is planned within 1-2 "
+"weeks after some more testing. The most important enhancements in the "
+"OpenModelica 1.9.2 release:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:636 ../../source/tracreleases.rst:653
+msgid ""
+"The OpenModelica compiler has moved to a new development and release "
+"platform: the bootstrapped OpenModelica compiler. This gives advantages "
+"in terms of better programmability, maintenance, debugging, modularity "
+"and current/future performance increases."
+msgstr ""
+
+#: ../../source/tracreleases.rst:640 ../../source/tracreleases.rst:682
+msgid ""
+"The OpenModelica graphic connection editor OMEdit has become 3-5 times "
+"faster due to faster communication with the OpenModelica compiler linked "
+"as a DLL. This was made possible by moving to the bootstrapped compiler."
+msgstr ""
+
+#: ../../source/tracreleases.rst:644
+msgid "Further improved simulation coverage for a number of libraries."
+msgstr ""
+
+#: ../../source/tracreleases.rst:645
+msgid "OMEdit graphic connection editor improvements"
+msgstr ""
+
+#: ../../source/tracreleases.rst:657
+msgid ""
+"Further improved simulation coverage for a number of libraries compared "
+"to 1.9.1. For example:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:660
+#, python-format
+msgid "MSL 3.2.1 100% compilation, 97% simulation (3% increase)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:661
+#, python-format
+msgid "MSL Trunk 99% compilation (1% increase), 93% simulation (3% increase)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:663
+#, python-format
+msgid ""
+"ModelicaTest 3.2.1 99% compilation (2% increase), 95% simulation (6% "
+"increase)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:665
+#, python-format
+msgid "ThermoSysPro 100% compilation, 80% simulation (17% increase)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:666
+#, python-format
+msgid "ThermoPower 97% compilation (5% increase), 85% simulation (5% increase)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:668
+#, python-format
+msgid "Buildings 80% compilation (1% increase), 73% simulation (1% increase)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:671 ../../source/tracreleases.rst:739
+msgid ""
+"Further enhanced OMC compiler front-end coverage, scalability, speed and "
+"memory."
+msgstr ""
+
+#: ../../source/tracreleases.rst:674
+msgid "Improved tearing."
+msgstr ""
+
+#: ../../source/tracreleases.rst:676
+msgid ""
+"Common subexpression elimination support - drastically increases "
+"performance of some models."
+msgstr ""
+
+#: ../../source/tracreleases.rst:686
+msgid ""
+"Enhanced simulation setup window in OMEdit, which among other things "
+"include better support for integration methods and dassl options."
+msgstr ""
+
+#: ../../source/tracreleases.rst:688
+msgid "Support for running multiple simultaneous simulation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:689
+msgid "Improved handling of modifiers."
+msgstr ""
+
+#: ../../source/tracreleases.rst:690
+msgid ""
+"Re-simulate with changed options, including history support and re-"
+"simulating with previous options possibly edited."
+msgstr ""
+
+#: ../../source/tracreleases.rst:692
+msgid ""
+"More user friendly user interface by improved connection line drawing, "
+"added snap to grid for icons and conversion of icons from PNG to SVG, and"
+" some additional fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:699
+msgid ""
+"Some smaller improvements of the Dynamic Optimization module with "
+"collocation, using Ipopt."
+msgstr ""
+
+#: ../../source/tracreleases.rst:705
+msgid ""
+"Further improved for FMI 2.0 model exchange import and export, now "
+"compliant according to the FMI compliance tests. FMI 1.0 support has been"
+" further improved."
+msgstr ""
+
+#: ../../source/tracreleases.rst:712
+msgid "Release Notes for OpenModelica 1.9.1"
+msgstr ""
+
+#: ../../source/tracreleases.rst:715
+msgid "The most important enhancements in the OpenModelica 1.9.1 release:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:717
+msgid "Improved library support."
+msgstr ""
+
+#: ../../source/tracreleases.rst:718
+msgid "Further enhanced OMC compiler front-end coverage and scalability"
+msgstr ""
+
+#: ../../source/tracreleases.rst:719
+msgid ""
+"Significant improved simulation support for libraries using Fluid and "
+"Media."
+msgstr ""
+
+#: ../../source/tracreleases.rst:721
+msgid "Dynamic model debugger for equation-based models integrated with OMEdit."
+msgstr ""
+
+#: ../../source/tracreleases.rst:723
+msgid ""
+"Dynamic algorithm model debugger with OMEdit; including support for "
+"MetaModelica when using the bootstrapped compiler."
+msgstr ""
+
+#: ../../source/tracreleases.rst:726
+msgid ""
+"New features: Dynamic debugger for equation-based models; Dynamic "
+"Optimization with collocation built into OpenModelica, performance "
+"analyzer integrated with the equation model debugger."
+msgstr ""
+
+#: ../../source/tracreleases.rst:736
+msgid ""
+"Further improved OMC model compiler support for a number of libraries "
+"including MSL 3.2.1, ModelicaTest 3.2.1, PetriNet, Buildings, "
+"PowerSystems, OpenHydraulics, ThermoPower, and ThermoSysPro."
+msgstr ""
+
+#: ../../source/tracreleases.rst:741
+msgid "Better coverage of Modelica libraries using Fluid and Media."
+msgstr ""
+
+#: ../../source/tracreleases.rst:742
+msgid "Automatic differentiation of algorithms and functions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:743
+msgid "Improved testing facilities and library coverage reporting."
+msgstr ""
+
+#: ../../source/tracreleases.rst:744
+msgid ""
+"Improved model compilation speed by compiling model parts in parallel "
+"(bootstrapped compiler)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:746
+msgid "Support for running model simulations in a web browser."
+msgstr ""
+
+#: ../../source/tracreleases.rst:747
+msgid ""
+"New faster initialization that handles over-determined systems, under-"
+"determined systems, or both."
+msgstr ""
+
+#: ../../source/tracreleases.rst:749
+msgid ""
+"Compiler back-end partly redesigned for improved scalability and better "
+"modularity."
+msgstr ""
+
+#: ../../source/tracreleases.rst:751
+msgid "Better tearing support."
+msgstr ""
+
+#: ../../source/tracreleases.rst:752
+msgid ""
+"The first run-time Modelica equation-based model debugger, not available "
+"in any other Modelica tool, integrated with OMEdit."
+msgstr ""
+
+#: ../../source/tracreleases.rst:754
+msgid "Enhanced performance profiler integrated with the debugger."
+msgstr ""
+
+#: ../../source/tracreleases.rst:755
+msgid ""
+"Improved parallelization prototype with several parallelization "
+"strategies, task merging and duplication, shorter critical paths, several"
+" scheduling strategies."
+msgstr ""
+
+#: ../../source/tracreleases.rst:758
+msgid "Some support for general solving of mixed systems of equations."
+msgstr ""
+
+#: ../../source/tracreleases.rst:759
+msgid "Better error messages."
+msgstr ""
+
+#: ../../source/tracreleases.rst:760
+msgid "Improved bootstrapped OpenModelica compiler."
+msgstr ""
+
+#: ../../source/tracreleases.rst:761
+msgid "Better handling of array subscripts and dimensions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:762
+msgid "Improved support for reduction functions and operators."
+msgstr ""
+
+#: ../../source/tracreleases.rst:763
+msgid "Better support for partial functions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:764
+msgid "Better support for function tail recursion, which reduces memory usage."
+msgstr ""
+
+#: ../../source/tracreleases.rst:766
+msgid ""
+"Partial function evaluation in the back-end to improve solving singular "
+"systems."
+msgstr ""
+
+#: ../../source/tracreleases.rst:768
+msgid "Better handling of events/zero crossings."
+msgstr ""
+
+#: ../../source/tracreleases.rst:769
+msgid "Support for colored Jacobians."
+msgstr ""
+
+#: ../../source/tracreleases.rst:770
+msgid ""
+"New differentiation package that can handle a much larger number of "
+"expressions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:772
+msgid "Support for sparse solvers."
+msgstr ""
+
+#: ../../source/tracreleases.rst:773
+msgid "Better handling of asserts."
+msgstr ""
+
+#: ../../source/tracreleases.rst:774
+msgid "Improved array and matrix support."
+msgstr ""
+
+#: ../../source/tracreleases.rst:775
+msgid "Improved overloaded operators support."
+msgstr ""
+
+#: ../../source/tracreleases.rst:776
+msgid "Improved handling of overconstrained connection graphs."
+msgstr ""
+
+#: ../../source/tracreleases.rst:777
+msgid "Better support for the cardinality operator."
+msgstr ""
+
+#: ../../source/tracreleases.rst:778
+msgid "Parallel compilation of generated code for speeding up compilation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:779
+msgid "Split of model files into several for better compilation scalability."
+msgstr ""
+
+#: ../../source/tracreleases.rst:780
+msgid "Default linear tearing."
+msgstr ""
+
+#: ../../source/tracreleases.rst:781
+msgid "Support for impure functions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:782
+msgid "Better compilation flag documentation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:783
+msgid "Better automatic generation of documentation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:784
+msgid "Better support for calling functions via instance."
+msgstr ""
+
+#: ../../source/tracreleases.rst:785
+msgid "New text template based unparsing for DAE, Absyn, SCode, TaskGraphs, etc."
+msgstr ""
+
+#: ../../source/tracreleases.rst:787
+msgid ""
+"Better support for external objects (#2724, reject non-constructor "
+"functions returning external objects)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:789
+msgid "Improved C++ runtime."
+msgstr ""
+
+#: ../../source/tracreleases.rst:790
+msgid "Improved testing facilities."
+msgstr ""
+
+#: ../../source/tracreleases.rst:791
+msgid "New unit checking implementation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:792
+msgid ""
+"Support for model rewriting expressions via rewriting rules in an "
+"external file."
+msgstr ""
+
+#: ../../source/tracreleases.rst:794
+msgid ""
+"Reject more bad code (r19986, consider records with different components "
+"type-incompatible)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:798
+msgid "OpenModelica Connection Editor (OMEdit)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:800
+msgid ""
+"Convenient editing of model parameter values and re-simulation without "
+"recompilation after parameter changes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:802
+msgid "Improved plotting."
+msgstr ""
+
+#: ../../source/tracreleases.rst:803
+msgid "Better handling of flags/units/resources/crashes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:804
+msgid ""
+"Run-time Modelica equation-based model debugger that provides both "
+"dynamic run-time debugging and debugging of symbolic transformations."
+msgstr ""
+
+#: ../../source/tracreleases.rst:806
+msgid ""
+"Run-time Modelica algorithmic code debugger; also MetaModelica debugger "
+"with the bootstrapped OpenModelica compiler."
+msgstr ""
+
+#: ../../source/tracreleases.rst:810
+msgid "OMPython"
+msgstr ""
+
+#: ../../source/tracreleases.rst:812
+msgid ""
+"The interface was changed to version 2.0, which uses one object for each "
+"OpenModelica instance you want active. It also features a new and "
+"improved parser that returns easier to use datatypes like maps and lists."
+msgstr ""
+
+#: ../../source/tracreleases.rst:820
+msgid ""
+"A builtin integrated Dynamic Optimization module with collocation, using "
+"Ipopt, is now available."
+msgstr ""
+
+#: ../../source/tracreleases.rst:826
+msgid ""
+"Support for FMI 2.0 model exchange import and export has been added. FMI "
+"1.0 support has been further improved."
+msgstr ""
+
+#: ../../source/tracreleases.rst:833
+msgid "Release Notes for OpenModelica 1.9.0"
+msgstr ""
+
+#: ../../source/tracreleases.rst:835
+msgid ""
+"This is the summary description of changes to OpenModelica from 1.8.1 to "
+"1.9.0, released 2013-10-09. This release mainly includes improvements of "
+"the OpenModelica Compiler (OMC), including, but not restricted to the "
+"following:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:843
+msgid ""
+"This release mainly includes bug fixes and improvements of the "
+"OpenModelica Compiler (OMC), including, but not restricted to the "
+"following:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:847
+msgid ""
+"A more stable and complete OMC model compiler. The 1.9.0 final version "
+"simulates many more models than the previous 1.8.1 version and "
+"OpenModelica 1.9.0 beta versions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:850
+#, python-format
+msgid ""
+"Much better simulation support for MSL 3.2.1, now 270 out of 274 example "
+"models compile (98%) and 245 (89%) simulate, compared to 30% simulating "
+"in the 1.9.0 beta1 release."
+msgstr ""
+
+#: ../../source/tracreleases.rst:853
+#, python-format
+msgid ""
+"Much better simulation for the ModelicaTest 3.2.1 library, now 401 out of"
+" 428 models build (93%) and 364 simulate (85%), compared to 32% in "
+"November 2012."
+msgstr ""
+
+#: ../../source/tracreleases.rst:856
+msgid ""
+"Better simulation support for several other libraries, e.g. more than "
+"twenty examples simulate from ThermoSysPro, and all but one model from "
+"PlanarMechanics simulate."
+msgstr ""
+
+#: ../../source/tracreleases.rst:859
+msgid ""
+"Improved tearing algorithm for the compiler backend. Tearing is by "
+"default used."
+msgstr ""
+
+#: ../../source/tracreleases.rst:861
+msgid ""
+"Much faster matching and dynamic state selection algorithms for the "
+"compiler backend."
+msgstr ""
+
+#: ../../source/tracreleases.rst:863
+msgid "New index reduction algorithm implementation."
+msgstr ""
+
+#: ../../source/tracreleases.rst:864
+msgid ""
+"New default initialization method that symbolically solves the "
+"initialization problem much faster and more accurately. This is the first"
+" version that in general initialize hybrid models correctly."
+msgstr ""
+
+#: ../../source/tracreleases.rst:867
+msgid ""
+"Better class loading from files. The package.order file is now respected "
+"and the file structure is more thoroughly examined (#1764)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:869
+msgid ""
+"It is now possible to translate the error messages in the omc kernel "
+"(#1767)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:872
+msgid "FMI Support. FMI co-simulation with OpenModelica as master. Improved"
+msgstr ""
+
+#: ../../source/tracreleases.rst:873
+msgid ""
+"FMI Import and export for model exchange. Most of FMI 2.0 is now also "
+"supported."
+msgstr ""
+
+#: ../../source/tracreleases.rst:876
+msgid ""
+"Checking (when possible) that variables have been assigned to before they"
+" are used in algorithmic code (#1776)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:878
+msgid "Full version of Python scripting."
+msgstr ""
+
+#: ../../source/tracreleases.rst:879
+msgid "3D graphics visualization using the Modelica3D library."
+msgstr ""
+
+#: ../../source/tracreleases.rst:880
+msgid ""
+"The PySimulator package from DLR for additional analysis is integrated "
+"with OpenModelica (see `Modelica2012 paper "
+"<http://dx.doi.org/10.3384/ecp12076537>`__), and included in the "
+"OpenModelica distribution (Windows only)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:884
+msgid ""
+"Prototype support for uncertainty computations, special feature enabled "
+"by special flag."
+msgstr ""
+
+#: ../../source/tracreleases.rst:886
+msgid ""
+"Parallel algorithmic Modelica support (ParModelica) for efficient "
+"portable parallel algorithmic programming based on the OpenCL standard, "
+"for CPUs and GPUs."
+msgstr ""
+
+#: ../../source/tracreleases.rst:889
+msgid ""
+"Support for optimization of semiLinear according to MSL 3.3 chapter "
+"3.7.2.5 semiLinear (r12657,r12658)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:891
+msgid ""
+"The compiler is now fully bootstrapped and can compile itself using a "
+"modest amount of heap and stack space (less than the RML-based compiler, "
+"which is still the default)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:894
+msgid ""
+"Some old debug-flags were removed. Others were renamed. Debug flags can "
+"now be enabled by default."
+msgstr ""
+
+#: ../../source/tracreleases.rst:896
+msgid "Removed old unused simulation flags noClean and storeInTemp (r15927)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:897
+msgid "Many stack overflow issues were resolved."
+msgstr ""
+
+#: ../../source/tracreleases.rst:898
+msgid ""
+"Dynamic Optimization with OpenModelica. Dynamic optimization with XML "
+"export to the CasADi package is now integrated with OpenModelica. "
+"Moreover, a native integrated Dynamic Optimization prototype using Ipopt "
+"is now in the OpenModelica release, but currently needs a special flag to"
+" be turned on since it needs more testing and refinement before being "
+"generally made available."
+msgstr ""
+
+#: ../../source/tracreleases.rst:908
+msgid "A \\`shortOutput\\` option has been introduced in the simulate command"
+msgstr ""
+
+#: ../../source/tracreleases.rst:909
+msgid ""
+"for less verbose output. The DrModelica interactive document has been "
+"updated and the models tested. Almost all models now simulate with "
+"OpenModelica."
+msgstr ""
+
+#: ../../source/tracreleases.rst:914 ../../source/tracreleases.rst:1055
+#: ../../source/tracreleases.rst:1128 ../../source/tracreleases.rst:1416
+#: ../../source/tracreleases.rst:1482 ../../source/tracreleases.rst:1532
+#: ../../source/tracreleases.rst:1558 ../../source/tracreleases.rst:1610
+#: ../../source/tracreleases.rst:1680
+msgid "OpenModelica Eclipse Plug-in (MDT)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:916
+msgid "Enhanced debugger for algorithmic Modelica code, supporting both"
+msgstr ""
+
+#: ../../source/tracreleases.rst:917
+msgid ""
+"standard Modelica algorithmic code called from simulation models, and "
+"MetaModelica code."
+msgstr ""
+
+#: ../../source/tracreleases.rst:923
+msgid "Migration of version handling and configuration management from"
+msgstr ""
+
+#: ../../source/tracreleases.rst:924
+msgid "CodeBeamer to Trac."
+msgstr ""
+
+#: ../../source/tracreleases.rst:929
+msgid ""
+"General GUI: backward and forward navigation support in Documentation "
+"view, enhanced parameters window with support for Dialog annotation. Most"
+" of the images are converted from raster to vector graphics i.e PNG to "
+"SVG."
+msgstr ""
+
+#: ../../source/tracreleases.rst:933
+msgid ""
+"Libraries Browser: better loading of libraries, library tree can now show"
+" protected classes, show library items class names as middle ellipses if "
+"the class name text is larger, more options via the right click menu for "
+"quick usage."
+msgstr ""
+
+#: ../../source/tracreleases.rst:937
+msgid ""
+"ModelWidget: add the partial class as a replaceable component, look for "
+"the default component prefixes and name when adding the component."
+msgstr ""
+
+#: ../../source/tracreleases.rst:940
+msgid ""
+"GraphicsView: coordinate system manipulation for icon and diagram layers."
+" Show red box for models that do not exist. Show default graphical "
+"annotation for the components that doesn't have any graphical "
+"annotations. Better resizing of the components. Properties dialog for "
+"primitive shapes i.e Line, Polygon, Rectangle, Ellipse, Text and Bitmap."
+msgstr ""
+
+#: ../../source/tracreleases.rst:946
+msgid ""
+"File Opening: open one or more Modelica files, allow users to select the "
+"encoding while opening the file, convert files to UTF-8 encoding, allow "
+"users to open the OpenModelica result files."
+msgstr ""
+
+#: ../../source/tracreleases.rst:949
+msgid ""
+"Variables Browser: find variables in the variables browser, sorting in "
+"the variables browser."
+msgstr ""
+
+#: ../../source/tracreleases.rst:951
+msgid ""
+"Plot Window: clear all curves of the plot window, preserve the old "
+"selected variable and update its value with the new simulation result."
+msgstr ""
+
+#: ../../source/tracreleases.rst:954
+msgid ""
+"Simulation: support for all the simulation flags, read the simulation "
+"output as soon as is is obtained, output window for simulations, options "
+"to set matching algorithm and index reduction method for simulation. "
+"Display all the files generated during the simulation is now supported. "
+"Options to set OMC command line flags."
+msgstr ""
+
+#: ../../source/tracreleases.rst:959
+msgid ""
+"Options: options for loading libraries via loadModel and loadFile each "
+"time GUI starts, save the last open file directory location, options for "
+"setting line wrap mode and syntax highlighting."
+msgstr ""
+
+#: ../../source/tracreleases.rst:962
+msgid ""
+"Modelica Text Editor: preserving user customizations, new search & "
+"replace functionality, support for comment/uncomment."
+msgstr ""
+
+#: ../../source/tracreleases.rst:964
+msgid ""
+"Notifications: show custom dialogs to users allowing them to choose "
+"whether they want to see this dialog again or not."
+msgstr ""
+
+#: ../../source/tracreleases.rst:966
+msgid ""
+"Model Creation: Better support for creating new classes. Easy creation of"
+" extends classes or nested classes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:968
+msgid "Messages Widget: Multi line error messages are now supported."
+msgstr ""
+
+#: ../../source/tracreleases.rst:969
+msgid ""
+"Crash Detection: The GUI now automatically detects the crash and writes a"
+" stack trace file. The user is given an option to send a crash report "
+"along with the stack trace file and few other useful files via email."
+msgstr ""
+
+#: ../../source/tracreleases.rst:973
+msgid ""
+"Autosave: OMEdit saves the currently edited model regularly, in order to "
+"avoid losing edits after GUI or compiler crash. The save interval can be "
+"set in the Options menu."
+msgstr ""
+
+#: ../../source/tracreleases.rst:978
+msgid "ModelicaML"
+msgstr ""
+
+#: ../../source/tracreleases.rst:980
+msgid "Enhanced ModelicaML version with support for value bindings in"
+msgstr ""
+
+#: ../../source/tracreleases.rst:981
+msgid ""
+"requirements-driven modeling available for the latest Eclipse and Papyrus"
+" versions. GUI specific adaptations. Automated model composition "
+"workflows (used for model-based design verification against requirements)"
+" are modularized and have improved in terms of performance."
+msgstr ""
+
+#: ../../source/tracreleases.rst:989
+msgid "Release Notes for OpenModelica 1.8.1"
+msgstr ""
+
+#: ../../source/tracreleases.rst:991
+msgid ""
+"The OpenModelica 1.8.1 release has a faster and more stable OMC model "
+"compiler. It flattens and simulates more models than the previous 1.8.0 "
+"version. Significant flattening speedup of the compiler has been achieved"
+" for certain large models. It also contains a New ModelicaML version with"
+" support for value bindings in requirements-driven modeling and importing"
+" Modelica library models into ModelicaML models. A beta version of the "
+"new OpenModelica Python scripting is also included. The release was made "
+"on 2012-04-03 (r11645)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1003
+msgid ""
+"This release includes bug fixes and improvements of the flattening "
+"frontend part of the OpenModelica Compiler (OMC) and several improvements"
+" of the backend, including, but not restricted to:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1007
+msgid ""
+"A faster and more stable OMC model compiler. The 1.8.1 version flattens "
+"and simulates more models than the previous 1.8.0 version."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1009
+msgid "Support for operator overloading (except Complex numbers)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1010
+msgid ""
+"New ModelicaML version with support for value bindings in requirements-"
+"driven modeling and importing Modelica library models into ModelicaML "
+"models."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1013
+msgid ""
+"Faster plotting in OMNotebook. The feature sendData has been removed from"
+" OpenModelica. As a result, the kernel no longer depends on Qt. The "
+"plot3() family of functions have now replaced to plot(), which in turn "
+"have been removed. The non-standard visualize() command has been removed "
+"in favour of more recent alternatives."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1018
+msgid "Store OpenModelica documentation as Modelica Documentation annotations."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1020
+msgid ""
+"Re-implementation of the simulation runtime using C instead of C++ (this "
+"was needed to export FMI source-based packages)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1022
+msgid "FMI import/export bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1023
+msgid ""
+"Changed the internal representation of various structures to share more "
+"memory. This significantly improved the performance for very large models"
+" that use records."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1026
+msgid ""
+"Faster model flattening, Improved simulation, some graphical API bug "
+"fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1028
+msgid "More robust and general initialization, but currently time-consuming."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1029
+msgid ""
+"New initialization flags to omc and options to simulate(), to control "
+"whether fast or robust initialization is selected, or initialization from"
+" an external (.mat) data file."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1032
+msgid "New options to API calls list, loadFile, and more."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1033
+msgid ""
+"Enforce the restriction that input arguments of functions may not be "
+"assigned to."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1035
+msgid ""
+"Improved the scripting environment. cl := "
+"$TypeName(Modelica);getClassComment(cl); now works as expected. As does "
+"looping over lists of typenames and using reduction expressions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1038
+msgid "Beta version of Python scripting."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1039
+msgid "Various bugfixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1040
+msgid ""
+"NOTE: interactive simulation is not operational in this release. It will "
+"be put back again in the near future, first available as a nightly build."
+" It is also available in the previous 1.8.0 release."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1047
+msgid "Faster and more stable plottning."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1050 ../../source/tracreleases.rst:1123
+#: ../../source/tracreleases.rst:1201 ../../source/tracreleases.rst:1477
+#: ../../source/tracreleases.rst:1594 ../../source/tracreleases.rst:1666
+msgid "OpenModelica Shell (OMShell)"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1052 ../../source/tracreleases.rst:1062
+#: ../../source/tracreleases.rst:1120
+msgid "No changes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1057
+msgid "Small fixes and improvements."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1067 ../../source/tracreleases.rst:1072
+#: ../../source/tracreleases.rst:1077
+msgid "Bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1070
+msgid "OMOptim Optimization Subsystem"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1080
+msgid "OpenModelica 1.8.0, November 2011"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1082
+#, python-format
+msgid ""
+"The OpenModelica 1.8.0 release contains OMC flattening improvements for "
+"the Media library - it now flattens the whole library and simulates about"
+" 20% of its example models. Moreover, about half of the Fluid library "
+"models also flatten. This release also includes two new tool "
+"functionalities - the FMI for model exchange import and export, and a new"
+" efficient Eclipse-based debugger for Modelica/MetaModelica algorithmic "
+"code."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1093
+msgid ""
+"This release includes bug fixes and improvements of the flattening "
+"frontend part of the OpenModelica Compiler (OMC) and several improvements"
+" of the backend, including, but not restricted to: A faster and more "
+"stable OMC model compiler. The 1.8.0 version flattens and simulates more "
+"models than the previous 1.7.0 version."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1099
+msgid "Flattening of the whole Media library, and about half of the Fluid"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1100
+#, python-format
+msgid ""
+"library. Simulation of approximately 20% of the Media library example "
+"models. - Functional Mockup Interface FMI 1.0 for model exchange, export "
+"and import, for the Windows platform. - Bug fixes in the OpenModelica "
+"graphical model connection editor OMEdit, supporting easy-to-use "
+"graphical drag-and-drop modeling and MSL 3.1. - Bug fixes in the OMOptim "
+"optimization subsystem. - Beta version of compiler support for a new "
+"Eclipse-based very efficient algorithmic code debugger for functions in "
+"MetaModelica/Modelica, available in the development environment when "
+"using the bootstrapped OpenModelica compiler. - Improvements in "
+"initialization of simulations. - Improved index reduction with dynamic "
+"state selection, which improves simulation. - Better error messages from "
+"several parts of the compiler, including a new API call for giving better"
+" error messages. - Automatic partitioning of equation systems and multi-"
+"core parallel simulation of independent parts based on the shared-memory "
+"OpenMP model. This version is a preliminary experimental version without "
+"load balancing."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1125
+msgid "Small performance improvements."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1130
+msgid ""
+"Small fixes and improvements. MDT now also includes a beta version of a "
+"new Eclipse-based very efficient algorithmic code debugger for functions "
+"in MetaModelica/Modelica."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1137
+msgid ""
+"Third party binaries, including Qt libraries and executable Qt clients, "
+"are now part of the OMDev package. Also, now uses GCC 4.4.0 instead of "
+"the earlier GCC 3.4.5."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1144
+msgid ""
+"Bug fixes. Access to FMI Import/Export through a pull-down menu. Improved"
+" configuration of library loading. A function to go to a specific line "
+"number. A button to cancel an on-going simulation. Support for some "
+"updated OMC API calls."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1150 ../../source/tracreleases.rst:1215
+msgid "New OMOptim Optimization Subsystem"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1152
+msgid "Bug fixes, especially in the Linux version."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1157
+msgid ""
+"The Functional Mockup Interface FMI 1.0 for model exchange import and "
+"export is supported by this release. The functionality is accessible via "
+"API calls as well as via pull-down menu commands in OMEdit."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1162
+msgid "OpenModelica 1.7.0, April 2011"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1164
+msgid ""
+"The OpenModelica 1.7.0 release contains OMC flattening improvements for "
+"the Media library, better and faster event handling and simulation, and "
+"fast MetaModelica support in the compiler, enabling it to compiler "
+"itself. This release also includes two interesting new tools – the "
+"OMOptim optimization subsystem, and a new performance profiler for "
+"equation-based Modelica models."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1174
+msgid ""
+"This release includes bug fixes and performance improvements of the "
+"flattening frontend part of the OpenModelica Compiler (OMC) and several "
+"improvements of the backend, including, but not restricted to:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1178 ../../source/tracreleases.rst:1245
+msgid "Flattening of the whole Modelica Standard Library 3.1 (MSL 3.1),"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1179
+msgid ""
+"except Media and Fluid. - Progress in supporting the Media library, some "
+"models now flatten. - Much faster simulation of many models through more "
+"efficient handling of alias variables, binary output format, and faster "
+"event handling. - Faster and more stable simulation through new improved "
+"event handling, which is now default. - Simulation result storage in "
+"binary .mat files, and plotting from such files. - Support for Unicode "
+"characters in quoted Modelica identifiers, including Japanese and "
+"Chinese. - Preliminary MetaModelica 2.0 support. (use "
+"setCommandLineOptions({“+g=MetaModelica”}) ). Execution is as fast as "
+"MetaModelica 1.0, except for garbage collection. - Preliminary "
+"bootstrapped OpenModelica compiler: OMC now compiles itself, and the "
+"bootstrapped compiler passes the test suite. A garbage collector is still"
+" missing. - Many bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1196
+msgid ""
+"Improved much faster and more stable 2D plotting through the new OMPlot "
+"module. Plotting from binary .mat files. Better integration between "
+"OMEdit and OMNotebook, copy/paste between them."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1203
+msgid "Same as previously, except the improved 2D plotting through OMPlot."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1208
+msgid ""
+"Several enhancements of OMEdit are included in this release. Support for "
+"Icon editing is now available. There is also an improved much faster 2D "
+"plotting through the new OMPlot module. Better integration between OMEdit"
+" and OMNotebook, with copy/paste between them. Interactive on-line "
+"simulation is available in an easy-to-use way."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1217
+msgid ""
+"A new optimization subsystem called OMOptim has been added to "
+"OpenModelica. Currently, parameter optimization using genetic algorithms "
+"is supported in this version 0.9. Pareto front optimization is also "
+"supported."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1223
+msgid "New Performance Profiler"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1225
+msgid ""
+"A new, low overhead, performance profiler for Modelica models has been "
+"developed."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1229
+msgid "OpenModelica 1.6.0, November 2010"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1231
+msgid ""
+"The OpenModelica 1.6.0 release primarily contains flattening, simulation,"
+" and performance improvements regarding Modelica Standard Library 3.1 "
+"support, but also has an interesting new tool – the OMEdit graphic "
+"connection editor, and a new educational material called DrControl, and "
+"an improved ModelicaML UML/Modelica profile with better support for "
+"modeling and requirement handling."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1241
+msgid ""
+"This release includes bug fix and performance improvemetns of the "
+"flattening frontend part of the OpenModelica Compiler (OMC) and some "
+"improvements of the backend, including, but not restricted to:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1246
+msgid ""
+"except Media and Fluid. - Improved flattening speed of a factor of 5-20 "
+"compared to OpenModelica 1.5 for a number of models, especially in the "
+"MultiBody library. - Reduced memory consumption by the OpenModelica "
+"compiler frontend, for certain large models a reduction of a factor 50. -"
+" Reorganized, more modular OpenModelica compiler backend, can now handle "
+"approximately 30 000 equations, compared to previously approximately 10 "
+"000 equations. - Better error messages from the compiler, especially "
+"regarding functions. - Improved simulation coverage of MSL 3.1. Many "
+"models that did not simulate before are now simulating. However, there "
+"are still many models in certain sublibraries that do not simulate. - "
+"Progress in supporting the Media library, but simulation is not yet "
+"possible. - Improved support for enumerations, both in the frontend and "
+"the backend. - Implementation of stream connectors. - Support for "
+"linearization through symbolic Jacobians. - Many bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1264
+msgid ""
+"A new DrControl electronic notebook for teaching control and modeling "
+"with Modelica."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1270
+msgid ""
+"Several enhancements. Support for match-expressions in addition to "
+"matchcontinue. Support for real if-then-else. Support for if-then without"
+" else-branches. Modelica Development Tooling 0.7.7 with small "
+"improvements such as more settings, improved error detection in console, "
+"etc."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1277
+msgid "New Graphic Editor OMEdit"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1279
+msgid ""
+"A new improved open source graphic model connection editor called OMEdit,"
+" supporting 3.1 graphical annotations, which makes it possible to move "
+"models back and forth to other tools without problems. The editor has "
+"been implemented by students at Linköping University and is based on the "
+"C++ Qt library."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1286
+msgid "OpenModelica 1.5.0, July 2010"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1288
+msgid ""
+"This OpenModelica 1.5 release has major improvements in the OpenModelica "
+"compiler frontend and some in the backend. A major improvement of this "
+"release is full flattening support for the MultiBody library as well as "
+"limited simulation support for MultiBody. Interesting new facilities are "
+"the interactive simulation and the integrated UML-Modelica modeling with "
+"ModelicaML. Approximately 4 person-years of additional effort have been "
+"invested in the compiler compared to the 1.4.5 version, e.g., in order to"
+" have a more complete coverage of Modelica 3.0, mainly focusing on "
+"improved flattening in the compiler frontend."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1301
+msgid ""
+"This release includes major improvements of the flattening frontend part "
+"of the OpenModelica Compiler (OMC) and some improvements of the backend, "
+"including, but not restricted to:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1305
+msgid "Improved flattening speed of at least a factor of 10 or more compared"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1306
+msgid ""
+"to the 1.4.5 release, primarily for larger models with inner-outer, but "
+"also speedup for other models, e.g. the robot model flattens in "
+"approximately 2 seconds. - Flattening of all MultiBody models, including "
+"all elementary models, breaking connection graphs, world object, etc. "
+"Moreover, simulation is now possible for at least five MultiBody models: "
+"Pendulum, DoublePendulum, InitSpringConstant, World, "
+"PointGravityWithPointMasses. - Progress in supporting the Media library, "
+"but simulation is not yet possible. - Support for enumerations, both in "
+"the frontend and the backend. - Support for expandable connectors. - "
+"Support for the inline and late inline annotations in functions. - "
+"Complete support for record constructors, also for records containing "
+"other records. - Full support for iterators, including nested ones. - "
+"Support for inferred iterator and for-loop ranges. - Support for the "
+"function derivative annotation. - Prototype of interactive simulation. - "
+"Prototype of integrated UML-Modelica modeling and simulation with "
+"ModelicaML. - A new bidirectional external Java interface for calling "
+"external Java functions, or for calling Modelica functions from Java. - "
+"Complete implementation of replaceable model extends. - Fixed problems "
+"involving arrays of unknown dimensions. - Limited support for tearing. - "
+"Improved error handling at division by zero. - Support for Modelica 3.1 "
+"annotations. - Support for all MetaModelica language constructs inside "
+"OpenModelica. - OpenModelica works also under 64-bit Linux and Mac 64-bit"
+" OSX. - Parallel builds and running test suites in parallel on multi-core"
+" platforms. - New OpenModelica text template language for easier "
+"implementation of code generators, XML generators, etc. - New "
+"OpenModelica code generators to C and C# using the text template "
+"language. - Faster simulation result data file output optionally as "
+"comma-separated values. - Many bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1335
+msgid ""
+"It is now possible to graphically edit models using parts from the "
+"Modelica Standard Library 3.1, since the simForge graphical editor (from "
+"Politecnico di Milano) that is used together with OpenModelica has been "
+"updated to version 0.9.0 with a important new functionality, including "
+"support for Modelica 3.1 and 3.0 annotations. The 1.6 and 2.2.1 Modelica "
+"graphical annotation versions are still supported."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1345
+msgid "Improvements in platform availability."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1347
+msgid "Support for 64-bit Linux. - Support for Windows 7. - Better support"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1348
+msgid "for MacOS, including 64-bit OSX."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1351
+msgid "OpenModelica 1.4.5, January 2009"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1353
+msgid ""
+"This release has several improvements, especially platform availability, "
+"less compiler memory usage, and supporting more aspects of Modelica 3.0."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1359 ../../source/tracreleases.rst:1396
+msgid ""
+"This release includes small improvements and some bugfixes of the "
+"OpenModelica Compiler (OMC):"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1362
+msgid "Less memory consumption and better memory management over time. This"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1363
+msgid ""
+"also includes a better API supporting automatic memory management when "
+"calling C functions from within the compiler. - Modelica 3.0 parsing "
+"support. - Export of DAE to XML and MATLAB. - Support for several "
+"platforms Linux, MacOS, Windows (2000, Xp, Vista). - Support for record "
+"and strings as function arguments. - Many bug fixes. - (Not part of OMC):"
+" Additional free graphic editor SimForge can be used with OpenModelica."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1374
+msgid ""
+"A number of improvements, primarily in the plotting functionality and "
+"platform availability."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1377
+msgid "A number of improvements in the plotting functionality: scalable"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1378
+msgid ""
+"plots, zooming, logarithmic plots, grids, etc. - Programmable plotting "
+"accessible through a Modelica API. - Simple 3D visualization. - Support "
+"for several platforms Linux, MacOS, Windows (2000, Xp, Vista)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1383
+msgid "OpenModelica 1.4.4, Feb 2008"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1385
+msgid ""
+"This release is primarily a bug fix release, except for a preliminary "
+"version of new plotting functionality available both from the OMNotebook "
+"and separately through a Modelica API. This is also the first release "
+"under the open source license OSMC-PL (Open Source Modelica Consortium "
+"Public License), with support from the recently created Open Source "
+"Modelica Consortium. An integrated version handler, bug-, and issue "
+"tracker has also been added."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1399
+msgid "Better support for if-equations, also inside when. - Better support"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1400
+msgid ""
+"for calling functions in parameter expressions and interactively through "
+"dynamic loading of functions. - Less memory consumtion during compilation"
+" and interactive evaluation. - A number of bug-fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1407
+msgid ""
+"Test release of improvements, primarily in the plotting functionality and"
+" platform availability."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1410
+msgid "Preliminary version of improvements in the plotting functionality:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1411
+msgid ""
+"scalable plots, zooming, logarithmic plots, grids, etc., currently "
+"available in a preliminary version through the plot2 function. - "
+"Programmable plotting accessible through a Modelica API."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1418
+msgid ""
+"This release includes minor bugfixes of MDT and the associated "
+"MetaModelica debugger."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1424
+msgid ""
+"Extended test suite with a better structure. Version handling, bug "
+"tracking, issue tracking, etc. now available under the integrated "
+"Codebeamer."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1429
+msgid "OpenModelica 1.4.3, June 2007"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1431
+msgid ""
+"This release has a number of significant improvements of the OMC "
+"compiler, OMNotebook, the MDT plugin and the OMDev. Increased platform "
+"availability now also for Linux and Macintosh, in addition to Windows. "
+"OMShell is the same as previously, but now ported to Linux and Mac."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1439
+msgid ""
+"This release includes a number of improvements of the OpenModelica "
+"Compiler (OMC):"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1442
+msgid "Significantly increased compilation speed, especially with large"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1443
+msgid ""
+"models and many packages. - Now available also for Linux and Macintosh "
+"platforms. - Support for when-equations in algorithm sections, including "
+"elsewhen. - Support for inner/outer prefixes of components (but without "
+"type error checking). - Improved solution of nonlinear systems. - Added "
+"ability to compile generated simulation code using Visual Studio "
+"compiler. - Added \"smart setting of fixed attribute to false. If initial"
+" equations, OMC instead has fixed=true as default for states due to "
+"allowing overdetermined initial equation systems. - Better state select "
+"heuristics. - New function getIncidenceMatrix(ClassName) for dumping the "
+"incidence matrix. - Builtin functions String(), product(), ndims(), "
+"implemented. - Support for terminate() and assert() in equations. - In "
+"emitted flat form: protected variables are now prefixed with protected "
+"when printing flat class. - Some support for tables, using "
+"omcTableTimeIni instead of dymTableTimeIni2. - Better support for empty "
+"arrays, and support for matrix operations like a\\*[1,2;3,4]. - Improved "
+"val() function can now evaluate array elements and record fields, e.g. "
+"val(x[n]), val(x.y) . - Support for reinit in algorithm sections. - "
+"String support in external functions. - Double precision floating point "
+"precision now also for interpreted expressions - Better simulation error "
+"messages. - Support for der(expressions). - Support for iterator "
+"expressions such as {3\\*i for i in 1..10}. - More test cases in the test"
+" suite. - A number of bug fixes, including sample and event handling "
+"bugs."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1470
+msgid "A number of improvements, primarily in the platform availability."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1472
+msgid "Available on the Linux and Macintosh platforms, in addition to"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1473
+msgid ""
+"Windows. - Fixed cell copying bugs, plotting of derivatives now works, "
+"etc."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1479
+msgid "Now available also on the Macintosh platform."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1484
+msgid ""
+"This release includes major improvements of MDT and the associated "
+"MetaModelica debugger:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1487
+msgid "Greatly improved browsing and code completion works both for standard"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1488
+#, python-format
+msgid ""
+"Modelica and for MetaModelica. - Hovering over identifiers displays type "
+"information. - A new and greatly improved implementation of the debugger "
+"for MetaModelica algorithmic code, operational in Eclipse. Greatly "
+"improved performance - only approx 10% speed reduction even for 100 000 "
+"line programs. Greatly improved single stepping, step over, data "
+"structure browsing, etc. - Many bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1498
+msgid ""
+"Increased compilation speed for MetaModelica. Better if-expression "
+"support in MetaModelica."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1502
+msgid "OpenModelica 1.4.2, October 2006"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1504
+msgid ""
+"This release has improvements and bug fixes of the OMC compiler, "
+"OMNotebook, the MDT plugin and the OMDev. OMShell is the same as "
+"previously."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1511 ../../source/tracreleases.rst:1550
+#: ../../source/tracreleases.rst:1582
+msgid ""
+"This release includes further improvements of the OpenModelica Compiler "
+"(OMC):"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1514
+msgid "Improved initialization and index reduction. - Support for integer"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1515
+msgid ""
+"arrays is now largely implemented. - The val(variable,time) scripting "
+"function for accessing the value of a simulation result variable at a "
+"certain point in the simulated time. - Interactive evalution of for-"
+"loops, while-loops, if-statements, if-expressions, in the interactive "
+"scripting mode. - Improved documentation and examples of calling the "
+"Model Query and Manipulation API. - Many bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1525
+msgid ""
+"Search and replace functions have been added. The DrModelica tutorial "
+"(all files) has been updated, obsolete sections removed, and models which"
+" are not supported by the current implementation marked clearly. "
+"Automatic recognition of the .onb suffix (e.g. when double-clicking) in "
+"Windows makes it even more convenient to use."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1534
+msgid "Two major improvements are added in this release:"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1536
+msgid "Browsing and code completion works both for standard Modelica and for"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1537
+msgid ""
+"MetaModelica. - The debugger for algorithmic code is now available and "
+"operational in Eclipse for debugging of MetaModelica programs."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1541
+msgid "OpenModelica 1.4.1, June 2006"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1543
+msgid ""
+"This release has only improvements and bug fixes of the OMC compiler, the"
+" MDT plugin and the OMDev components. The OMShell and OMNotebook are the "
+"same."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1553
+msgid "Support for external objects. - OMC now reports the version number"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1554
+msgid ""
+"(via command line switches or CORBA API getVersion()). - Implemented "
+"caching for faster instantiation of large models. - Many bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1560
+msgid ""
+"Improvements of the error reporting when building the OMC compiler. The "
+"errors are now added to the problems view. The latest MDT release is "
+"version 0.6.6 (2006-06-06)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1567
+msgid ""
+"Small fixes in the MetaModelica compiler. MetaModelica Users Guide is now"
+" part of the OMDev release. The latest OMDev was release in 2006-06-06."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1572
+msgid "OpenModelica 1.4.0, May 2006"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1574
+msgid ""
+"This release has a number of improvements described below. The most "
+"significant change is probably that OMC has now been translated to an "
+"extended subset of Modelica (MetaModelica), and that all development of "
+"the compiler is now done in this version.."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1585
+msgid "Partial support for mixed system of equations. - New initialization"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1586
+msgid ""
+"routine, based on optimization (minimizing residuals of initial "
+"equations). - Symbolic simplification of builtin operators for vectors "
+"and matrices. - Improved code generation in simulation code to support "
+"e.g. Modelica functions. - Support for classes extending basic types, "
+"e.g. connectors (support for MSL 2.2 block connectors). - Support for "
+"parametric plotting via the plotParametric command. - Many bug fixes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1596
+msgid ""
+"Essentially the same OMShell as in 1.3.1. One difference is that now all "
+"error messages are sent to the command window instead of to a separate "
+"log window."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1603
+msgid ""
+"Many significant improvements and bug fixes. This version supports "
+"graphic plots within the cells in the notebook. Improved cell handling "
+"and Modelica code syntax highlighting. Command completion of the most "
+"common OMC commands is now supported. The notebook has been used in "
+"several courses."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1612
+msgid ""
+"This is the first really useful version of MDT. Full browsing of Modelica"
+" code, e.g. the MSL 2.2, is now supported. (MetaModelica browsing is not "
+"yet fully supported). Full support for automatic indentation of Modelica "
+"code, including the MetaModelica extensions. Many bug fixes. The Eclipse "
+"plug-in is now in use for OpenModelica development at PELAB and MathCore "
+"Engineering AB since approximately one month."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1623 ../../source/tracreleases.rst:1690
+msgid ""
+"The following mechanisms have been put in place to support OpenModelica "
+"development."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1626
+msgid "A separate web page for OMDev (OpenModelica Development Environment)."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1627
+msgid "A pre-packaged OMDev zip-file with precompiled binaries for"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1628
+msgid ""
+"development under Windows using the mingw Gnu compiler from the Eclipse "
+"MDT plug-in. (Development is also possible using Visual Studio). - All "
+"source code of the OpenModelica compiler has recently been translated to "
+"an extended subset of Modelica, currently called MetaModelica. The "
+"current size of OMC is approximately 100 000 lines All development is now"
+" done in this version. - A new tutorial and users guide for development "
+"in MetaModelica. - Successful builds and tests of OMC under Linux and "
+"Solaris."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1638
+msgid "OpenModelica 1.3.1, November 2005"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1640
+msgid "This release has several important highlights."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1642
+msgid ""
+"This is also the \\*first\\* release for which the New BSD (Berkeley) "
+"open-source license applies to the source code, including the whole "
+"compiler and run-time system. This makes is possible to use OpenModelica "
+"for both academic and commercial purposes without restrictions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1650
+msgid ""
+"This release includes a significantly improved OpenModelica Compiler "
+"(OMC):"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1653
+msgid "Support for hybrid and discrete-event simulation (if-equations,"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1654
+msgid ""
+"if-expressions, when-equations; not yet if-statements and when-"
+"statements). - Parsing of full Modelica 2.2 - Improved support for "
+"external functions. - Vectorization of function arguments; each-"
+"modifiers, better implementation of replaceable, better handling of "
+"structural parameters, better support for vector and array operations, "
+"and many other improvements. - Flattening of the Modelica Block library "
+"version 1.5 (except a few models), and simulation of most of these. - "
+"Automatic index reduction (present also in previous release). - Updated "
+"User's Guide including examples of hybrid simulation and external "
+"functions."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1668
+msgid ""
+"An improved window-based interactive command shell, now including command"
+" completion and better editing and font size support."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1674
+msgid ""
+"A free implementation of an OpenModelica notebook (OMNotebook), for "
+"electronic books with course material, including the DrModelica "
+"interactive course material. It is possible to simulate and plot from "
+"this notebook."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1682
+msgid ""
+"An early alpha version of the first Eclipse plug-in (called MDT for "
+"Modelica Development Tooling) for Modelica Development. This version "
+"gives compilation support and partial support for browsing Modelica "
+"package hierarchies and classes."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1693
+msgid "Bugzilla support for OpenModelica bug tracking, accessible to anybody."
+msgstr ""
+
+#: ../../source/tracreleases.rst:1694
+msgid "A system for automatic regression testing of the compiler and"
+msgstr ""
+
+#: ../../source/tracreleases.rst:1695
+msgid ""
+"simulator, (+ other system parts) usually run at check in time. - Version"
+" handling is done using SVN, which is better than the previously used CVS"
+" system. For example, name change of modules is now possible within the "
+"version handling system."
+msgstr ""
+

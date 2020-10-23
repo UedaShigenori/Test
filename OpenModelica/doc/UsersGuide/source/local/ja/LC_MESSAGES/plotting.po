@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/plotting.rst:2
+msgid "2D Plotting"
+msgstr ""
+
+#: ../../source/plotting.rst:4
+msgid ""
+"This chapter covers the 2D plotting available in OpenModelica via "
+"OMNotebook, OMShell and command line script. The plotting is based on "
+"OMPlot application."
+msgstr ""
+
+#: ../../source/plotting.rst:9
+msgid "Example"
+msgstr ""
+
+#: ../../source/plotting.rst:20
+msgid ""
+"To create a simple time plot the above model HelloWorld is simulated. To "
+"reduce the amount of simulation data in this example the number of "
+"intervals is limited with the argument numberOfIntervals=5. The "
+"simulation is started with the command below."
+msgstr ""
+
+#: ../../source/plotting.rst:29
+msgid ""
+"When the simulation is finished the file :ref:`HelloWorld_res.csv` "
+"contains the simulation data:"
+msgstr ""
+
+#: ../../source/plotting.rst:32
+msgid "HelloWorld_res.csv"
+msgstr ""
+
+#: ../../source/plotting.rst:36
+msgid ""
+"Diagrams are now created with the new OMPlot program by using the "
+"following plot command:"
+msgstr ""
+
+#: ../../<OMC gnuplot>:1
+msgid "Simple 2D plot of the HelloWorld example."
+msgstr ""
+
+#: ../../source/plotting.rst:44
+msgid ""
+"By re-simulating and saving results at many more points, for example "
+"using the default 500 intervals, a much smoother plot can be obtained. "
+"Note that the default solver method dassl has more internal points than "
+"the output points in the initial plot. The results are identical, except "
+"the detailed plot has a smoother curve."
+msgstr ""
+
+#: ../../<OMC gnuplot>:1
+msgid ""
+"Simple 2D plot of the HelloWorld example with a larger number of output "
+"points."
+msgstr ""
+
+#: ../../source/plotting.rst:61
+msgid "Plot Command Interface"
+msgstr ""
+
+#: ../../source/plotting.rst:63
+msgid ""
+"Plot command have a number of optional arguments to further customize the"
+" the resulting diagram."
+msgstr ""
+

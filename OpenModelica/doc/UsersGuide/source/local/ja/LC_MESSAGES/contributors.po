@@ -1,0 +1,814 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/contributors.rst:2
+msgid "Contributors to OpenModelica"
+msgstr ""
+
+#: ../../source/contributors.rst:4
+msgid ""
+"This Appendix lists the individuals who have made significant "
+"contributions to OpenModelica, in the form of software development, "
+"design, documentation, project leadership, tutorial material, promotion, "
+"etc. The individuals are listed for each year, from 1998 to the current "
+"year: the project leader and main author/editor of this document followed"
+" by main contributors followed by contributors in alphabetical order."
+msgstr ""
+
+#: ../../source/contributors.rst:13
+msgid "OpenModelica Contributors 2015"
+msgstr ""
+
+#: ../../source/contributors.rst:15 ../../source/contributors.rst:138
+#: ../../source/contributors.rst:263 ../../source/contributors.rst:388
+#: ../../source/contributors.rst:515 ../../source/contributors.rst:652
+#: ../../source/contributors.rst:777 ../../source/contributors.rst:873
+#: ../../source/contributors.rst:924 ../../source/contributors.rst:973
+#: ../../source/contributors.rst:1006 ../../source/contributors.rst:1034
+#: ../../source/contributors.rst:1061 ../../source/contributors.rst:1087
+#: ../../source/contributors.rst:1106 ../../source/contributors.rst:1117
+#: ../../source/contributors.rst:1131
+msgid "Peter Fritzson, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:19 ../../source/contributors.rst:142
+#: ../../source/contributors.rst:267 ../../source/contributors.rst:392
+#: ../../source/contributors.rst:519 ../../source/contributors.rst:656
+#: ../../source/contributors.rst:779 ../../source/contributors.rst:877
+#: ../../source/contributors.rst:928 ../../source/contributors.rst:979
+#: ../../source/contributors.rst:1011 ../../source/contributors.rst:1052
+#: ../../source/contributors.rst:1080
+msgid "Adrian Pop, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:21 ../../source/contributors.rst:144
+#: ../../source/contributors.rst:269 ../../source/contributors.rst:394
+#: ../../source/contributors.rst:533 ../../source/contributors.rst:666
+msgid "Adeel Asghar, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:23 ../../source/contributors.rst:146
+#: ../../source/contributors.rst:271 ../../source/contributors.rst:396
+#: ../../source/contributors.rst:521 ../../source/contributors.rst:680
+#: ../../source/contributors.rst:797
+msgid "Willi Braun, Fachhochschule Bielefeld, Bielefeld, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:25 ../../source/contributors.rst:150
+#: ../../source/contributors.rst:275 ../../source/contributors.rst:400
+#: ../../source/contributors.rst:610 ../../source/contributors.rst:739
+msgid "Lennart Ochel, Fachhochschule Bielefeld, Bielefeld, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:27 ../../source/contributors.rst:152
+#: ../../source/contributors.rst:277 ../../source/contributors.rst:402
+#: ../../source/contributors.rst:525 ../../source/contributors.rst:658
+#: ../../source/contributors.rst:858
+msgid "Martin Sjölund, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:29
+msgid "Volker Waurich, TU Dresden, Dresden, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:31 ../../source/contributors.rst:154
+#: ../../source/contributors.rst:279 ../../source/contributors.rst:404
+#: ../../source/contributors.rst:527 ../../source/contributors.rst:660
+msgid "Per Östlund, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:35
+msgid "Anders Andersson, VTI, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:37 ../../source/contributors.rst:158
+#: ../../source/contributors.rst:283 ../../source/contributors.rst:408
+#: ../../source/contributors.rst:531 ../../source/contributors.rst:664
+#: ../../source/contributors.rst:783 ../../source/contributors.rst:881
+#: ../../source/contributors.rst:932 ../../source/contributors.rst:977
+msgid "Peter Aronsson, MathCore Engineering AB, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:39 ../../source/contributors.rst:160
+#: ../../source/contributors.rst:285 ../../source/contributors.rst:414
+#: ../../source/contributors.rst:539 ../../source/contributors.rst:670
+#: ../../source/contributors.rst:787 ../../source/contributors.rst:885
+#: ../../source/contributors.rst:936 ../../source/contributors.rst:985
+#: ../../source/contributors.rst:1040
+msgid "Bernhard Bachmann, Fachhochschule Bielefeld, Bielefeld, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:41 ../../source/contributors.rst:164
+#: ../../source/contributors.rst:289 ../../source/contributors.rst:418
+#: ../../source/contributors.rst:543 ../../source/contributors.rst:678
+msgid "Robert Braun, IEI, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:43 ../../source/contributors.rst:166
+#: ../../source/contributors.rst:291 ../../source/contributors.rst:420
+#: ../../source/contributors.rst:545 ../../source/contributors.rst:682
+#: ../../source/contributors.rst:799 ../../source/contributors.rst:891
+#: ../../source/contributors.rst:938 ../../source/contributors.rst:987
+#: ../../source/contributors.rst:1019
+msgid "David Broman, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:45
+msgid "Daniel Bouskela, EDF, Paris, France."
+msgstr ""
+
+#: ../../source/contributors.rst:47 ../../source/contributors.rst:170
+#: ../../source/contributors.rst:295
+msgid "Lena Buffoni, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:49 ../../source/contributors.rst:172
+#: ../../source/contributors.rst:297 ../../source/contributors.rst:424
+#: ../../source/contributors.rst:549 ../../source/contributors.rst:686
+msgid "Francesco Casella, Politecnico di Milano, Milan, Italy."
+msgstr ""
+
+#: ../../source/contributors.rst:51
+msgid "Atiyah Elsheikh, AIT, Vinnea, Austria."
+msgstr ""
+
+#: ../../source/contributors.rst:53
+msgid "Rüdiger Franke, ABB, Germany"
+msgstr ""
+
+#: ../../source/contributors.rst:55 ../../source/contributors.rst:148
+#: ../../source/contributors.rst:273 ../../source/contributors.rst:398
+#: ../../source/contributors.rst:523 ../../source/contributors.rst:694
+#: ../../source/contributors.rst:811
+msgid "Jens Frenkel, TU Dresden, Dresden, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:57 ../../source/contributors.rst:176
+#: ../../source/contributors.rst:301 ../../source/contributors.rst:428
+#: ../../source/contributors.rst:555
+msgid "Mahder Gebremedhin, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:59 ../../source/contributors.rst:178
+#: ../../source/contributors.rst:303 ../../source/contributors.rst:430
+#: ../../source/contributors.rst:557 ../../source/contributors.rst:696
+#: ../../source/contributors.rst:813 ../../source/contributors.rst:897
+#: ../../source/contributors.rst:944
+msgid "Pavel Grozman, Equa AB, Stockholm, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:61 ../../source/contributors.rst:182
+#: ../../source/contributors.rst:307 ../../source/contributors.rst:434
+#: ../../source/contributors.rst:561 ../../source/contributors.rst:700
+#: ../../source/contributors.rst:817 ../../source/contributors.rst:899
+#: ../../source/contributors.rst:946 ../../source/contributors.rst:1021
+#: ../../source/contributors.rst:1044
+msgid "Daniel Hedberg, MathCore Engineering AB, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:63 ../../source/contributors.rst:186
+#: ../../source/contributors.rst:311 ../../source/contributors.rst:438
+#: ../../source/contributors.rst:565 ../../source/contributors.rst:702
+msgid "Alf Isaksson, ABB Corporate Research, Västerås, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:65 ../../source/contributors.rst:188
+#: ../../source/contributors.rst:313 ../../source/contributors.rst:440
+#: ../../source/contributors.rst:569 ../../source/contributors.rst:706
+msgid "Daniel Kanth, Bosch-Rexroth, Lohr am Main, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:67
+msgid "Henning Kiel, Bocholt, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:69 ../../source/contributors.rst:190
+#: ../../source/contributors.rst:315 ../../source/contributors.rst:442
+#: ../../source/contributors.rst:571 ../../source/contributors.rst:708
+#: ../../source/contributors.rst:825
+msgid "Tommi Karhela, VTT, Espoo, Finland."
+msgstr ""
+
+#: ../../source/contributors.rst:71 ../../source/contributors.rst:192
+#: ../../source/contributors.rst:317 ../../source/contributors.rst:444
+#: ../../source/contributors.rst:575 ../../source/contributors.rst:712
+msgid "Petter Krus, IEI, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:73 ../../source/contributors.rst:194
+#: ../../source/contributors.rst:319 ../../source/contributors.rst:446
+#: ../../source/contributors.rst:577 ../../source/contributors.rst:714
+msgid "Juha Kortelainen, VTT, Espoo, Finland."
+msgstr ""
+
+#: ../../source/contributors.rst:75
+msgid "Leonardo Laguna, Wolfram MathCore AB, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:77 ../../source/contributors.rst:198
+#: ../../source/contributors.rst:323 ../../source/contributors.rst:450
+#: ../../source/contributors.rst:581 ../../source/contributors.rst:716
+msgid "Alexey Lebedev, Equa Simulation AB, Stockholm, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:79 ../../source/contributors.rst:200
+#: ../../source/contributors.rst:325 ../../source/contributors.rst:452
+#: ../../source/contributors.rst:583
+msgid "Oliver Lenord, Siemens PLM, California, USA."
+msgstr ""
+
+#: ../../source/contributors.rst:81 ../../source/contributors.rst:202
+#: ../../source/contributors.rst:327 ../../source/contributors.rst:454
+#: ../../source/contributors.rst:585 ../../source/contributors.rst:722
+msgid "Ariel Liebman, Energy Users Association of Australia, Victoria, Australia."
+msgstr ""
+
+#: ../../source/contributors.rst:83
+msgid "Alachew Mengist, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:85
+msgid "Abhir Raj Metkar, CDAC, Trivandrum, Kerala, India."
+msgstr ""
+
+#: ../../source/contributors.rst:87 ../../source/contributors.rst:209
+#: ../../source/contributors.rst:334 ../../source/contributors.rst:461
+#: ../../source/contributors.rst:596 ../../source/contributors.rst:731
+#: ../../source/contributors.rst:841 ../../source/contributors.rst:907
+#: ../../source/contributors.rst:952
+msgid "Eric Meyers, Pratt & Whitney Rocketdyne, Palm City, Florida, USA."
+msgstr ""
+
+#: ../../source/contributors.rst:89
+msgid "Lars Mikelsons, Bosch Rexroth, Lohr am Main, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:91 ../../source/contributors.rst:213
+#: ../../source/contributors.rst:338 ../../source/contributors.rst:465
+#: ../../source/contributors.rst:600
+msgid "Afshin Moghadam, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:93
+msgid "Kannan Moudgalya, IIT Bombay, Mumbai, India."
+msgstr ""
+
+#: ../../source/contributors.rst:95
+msgid "Kenneth Nealy, USA."
+msgstr ""
+
+#: ../../source/contributors.rst:97 ../../source/contributors.rst:215
+#: ../../source/contributors.rst:340 ../../source/contributors.rst:467
+#: ../../source/contributors.rst:602
+msgid "Maroun Nemer, CEP Paristech, Ecole des Mines, Paris, France."
+msgstr ""
+
+#: ../../source/contributors.rst:99 ../../source/contributors.rst:217
+#: ../../source/contributors.rst:342 ../../source/contributors.rst:469
+#: ../../source/contributors.rst:604 ../../source/contributors.rst:733
+msgid "Hannu Niemistö, VTT, Espoo, Finland."
+msgstr ""
+
+#: ../../source/contributors.rst:101 ../../source/contributors.rst:219
+#: ../../source/contributors.rst:344 ../../source/contributors.rst:471
+#: ../../source/contributors.rst:606 ../../source/contributors.rst:735
+msgid "Peter Nordin, IEI, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:103 ../../source/contributors.rst:221
+#: ../../source/contributors.rst:346 ../../source/contributors.rst:473
+msgid "Arunkumar Palanisamy, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:105 ../../source/contributors.rst:225
+#: ../../source/contributors.rst:350 ../../source/contributors.rst:477
+#: ../../source/contributors.rst:614 ../../source/contributors.rst:745
+#: ../../source/contributors.rst:849
+msgid ""
+"Pavol Privitzer, Institute of Pathological Physiology, Praha, Czech "
+"Republic."
+msgstr ""
+
+#: ../../source/contributors.rst:107
+msgid "Vitalij Ruge, Fachhochschule Bielefeld, Bielefeld, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:109 ../../source/contributors.rst:232
+#: ../../source/contributors.rst:357 ../../source/contributors.rst:484
+#: ../../source/contributors.rst:619 ../../source/contributors.rst:750
+#: ../../source/contributors.rst:852
+msgid "Per Sahlin, Equa Simulation AB, Stockholm, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:111
+msgid "Roland Samlaus, Bosch, Stuttgart, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:113 ../../source/contributors.rst:234
+#: ../../source/contributors.rst:359 ../../source/contributors.rst:486
+#: ../../source/contributors.rst:621 ../../source/contributors.rst:752
+msgid "Wladimir Schamai, EADS, Hamburg, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:115 ../../source/contributors.rst:236
+#: ../../source/contributors.rst:361 ../../source/contributors.rst:488
+#: ../../source/contributors.rst:623 ../../source/contributors.rst:754
+msgid "Gerhard Schmitz, University of Hamburg, Hamburg, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:117
+msgid "Jan Šilar, Charles University, Prague, Czech Republic"
+msgstr ""
+
+#: ../../source/contributors.rst:119 ../../source/contributors.rst:244
+#: ../../source/contributors.rst:369 ../../source/contributors.rst:496
+#: ../../source/contributors.rst:631 ../../source/contributors.rst:762
+#: ../../source/contributors.rst:860 ../../source/contributors.rst:915
+#: ../../source/contributors.rst:962
+msgid "Kristian Stavåker, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:121 ../../source/contributors.rst:246
+#: ../../source/contributors.rst:371 ../../source/contributors.rst:498
+#: ../../source/contributors.rst:633 ../../source/contributors.rst:764
+msgid "Sonia Tariq, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:123
+msgid "Bernhard Thiele, PELAB, Linköping University, Linköping, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:125 ../../source/contributors.rst:248
+#: ../../source/contributors.rst:373 ../../source/contributors.rst:500
+#: ../../source/contributors.rst:635
+msgid "Hubert Thierot, CEP Paristech, Ecole des Mines, Paris, France."
+msgstr ""
+
+#: ../../source/contributors.rst:127
+msgid "Gustaf Thorslund, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:129 ../../source/contributors.rst:250
+#: ../../source/contributors.rst:375 ../../source/contributors.rst:502
+#: ../../source/contributors.rst:637 ../../source/contributors.rst:766
+#: ../../source/contributors.rst:862
+msgid "Mohsen Torabzadeh-Tari, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:131
+msgid "Marcus Walther, TU Dresden, Dresden, Germany"
+msgstr ""
+
+#: ../../source/contributors.rst:133 ../../source/contributors.rst:254
+#: ../../source/contributors.rst:379 ../../source/contributors.rst:506
+#: ../../source/contributors.rst:641 ../../source/contributors.rst:768
+msgid "Niklas Worschech, Bosch-Rexroth, Lohr am Main, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:136
+msgid "OpenModelica Contributors 2014"
+msgstr ""
+
+#: ../../source/contributors.rst:162 ../../source/contributors.rst:287
+#: ../../source/contributors.rst:416 ../../source/contributors.rst:541
+#: ../../source/contributors.rst:672 ../../source/contributors.rst:789
+#: ../../source/contributors.rst:887
+msgid "Vasile Baluta, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:168 ../../source/contributors.rst:293
+#: ../../source/contributors.rst:422 ../../source/contributors.rst:547
+#: ../../source/contributors.rst:684 ../../source/contributors.rst:801
+msgid "Stefan Brus, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:174 ../../source/contributors.rst:299
+#: ../../source/contributors.rst:426 ../../source/contributors.rst:551
+#: ../../source/contributors.rst:688
+msgid "Filippo Donida, Politecnico di Milano, Milan, Italy."
+msgstr ""
+
+#: ../../source/contributors.rst:180 ../../source/contributors.rst:305
+#: ../../source/contributors.rst:432 ../../source/contributors.rst:559
+#: ../../source/contributors.rst:698
+msgid "Michael Hanke, NADA, KTH, Stockholm."
+msgstr ""
+
+#: ../../source/contributors.rst:184 ../../source/contributors.rst:309
+#: ../../source/contributors.rst:436 ../../source/contributors.rst:563
+msgid "Zoheb Hossain, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:196 ../../source/contributors.rst:321
+#: ../../source/contributors.rst:448 ../../source/contributors.rst:579
+msgid "Abhinn Kothari, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:205 ../../source/contributors.rst:330
+#: ../../source/contributors.rst:457 ../../source/contributors.rst:592
+#: ../../source/contributors.rst:729
+msgid "Henrik Magnusson, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:207 ../../source/contributors.rst:332
+#: ../../source/contributors.rst:459 ../../source/contributors.rst:594
+msgid "Abhi Raj Metkar, CDAC, Trivandrum, Kerala, India."
+msgstr ""
+
+#: ../../source/contributors.rst:211 ../../source/contributors.rst:336
+#: ../../source/contributors.rst:463 ../../source/contributors.rst:598
+msgid "Tuomas Miettinen, VTT, Espoo, Finland."
+msgstr ""
+
+#: ../../source/contributors.rst:223 ../../source/contributors.rst:348
+#: ../../source/contributors.rst:475 ../../source/contributors.rst:612
+#: ../../source/contributors.rst:743
+msgid "Karl Pettersson, IEI, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:228 ../../source/contributors.rst:353
+#: ../../source/contributors.rst:480
+msgid "Jhansi Remala, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:230 ../../source/contributors.rst:355
+#: ../../source/contributors.rst:482 ../../source/contributors.rst:617
+#: ../../source/contributors.rst:748
+msgid "Reino Ruusu, VTT, Espoo, Finland."
+msgstr ""
+
+#: ../../source/contributors.rst:238 ../../source/contributors.rst:363
+#: ../../source/contributors.rst:490
+msgid "Alachew Shitahun, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:240 ../../source/contributors.rst:365
+#: ../../source/contributors.rst:492 ../../source/contributors.rst:627
+#: ../../source/contributors.rst:758
+msgid "Anton Sodja, University of Ljubljana, Ljubljana, Slovenia"
+msgstr ""
+
+#: ../../source/contributors.rst:242 ../../source/contributors.rst:367
+#: ../../source/contributors.rst:494 ../../source/contributors.rst:629
+#: ../../source/contributors.rst:760
+msgid "Ingo Staack, IEI, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:252 ../../source/contributors.rst:377
+#: ../../source/contributors.rst:504 ../../source/contributors.rst:639
+msgid "Parham Vasaiely, EADS, Hamburg, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:256 ../../source/contributors.rst:381
+#: ../../source/contributors.rst:508 ../../source/contributors.rst:643
+#: ../../source/contributors.rst:770
+msgid "Robert Wotzlaw, Goettingen, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:258 ../../source/contributors.rst:383
+#: ../../source/contributors.rst:510 ../../source/contributors.rst:647
+msgid "Azam Zia, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:261
+msgid "OpenModelica Contributors 2013"
+msgstr ""
+
+#: ../../source/contributors.rst:386
+msgid "OpenModelica Contributors 2012"
+msgstr ""
+
+#: ../../source/contributors.rst:410 ../../source/contributors.rst:535
+#: ../../source/contributors.rst:668 ../../source/contributors.rst:785
+#: ../../source/contributors.rst:883 ../../source/contributors.rst:934
+#: ../../source/contributors.rst:983
+msgid "David Akhvlediani, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:412 ../../source/contributors.rst:537
+msgid "Mikael Axin, IEI, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:513
+msgid "OpenModelica Contributors 2011"
+msgstr ""
+
+#: ../../source/contributors.rst:553
+msgid "Anand Ganeson, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:567 ../../source/contributors.rst:704
+#: ../../source/contributors.rst:821 ../../source/contributors.rst:901
+msgid "Kim Jansson, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:573 ../../source/contributors.rst:710
+#: ../../source/contributors.rst:827 ../../source/contributors.rst:903
+msgid "Joel Klinghed, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:588 ../../source/contributors.rst:725
+msgid "Rickard Lindberg, PELAB, Linköping University, Linköping, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:590 ../../source/contributors.rst:727
+#: ../../source/contributors.rst:837 ../../source/contributors.rst:905
+#: ../../source/contributors.rst:950 ../../source/contributors.rst:993
+#: ../../source/contributors.rst:1013 ../../source/contributors.rst:1023
+#: ../../source/contributors.rst:1046
+msgid "Håkan Lundvall, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:608 ../../source/contributors.rst:737
+#: ../../source/contributors.rst:845 ../../source/contributors.rst:909
+#: ../../source/contributors.rst:954
+msgid "Kristoffer Norling, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:625 ../../source/contributors.rst:756
+#: ../../source/contributors.rst:856 ../../source/contributors.rst:913
+#: ../../source/contributors.rst:958
+msgid "Klas Sjöholm, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:645 ../../source/contributors.rst:772
+#: ../../source/contributors.rst:966
+msgid "Björn Zachrisson, MathCore Engineering AB, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:650
+msgid "OpenModelica Contributors 2010"
+msgstr ""
+
+#: ../../source/contributors.rst:674 ../../source/contributors.rst:793
+msgid "Simon Björklén, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:676 ../../source/contributors.rst:795
+#: ../../source/contributors.rst:889
+msgid "Mikael Blom, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:690 ../../source/contributors.rst:807
+#: ../../source/contributors.rst:893 ../../source/contributors.rst:940
+msgid "Henrik Eriksson, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:692 ../../source/contributors.rst:809
+#: ../../source/contributors.rst:895 ../../source/contributors.rst:942
+#: ../../source/contributors.rst:989
+msgid "Anders Fernström, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:718
+msgid "Magnus Leksell, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:720
+msgid "Oliver Lenord, Bosch-Rexroth, Lohr am Main, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:741 ../../source/contributors.rst:847
+msgid "Atanas Pavlov, Munich, Germany."
+msgstr ""
+
+#: ../../source/contributors.rst:775
+msgid "OpenModelica Contributors 2009"
+msgstr ""
+
+#: ../../source/contributors.rst:791 ../../source/contributors.rst:919
+#: ../../source/contributors.rst:968
+msgid "Constantin Belyaev, Bashpromavtomatika Ltd., Ufa, Russia"
+msgstr ""
+
+#: ../../source/contributors.rst:803
+msgid "Francesco Casella, Politecnico di Milano, Milan, Italy"
+msgstr ""
+
+#: ../../source/contributors.rst:805
+msgid "Filippo Donida, Politecnico di Milano, Milan, Italy"
+msgstr ""
+
+#: ../../source/contributors.rst:815
+msgid "Michael Hanke, NADA, KTH, Stockholm"
+msgstr ""
+
+#: ../../source/contributors.rst:819
+msgid "Alf Isaksson, ABB Corporate Research, Västerås, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:823
+msgid "Daniel Kanth, Bosch-Rexroth, Lohr am Main, Germany"
+msgstr ""
+
+#: ../../source/contributors.rst:829
+msgid "Juha Kortelainen, VTT, Espoo, Finland"
+msgstr ""
+
+#: ../../source/contributors.rst:831
+msgid "Alexey Lebedev, Equa Simulation AB, Stockholm, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:833
+msgid "Magnus Leksell, Linköping, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:835
+msgid "Oliver Lenord, Bosch-Rexroth, Lohr am Main, Germany"
+msgstr ""
+
+#: ../../source/contributors.rst:839
+msgid "Henrik Magnusson, Linköping, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:843
+msgid "Hannu Niemistö, VTT, Espoo, Finland"
+msgstr ""
+
+#: ../../source/contributors.rst:854
+msgid "Gerhard Schmitz, University of Hamburg, Hamburg, Germany"
+msgstr ""
+
+#: ../../source/contributors.rst:864
+msgid "Niklas Worschech, Bosch-Rexroth, Lohr am Main, Germany"
+msgstr ""
+
+#: ../../source/contributors.rst:866
+msgid "Robert Wotzlaw, Goettingen, Germany"
+msgstr ""
+
+#: ../../source/contributors.rst:868
+msgid "Björn Zachrisson, MathCore Engineering AB, Linköping, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:871
+msgid "OpenModelica Contributors 2008"
+msgstr ""
+
+#: ../../source/contributors.rst:911 ../../source/contributors.rst:956
+#: ../../source/contributors.rst:1001
+msgid "Anders Sandholm, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:917
+msgid "Simon Bjorklén, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:922
+msgid "OpenModelica Contributors 2007"
+msgstr ""
+
+#: ../../source/contributors.rst:948
+msgid "Ola Leifler, IDA, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:960
+msgid "William Spinelli, Politecnico di Milano, Milano, Italy"
+msgstr ""
+
+#: ../../source/contributors.rst:964
+msgid "Stefan Vorkoetter, MapleSoft, Waterloo, Canada."
+msgstr ""
+
+#: ../../source/contributors.rst:971
+msgid "OpenModelica Contributors 2006"
+msgstr ""
+
+#: ../../source/contributors.rst:991
+msgid "Elmir Jagudin, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:995 ../../source/contributors.rst:1025
+#: ../../source/contributors.rst:1050
+msgid "Kaj Nyström, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:997 ../../source/contributors.rst:1027
+#: ../../source/contributors.rst:1054
+msgid "Lucian Popescu, MathCore Engineering AB, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:999
+msgid "Andreas Remar, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1004
+msgid "OpenModelica Contributors 2005"
+msgstr ""
+
+#: ../../source/contributors.rst:1008
+msgid ""
+"Peter Aronsson, PELAB, Linköping University and MathCore Engineering AB, "
+"Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1017
+msgid "Ingemar Axelsson, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1029 ../../source/contributors.rst:1056
+#: ../../source/contributors.rst:1065 ../../source/contributors.rst:1091
+#: ../../source/contributors.rst:1110
+msgid "Levon Saldamli, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1032
+msgid "OpenModelica Contributors 2004"
+msgstr ""
+
+#: ../../source/contributors.rst:1038 ../../source/contributors.rst:1063
+#: ../../source/contributors.rst:1095 ../../source/contributors.rst:1112
+msgid "Peter Aronsson, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1042 ../../source/contributors.rst:1069
+msgid "Peter Bunus, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1048
+msgid "Emma Larsdotter Nilsson, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1059
+msgid "OpenModelica Contributors 2003"
+msgstr ""
+
+#: ../../source/contributors.rst:1071 ../../source/contributors.rst:1137
+msgid "Vadim Engelson, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1073 ../../source/contributors.rst:1097
+msgid "Daniel Hedberg, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1075
+msgid ""
+"Eva-Lena Lengquist-Sandelin, PELAB, Linköping University, Linköping, "
+"Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1078
+msgid "Susanna Monemar, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1082
+msgid "Erik Svensson, MathCore Engineering AB, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1085
+msgid "OpenModelica Contributors 2002"
+msgstr ""
+
+#: ../../source/contributors.rst:1099
+msgid "Henrik Johansson, PELAB, Linköping University, Linköping, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:1101
+msgid "Andreas Karström, PELAB, Linköping University, Linköping, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:1104
+msgid "OpenModelica Contributors 2001"
+msgstr ""
+
+#: ../../source/contributors.rst:1115
+msgid "OpenModelica Contributors 2000"
+msgstr ""
+
+#: ../../source/contributors.rst:1120
+msgid "OpenModelica Contributors 1999"
+msgstr ""
+
+#: ../../source/contributors.rst:1122
+msgid "Peter Fritzson, PELAB, Linköping University, Linköping, Sweden"
+msgstr ""
+
+#: ../../source/contributors.rst:1126
+msgid "Peter Rönnquist, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+
+#: ../../source/contributors.rst:1129
+msgid "OpenModelica Contributors 1998"
+msgstr ""
+
+#: ../../source/contributors.rst:1135
+msgid "David Kågedal, PELAB, Linköping University, Linköping, Sweden."
+msgstr ""
+

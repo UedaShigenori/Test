@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/ommatlab.rst:2
+msgid "OMMatlab – OpenModelica Matlab Interface"
+msgstr ""
+
+#: ../../source/ommatlab.rst:4
+msgid ""
+"OMMatlab – the OpenModelica Matlab API is a free, open source, highly "
+"portable Matlab-based interactive session handler for Modelica scripting."
+" It provides the modeler with components for creating a complete Modelica"
+" modeling, compilation and simulation environment based on the latest "
+"OpenModelica library standard available. OMMatlab is architectured to "
+"combine both the solving strategy and model building. So domain experts "
+"(people writing the models) and computational engineers (people writing "
+"the solver code) can work on one unified tool that is industrially viable"
+" for optimization of Modelica models, while offering a flexible platform "
+"for algorithm development and research. OMMatlab is not a standalone "
+"package, it depends upon the OpenModelica installation."
+msgstr ""
+
+#: ../../source/ommatlab.rst:17
+msgid ""
+"OMMatlab is implemented in Matlab and depends on ZeroMQ - high "
+"performance asynchronous messaging library and it supports the Modelica "
+"Standard Library version 3.2 that is included in starting with "
+"OpenModelica 1.9.2."
+msgstr ""
+
+#: ../../source/ommatlab.rst:24
+msgid ""
+"To install OMMatlab follow the instructions at "
+"https://github.com/OpenModelica/OMMatlab"
+msgstr ""
+
+#: ../../source/ommatlab.rst:28
+msgid "Features of OMMatlab"
+msgstr ""
+
+#: ../../source/ommatlab.rst:29
+msgid "The OMMatlab package contains the following features:"
+msgstr ""
+
+#: ../../source/ommatlab.rst:31
+msgid "Import the OMMatlab package in Matlab"
+msgstr ""
+
+#: ../../source/ommatlab.rst:32
+msgid "Connect with the OpenModelica compiler through zmq sockets"
+msgstr ""
+
+#: ../../source/ommatlab.rst:33
+msgid ""
+"Able to interact with the OpenModelica compiler through the "
+":ref:`available API <scripting-api>`"
+msgstr ""
+
+#: ../../source/ommatlab.rst:34
+msgid ""
+"All the API calls are communicated with the help of the sendExpression "
+"method implemented in a Matlab pacakge"
+msgstr ""
+
+#: ../../source/ommatlab.rst:35
+msgid "The results are returned as strings"
+msgstr ""
+
+#: ../../source/ommatlab.rst:38
+msgid "Test Commands"
+msgstr ""
+
+#: ../../source/ommatlab.rst:40
+msgid "To get started, create a OMMatlab session object:"
+msgstr ""
+
+#: ../../source/ommatlab.rst:59
+msgid "Advanced OMMatlab Features"
+msgstr ""
+
+#: ../../source/ommatlab.rst:60
+msgid ""
+"OMMatlab package has advanced functionality for querying more information"
+" about the models and simulate them. A list of new user friendly API "
+"functionality allows user to extract information about models using "
+"matlab objects. A list of API functionality is described below."
+msgstr ""
+
+#: ../../source/ommatlab.rst:64
+msgid "To get started, create a ModelicaSystem object:"
+msgstr ""
+
+#: ../../source/ommatlab.rst:70
+msgid ""
+"The object constructor requires a minimum of 2 input arguments which are "
+"strings, and third input argument which is optional ."
+msgstr ""
+
+#: ../../source/ommatlab.rst:72
+msgid ""
+"The first input argument must be a string with the file name of the "
+"Modelica code, with Modelica file extension \".mo\". If the Modelica file"
+" is not in the current directory, then the file path must also be "
+"included."
+msgstr ""
+
+#: ../../source/ommatlab.rst:75
+msgid ""
+"The second input argument must be a string with the name of the Modelica "
+"model including the namespace if the model is wrapped within a Modelica "
+"package."
+msgstr ""
+
+#: ../../source/ommatlab.rst:78
+msgid ""
+"The third input argument (optional) is used to specify the list of "
+"dependent libraries or dependent Modelica files The argument can be "
+"passed as a string or array of strings e.g.,"
+msgstr ""
+
+#: ../../source/ommatlab.rst:84
+msgid "WorkDirectory"
+msgstr ""
+
+#: ../../source/ommatlab.rst:85
+msgid ""
+"For each Matlab session a temporary work directory is created and the "
+"results are published in that working directory, Inorder to get the "
+"workdirectory the users can use the following API"
+msgstr ""
+
+#: ../../source/ommatlab.rst:92
+msgid "BuildModel"
+msgstr ""
+
+#: ../../source/ommatlab.rst:93
+msgid ""
+"The buildModel API can be used after ModelicaSystem(), in case the model "
+"needs to be updated or additional simulationflags needs to be set using "
+"sendExpression()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:98
+msgid "Standard get methods"
+msgstr ""
+
+#: ../../source/ommatlab.rst:100
+msgid "getQuantities()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:101
+msgid "showQuantities()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:102
+msgid "getContinuous()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:103
+msgid "getInputs()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:104
+msgid "getOutputs()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:105
+msgid "getParameters()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:106
+msgid "getSimulationOptions()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:107
+msgid "getSolutions()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:109
+msgid ""
+"Three calling possibilities are accepted using getXXX() where \"XXX\" can"
+" be any of the above functions (eg:) getParameters()."
+msgstr ""
+
+#: ../../source/ommatlab.rst:111
+msgid ""
+"getXXX() without input argument, returns a dictionary with names as keys "
+"and values as values."
+msgstr ""
+
+#: ../../source/ommatlab.rst:112
+msgid "getXXX(S), where S is a string of names."
+msgstr ""
+
+#: ../../source/ommatlab.rst:113
+msgid "getXXX([\"S1\",\"S2\"]) where S1 and S1 are array of string elements"
+msgstr ""
+
+#: ../../source/ommatlab.rst:116
+msgid "Usage of getMethods"
+msgstr ""
+
+#: ../../source/ommatlab.rst:183
+msgid "The getSolution method can be used in two different ways."
+msgstr ""
+
+#: ../../source/ommatlab.rst:182
+msgid "using default result filename"
+msgstr ""
+
+#: ../../source/ommatlab.rst:183
+msgid "use the result filenames provided by user"
+msgstr ""
+
+#: ../../source/ommatlab.rst:185
+msgid ""
+"This provides a way to compare simulation results and perform regression "
+"testing"
+msgstr ""
+
+#: ../../source/ommatlab.rst:203
+msgid "Standard set methods"
+msgstr ""
+
+#: ../../source/ommatlab.rst:204
+msgid "setInputs()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:205
+msgid "setParameters()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:206
+msgid "setSimulationOptions()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:208
+msgid ""
+"Two setting possibilities are accepted using setXXXs(),where \"XXX\" can "
+"be any of above functions."
+msgstr ""
+
+#: ../../source/ommatlab.rst:210
+msgid "setXXX(\"Name=value\") string of keyword assignments"
+msgstr ""
+
+#: ../../source/ommatlab.rst:211
+msgid ""
+"setXXX([\"Name1=value1\",\"Name2=value2\",\"Name3=value3\"])  array of "
+"string of keyword assignments"
+msgstr ""
+
+#: ../../source/ommatlab.rst:215
+msgid "Usage of setMethods"
+msgstr ""
+
+#: ../../source/ommatlab.rst:228
+msgid "Advanced Simulation"
+msgstr ""
+
+#: ../../source/ommatlab.rst:229
+msgid ""
+"An example of how to do advanced simulation to set parameter values using"
+" set methods and finally simulate the  \"BouncingBall.mo\" model is given"
+" below ."
+msgstr ""
+
+#: ../../source/ommatlab.rst:238
+msgid ""
+"To check whether new values are updated to model , we can again query the"
+" getParameters()."
+msgstr ""
+
+#: ../../source/ommatlab.rst:245
+msgid ""
+"Similary we can also use setInputs() to set a value for the inputs during"
+" various time interval can also be done using the following."
+msgstr ""
+
+#: ../../source/ommatlab.rst:251
+msgid ""
+"And then finally we can simulate the model using, The simulate() API can "
+"be used in two methods"
+msgstr ""
+
+#: ../../source/ommatlab.rst:250
+msgid "without any arguments"
+msgstr ""
+
+#: ../../source/ommatlab.rst:251
+msgid ""
+"resultfile names provided by user (only filename is allowed and not the "
+"location)"
+msgstr ""
+
+#: ../../source/ommatlab.rst:257
+msgid "Linearization"
+msgstr ""
+
+#: ../../source/ommatlab.rst:258
+msgid "The following methods are available for linearization of a modelica model"
+msgstr ""
+
+#: ../../source/ommatlab.rst:260
+msgid "linearize()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:261
+msgid "getLinearizationOptions()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:262
+msgid "setLinearizationOptions()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:263
+msgid "getLinearInputs()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:264
+msgid "getLinearOutputs()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:265
+msgid "getLinearStates()"
+msgstr ""
+
+#: ../../source/ommatlab.rst:268
+msgid "Usage of Linearization methods"
+msgstr ""
+

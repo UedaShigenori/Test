@@ -1,0 +1,880 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/optimization.rst:2
+msgid "Optimization with OpenModelica"
+msgstr ""
+
+#: ../../source/optimization.rst:4
+msgid ""
+"The following facilities for model-based optimization are provided with "
+"OpenModelica:"
+msgstr ""
+
+#: ../../source/optimization.rst:9
+msgid ":ref:`builtin-dynamic-optimization` using"
+msgstr ""
+
+#: ../../source/optimization.rst:8
+msgid ""
+"dynamic optimization is the recommended way of performing dynamic "
+"optimization with OpenModelica."
+msgstr ""
+
+#: ../../source/optimization.rst:12
+msgid ":ref:`dynamic-optimization-casadi`. Use this if you want to employ"
+msgstr ""
+
+#: ../../source/optimization.rst:12
+msgid "the CasADi tool for dynamic optimization."
+msgstr ""
+
+#: ../../source/optimization.rst:15
+msgid "Classical :ref:`parameter-sweep-optimization-using-omoptim`. Use"
+msgstr ""
+
+#: ../../source/optimization.rst:15
+msgid "this if you have a static optimization problem."
+msgstr ""
+
+#: ../../source/optimization.rst:20
+msgid "Builtin Dynamic Optimization with OpenModelica and IpOpt"
+msgstr ""
+
+#: ../../source/optimization.rst:22
+msgid ""
+"*Note: this is a very short preliminary decription which soon will be "
+"considerably improved.*"
+msgstr ""
+
+#: ../../source/optimization.rst:25
+msgid ""
+"OpenModelica provides builtin dynamic optimization of models by using the"
+" powerful symbolic machinery of the OpenModelica compiler for more "
+"efficient and automatic solution of dynamic optimization problems."
+msgstr ""
+
+#: ../../source/optimization.rst:29
+msgid ""
+"The builtin dynamic optimization allows users to define optimal control "
+"problems (OCP) using the Modelica language for the model and the "
+"optimization language extension called Optimica (currently partially "
+"supported) for the optimization part of the problem. This is used to "
+"solve the underlying dynamic optimization model formulation using "
+"collocation methods, using a single execution instead of multiple "
+"simulations as in the parameter-sweep optimization described in section "
+":ref:`parameter-sweep-optimization-using-omoptim`."
+msgstr ""
+
+#: ../../source/optimization.rst:37
+msgid ""
+"For more detailed information regarding background and methods, see "
+":cite:`openmodelica.org:bernhard:modelica:2012,openmodelica.org:Ruge:modelica:2014`"
+msgstr ""
+
+#: ../../source/optimization.rst:40 ../../source/optimization.rst:162
+msgid "Compiling the Modelica code"
+msgstr ""
+
+#: ../../source/optimization.rst:42
+msgid ""
+"Before starting the optimization the model should be symbolically "
+"instantiated by the compiler in order to get a single flat system of "
+"equations. The model variables should also be scalarized. The compiler "
+"frontend performs this, including syntax checking, semantics and type "
+"checking, simplification and constant evaluation etc. are applied. Then "
+"the complete flattened model can be used for initialization, simulation "
+"and last but not least for model-based dynamic optimization."
+msgstr ""
+
+#: ../../source/optimization.rst:50
+msgid ""
+"The OpenModelica command optimize(ModelName) from OMShell, OMNotebook or "
+"MDT runs immediately the optimization. The generated result file can be "
+"read in and visualized with OMEdit or within OMNotebook."
+msgstr ""
+
+#: ../../source/optimization.rst:55
+msgid "An Example"
+msgstr ""
+
+#: ../../source/optimization.rst:57 ../../source/optimization.rst:190
+msgid ""
+"In this section, a simple optimal control problem will be solved. When "
+"formulating the optimization problems, models are expressed in the "
+"Modelica language and optimization specifications. The optimization "
+"language specification allows users to formulate dynamic optimization "
+"problems to be solved by a numerical algorithm. It includes several "
+"constructs including a new specialized class optimization, a constraint "
+"section, startTime, finalTime etc. See the optimal control problem for "
+"batch reactor model below."
+msgstr ""
+
+#: ../../source/optimization.rst:66 ../../source/optimization.rst:199
+msgid ""
+"Create a new file named :ref:`BatchReactor.mo` and save it in you working"
+" directory. Notice that this model contains both the dynamic system to be"
+" optimized and the optimization specification."
+msgstr ""
+
+#: ../../source/optimization.rst:70
+msgid ""
+"Once we have formulated the undelying optimal control problems, we can "
+"run the optimization by using OMShell, OMNotebook, MDT, OMEdit using "
+"command line terminals similar to the options described below:"
+msgstr ""
+
+#: ../../<OMC loadString>:1
+msgid "BatchReactor.mo"
+msgstr ""
+
+#: ../../source/optimization.rst:101
+msgid "The control and state trajectories of the optimization results:"
+msgstr ""
+
+#: ../../<OMC gnuplot>:1
+msgid "Optimization results for Batch Reactor model – input variables."
+msgstr ""
+
+#: ../../<OMC gnuplot>:1
+msgid "Optimization results for Batch Reactor model – state variables."
+msgstr ""
+
+#: ../../source/optimization.rst:115
+msgid "Different Options for the Optimizer IPOPT"
+msgstr ""
+
+#: ../../source/optimization.rst:117
+msgid "New meanings of the usual simualtion options for Ipopt."
+msgstr ""
+
+#: ../../source/optimization.rst:120
+msgid "numberOfIntervals"
+msgstr ""
+
+#: ../../source/optimization.rst:120
+msgid "collocation intervals"
+msgstr ""
+
+#: ../../source/optimization.rst:122
+msgid "startTime, stopTime"
+msgstr ""
+
+#: ../../source/optimization.rst:122
+msgid "time horizon"
+msgstr ""
+
+#: ../../source/optimization.rst:124
+msgid "tolerance = 1e-8"
+msgstr ""
+
+#: ../../source/optimization.rst:124
+msgid "e.g. 1e-8"
+msgstr ""
+
+#: ../../source/optimization.rst:124
+msgid "solver tolerance"
+msgstr ""
+
+#: ../../source/optimization.rst:126
+msgid "simflags"
+msgstr ""
+
+#: ../../source/optimization.rst:126
+msgid "all run/debug options"
+msgstr ""
+
+#: ../../source/optimization.rst:131
+msgid "New simulation options for Ipopt."
+msgstr ""
+
+#: ../../source/optimization.rst:134
+msgid "-lv"
+msgstr ""
+
+#: ../../source/optimization.rst:134
+msgid "LOG\\_IPOPT"
+msgstr ""
+
+#: ../../source/optimization.rst:134
+msgid "console output"
+msgstr ""
+
+#: ../../source/optimization.rst:136
+msgid "-ipopt\\_hesse"
+msgstr ""
+
+#: ../../source/optimization.rst:136
+msgid "CONST,BFGS,NUM"
+msgstr ""
+
+#: ../../source/optimization.rst:136
+msgid "hessian approximation"
+msgstr ""
+
+#: ../../source/optimization.rst:138
+msgid "-ipopt\\_max\\_iter"
+msgstr ""
+
+#: ../../source/optimization.rst:138
+msgid "number e.g. 10"
+msgstr ""
+
+#: ../../source/optimization.rst:138
+msgid "maximal number of iteration for ipopt"
+msgstr ""
+
+#: ../../source/optimization.rst:140
+msgid "externalInput.csv"
+msgstr ""
+
+#: ../../source/optimization.rst:140
+msgid "input guess"
+msgstr ""
+
+#: ../../source/optimization.rst:146
+msgid "Dynamic Optimization with OpenModelica and CasADi"
+msgstr ""
+
+#: ../../source/optimization.rst:148
+msgid ""
+"OpenModelica coupling with CasADi supports dynamic optimization of models"
+" by OpenModelica exporting the optimization problem to CasADi which "
+"performs the optimization. In order to convey the dynamic system model "
+"information between Modelica and CasADi, we use an XML-based model "
+"exchange format for differential-algebraic equations (DAE). OpenModelica "
+"supports export of models written in Modelica and the Optimization "
+"language extension using this XML format, while CasADi supports import of"
+" models represented in this format. This allows users to define optimal "
+"control problems (OCP) using Modelica and Optimization language "
+"specifications, and solve the underlying model formulation using a range "
+"of optimization methods, including direct collocation and direct multiple"
+" shooting."
+msgstr ""
+
+#: ../../source/optimization.rst:164
+msgid ""
+"Before exporting a model to XML, the model should be symbolically "
+"instantiated by the compiler in order to get a single flat system of "
+"equations. The model variables should also be scalarized. The compiler "
+"frontend performs this, including syntax checking, semantics and type "
+"checking, simplification and constant evaluation etc. are applied. Then "
+"the complete flattened model is exported to XML code. The exported XML "
+"document can then be imported to CasADi for model-based dynamic "
+"optimization."
+msgstr ""
+
+#: ../../source/optimization.rst:173
+msgid ""
+"The OpenModelica command translateModelXML(ModelName) from OMShell, "
+"OMNotebook or MDT exports the XML. The export XML command is also "
+"integrated with OMEdit. Select XML > Export XML the XML document is "
+"generated in the current directory of omc. You can use the cd() command "
+"to see the current location. After the command execution is complete you "
+"will see that a file ModelName.xml has been exported."
+msgstr ""
+
+#: ../../source/optimization.rst:180
+msgid ""
+"Assuming that the model is defined in the modelName.mo, the model can "
+"also be exported to an XML code using the following steps from the "
+"terminal window:"
+msgstr ""
+
+#: ../../source/optimization.rst:184
+msgid "Go to the path where your model file found"
+msgstr ""
+
+#: ../../source/optimization.rst:185
+msgid "Run command omc -g=Optimica --simCodeTarget=XML Model.mo"
+msgstr ""
+
+#: ../../source/optimization.rst:188
+msgid "An example"
+msgstr ""
+
+#: ../../source/optimization.rst:208
+msgid ""
+"One we have formulated the undelying optimal control problems, we can "
+"export the XML by using OMShell, OMNotebook, MDT, OMEdit or command line "
+"terminals which are described in Section :ref:`xml-import-to-casadi`."
+msgstr ""
+
+#: ../../source/optimization.rst:212
+msgid "To export XML, we set the simulation target to XML:"
+msgstr ""
+
+#: ../../source/optimization.rst:218
+msgid ""
+"This will generate an XML file named :ref:`batchreactorxml` "
+"(:numref:`batchreactorxml`) that contains a symbolic representation of "
+"the optimal control problem and can be inspected in a standard XML "
+"editor."
+msgstr ""
+
+#: ../../source/optimization.rst:222
+msgid "BatchReactor.xml"
+msgstr ""
+
+#: ../../source/optimization.rst:230
+msgid "XML Import to CasADi via OpenModelica Python Script"
+msgstr ""
+
+#: ../../source/optimization.rst:232
+msgid ""
+"The symbolic optimal control problem representation (or just model "
+"description) contained in BatchReactor.xml can be imported into CasADi in"
+" the form of the SymbolicOCP class via OpenModelica python script."
+msgstr ""
+
+#: ../../source/optimization.rst:236
+msgid ""
+"The SymbolicOCP class contains symbolic representation of the optimal "
+"control problem designed to be general and allow manipulation. For a more"
+" detailed description of this class and its functionalities, we refer to "
+"the API documentation of CasADi."
+msgstr ""
+
+#: ../../source/optimization.rst:241
+msgid ""
+"The following step compiles the model to an XML format, imports to CasADi"
+" and solves an optimization problem in windows PowerShell:"
+msgstr ""
+
+#: ../../source/optimization.rst:244
+msgid ""
+"Create a new file named BatchReactor.mo and save it in you working "
+"directory."
+msgstr ""
+
+#: ../../source/optimization.rst:247
+msgid "E.g. C:\\\\OpenModelica1.9.2\\\\share\\\\casadi\\\\testmodel"
+msgstr ""
+
+#: ../../source/optimization.rst:249
+msgid "Perform compilation and generate the XML file"
+msgstr ""
+
+#: ../../source/optimization.rst:251
+msgid "Go to your working directory"
+msgstr ""
+
+#: ../../source/optimization.rst:253
+msgid "E.g. cd C:\\\\OpenModelica1.9.2\\\\share\\\\casadi\\\\testmodel"
+msgstr ""
+
+#: ../../source/optimization.rst:255
+msgid "Go to omc path from working directory and run the following command"
+msgstr ""
+
+#: ../../source/optimization.rst:257
+msgid ""
+"E.g. ..\\\\..\\\\..\\\\bin\\\\omc +s -g=Optimica --simCodeTarget=XML "
+"BatchReactor.mo"
+msgstr ""
+
+#: ../../source/optimization.rst:260
+msgid ""
+"3. Run defaultStart.py python script from OpenModelica optimization "
+"directory"
+msgstr ""
+
+#: ../../source/optimization.rst:263
+msgid ""
+"E.g. Python.exe ..\\\\share\\\\casadi\\\\scripts defaultStart.py "
+"BatchReactor.xml"
+msgstr ""
+
+#: ../../source/optimization.rst:266
+msgid ""
+"The control and state trajectories of the optimization results are shown "
+"below:"
+msgstr ""
+
+#: ../../source/optimization.rst:274
+msgid "|casadi-input| |casadi-state|"
+msgstr ""
+
+#: ../../source/optimization.rst:279
+msgid "Parameter Sweep Optimization using OMOptim"
+msgstr ""
+
+#: ../../source/optimization.rst:281
+msgid ""
+"OMOptim is a tool for parameter sweep design optimization of Modelica "
+"models. By optimization, one should understand a procedure which "
+"minimizes/maximizes one or more objective functions by adjusting one or "
+"more parameters. This is done by the optimization algorithm performing a "
+"parameter swep, i.e., systematically adjusting values of selected "
+"parameters and running a number of simulations for different parameter "
+"combinations to find a parameter setting that gives an optimal value of "
+"the goal function."
+msgstr ""
+
+#: ../../source/optimization.rst:290
+msgid ""
+"OMOptim 0.9 contains meta-heuristic optimization algorithms which allow "
+"optimizing all sorts of models with following functionalities:"
+msgstr ""
+
+#: ../../source/optimization.rst:293
+msgid "One or several objectives optimized simultaneously"
+msgstr ""
+
+#: ../../source/optimization.rst:295
+msgid "One or several parameters (integer or real variables)"
+msgstr ""
+
+#: ../../source/optimization.rst:297
+msgid ""
+"However, the user must be aware of the large number of simulations an "
+"optimization might require."
+msgstr ""
+
+#: ../../source/optimization.rst:301
+msgid "Preparing the Model"
+msgstr ""
+
+#: ../../source/optimization.rst:303
+msgid ""
+"Before launching OMOptim, one must prepare the model in order to optimize"
+" it."
+msgstr ""
+
+#: ../../source/optimization.rst:307
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/optimization.rst:309
+msgid ""
+"An optimization parameter is picked up from all model variables. The "
+"choice of parameters can be done using the OMOptim interface."
+msgstr ""
+
+#: ../../source/optimization.rst:312
+msgid "For all intended parameters, please note that:"
+msgstr ""
+
+#: ../../source/optimization.rst:317
+msgid "The corresponding variable is **constant** during all simulations."
+msgstr ""
+
+#: ../../source/optimization.rst:315
+msgid ""
+"The OMOptim optimization in version 0.9 only concerns static parameters’ "
+"optimization *i.e.* values found for these parameters will be constant "
+"during all simulation time."
+msgstr ""
+
+#: ../../source/optimization.rst:320
+msgid "The corresponding variable should play an **input** role in the model"
+msgstr ""
+
+#: ../../source/optimization.rst:320
+msgid "*i.e.* its modification influences model simulation results."
+msgstr ""
+
+#: ../../source/optimization.rst:323
+msgid "Constraints"
+msgstr ""
+
+#: ../../source/optimization.rst:325
+msgid ""
+"If some constraints should be respected during optimization, they must be"
+" defined in the Modelica model itself."
+msgstr ""
+
+#: ../../source/optimization.rst:328
+msgid ""
+"For instance, if mechanical stress must be less than 5 N.m\\ :sup:`-2`, "
+"one should write in the model:"
+msgstr ""
+
+#: ../../source/optimization.rst:335
+msgid ""
+"If during simulation, the variable *mechanicalStress* exceeds 5 N.m\\ "
+":sup:`-2`, the simulation will stop and be considered as a failure."
+msgstr ""
+
+#: ../../source/optimization.rst:339
+msgid "Objectives"
+msgstr ""
+
+#: ../../source/optimization.rst:341
+msgid ""
+"As parameters, objectives are picked up from model variables. Objectives’"
+" values are considered by the optimizer at the *final time*."
+msgstr ""
+
+#: ../../source/optimization.rst:345
+msgid "Set problem in OMOptim"
+msgstr ""
+
+#: ../../source/optimization.rst:348
+msgid "Launch OMOptim"
+msgstr ""
+
+#: ../../source/optimization.rst:350
+msgid ""
+"OMOptim can be launched using the executable placed in "
+"OpenModelicaInstallationDirectory/bin/ OMOptim/OMOptim.exe. Alternately, "
+"choose OpenModelica > OMOptim from the start menu."
+msgstr ""
+
+#: ../../source/optimization.rst:355
+msgid "Create a new project"
+msgstr ""
+
+#: ../../source/optimization.rst:357
+msgid "To create a new project, click on menu File -> New project"
+msgstr ""
+
+#: ../../source/optimization.rst:359
+msgid ""
+"Then set a name to the project and save it in a dedicated folder. The "
+"created file created has a .min extension. It will contain information "
+"regarding model, problems, and results loaded."
+msgstr ""
+
+#: ../../source/optimization.rst:364
+msgid "Load models"
+msgstr ""
+
+#: ../../source/optimization.rst:366
+msgid ""
+"First, you need to load the model(s) you want to optimize. To do so, "
+"click on *Add .mo* button on main window or select menu *Model -> Load Mo"
+" file…*"
+msgstr ""
+
+#: ../../source/optimization.rst:370
+msgid ""
+"When selecting a model, the file will be loaded in OpenModelica which "
+"runs in the background."
+msgstr ""
+
+#: ../../source/optimization.rst:373
+msgid ""
+"While OpenModelica is loading the model, you could have a frozen "
+"interface. This is due to multi-threading limitation but the delay should"
+" be short (few seconds)."
+msgstr ""
+
+#: ../../source/optimization.rst:377
+msgid "You can load as many models as you want."
+msgstr ""
+
+#: ../../source/optimization.rst:379
+msgid "If an error occurs (indicated in log window), this might be because:"
+msgstr ""
+
+#: ../../source/optimization.rst:381
+msgid "Dependencies have not been loaded before (e.g. modelica library)"
+msgstr ""
+
+#: ../../source/optimization.rst:383
+msgid "Model use syntax incompatible with OpenModelica."
+msgstr ""
+
+#: ../../source/optimization.rst:385
+msgid "**Dependencies**"
+msgstr ""
+
+#: ../../source/optimization.rst:387
+msgid ""
+"OMOptim should detect dependencies and load corresponding files. However,"
+" it some errors occur, please load by yourself dependencies. You can also"
+" load Modelica library using Model->Load Modelica library."
+msgstr ""
+
+#: ../../source/optimization.rst:391
+msgid ""
+"When the model correctly loaded, you should see a window similar to "
+":numref:`omoptim-loaded`."
+msgstr ""
+
+#: ../../source/optimization.rst:396
+msgid "OMOptim window after having loaded model."
+msgstr ""
+
+#: ../../source/optimization.rst:399
+msgid "Create a new optimization problem"
+msgstr ""
+
+#: ../../source/optimization.rst:401
+msgid "Problem->Add Problem->Optimization"
+msgstr ""
+
+#: ../../source/optimization.rst:403
+msgid ""
+"A dialog should appear. Select the model you want to optimize. Only Model"
+" can be selected (no Package, Component, Block…)."
+msgstr ""
+
+#: ../../source/optimization.rst:406
+msgid ""
+"A new form will be displayed. This form has two tabs. One is called "
+"Variables, the other is called Optimization."
+msgstr ""
+
+#: ../../source/optimization.rst:412
+msgid "Forms for defining a new optimization problem."
+msgstr ""
+
+#: ../../source/optimization.rst:414
+msgid "**List of Variables is Empty**"
+msgstr ""
+
+#: ../../source/optimization.rst:416
+msgid ""
+"If variables are not displayed, right click on model name in model "
+"hierarchy, and select *Read variables*."
+msgstr ""
+
+#: ../../source/optimization.rst:422
+msgid "Selecting read variables, set parameters, and selecting simulator."
+msgstr ""
+
+#: ../../source/optimization.rst:425
+msgid "Select Optimized Variables"
+msgstr ""
+
+#: ../../source/optimization.rst:427
+msgid ""
+"To set optimization, we first have to define the variables the optimizer "
+"will consider as free *i.e.* those that it should find best values of. To"
+" do this, select in the left list, the variables concerned. Then, add "
+"them to *Optimized variables* by clicking on corresponding button "
+"(|omoptim-blue-cross|)."
+msgstr ""
+
+#: ../../source/optimization.rst:433
+msgid ""
+"For each variable, you must set minimum and maximum values it can take. "
+"This can be done in the *Optimized variables* table."
+msgstr ""
+
+#: ../../source/optimization.rst:437
+msgid "Select objectives"
+msgstr ""
+
+#: ../../source/optimization.rst:439
+msgid ""
+"Objectives correspond to the final values of chosen variables. To select "
+"these last, select in left list variables concerned and click |omoptim-"
+"blue-cross| button of *Optimization objectives* table."
+msgstr ""
+
+#: ../../source/optimization.rst:443
+msgid "For each objective, you must:"
+msgstr ""
+
+#: ../../source/optimization.rst:447
+msgid "Set minimum and maximum values it can take. If a configuration does"
+msgstr ""
+
+#: ../../source/optimization.rst:446
+msgid ""
+"not respect these values, this configuration won’t be considered. You "
+"also can set minimum and maximum equals to “-“ : it will then"
+msgstr ""
+
+#: ../../source/optimization.rst:449
+msgid "Define whether objective should be minimized or maximized."
+msgstr ""
+
+#: ../../source/optimization.rst:451
+msgid "This can be done in the *Optimized variables* table."
+msgstr ""
+
+#: ../../source/optimization.rst:454
+msgid "Select and configure algorithm"
+msgstr ""
+
+#: ../../source/optimization.rst:456
+msgid ""
+"After having selected variables and objectives, you should now select and"
+" configure optimization algorithm. To do this, click on *Optimization* "
+"tab."
+msgstr ""
+
+#: ../../source/optimization.rst:460
+msgid ""
+"Here, you can select optimization algorithm you want to use. In version "
+"0.9, OMOptim offers three different genetic algorithms. Let’s for example"
+" choose SPEA2Adapt which is an auto-adaptative genetic algorithm."
+msgstr ""
+
+#: ../../source/optimization.rst:464
+msgid ""
+"By clicking on *parameters*\\ … button, a dialog is opened allowing "
+"defining parameters. These are:"
+msgstr ""
+
+#: ../../source/optimization.rst:469
+msgid "*Population size*: this is the number of configurations kept after a"
+msgstr ""
+
+#: ../../source/optimization.rst:468
+msgid ""
+"generation. If it is set to 50, your final result can’t contain more than"
+" 50 different points."
+msgstr ""
+
+#: ../../source/optimization.rst:473
+msgid "*Off spring rate*: this is the number of children per adult obtained"
+msgstr ""
+
+#: ../../source/optimization.rst:472
+msgid ""
+"after combination process. If it is set to 3, each generation will "
+"contain 150 individual (considering population size is 50)."
+msgstr ""
+
+#: ../../source/optimization.rst:482
+msgid "*Max generations*: this number defines the number of generations"
+msgstr ""
+
+#: ../../source/optimization.rst:476
+msgid ""
+"after which optimization should stop. In our case, each generation "
+"corresponds to 150 simulations. Note that you can still stop optimization"
+" while it is running by clicking on *stop* button (which will appear once"
+" optimization is launched). Therefore, you can set a really high number "
+"and still stop optimization when you want without losing results obtained"
+" until there."
+msgstr ""
+
+#: ../../source/optimization.rst:492
+msgid "*Save frequency*: during optimization, best configurations can be"
+msgstr ""
+
+#: ../../source/optimization.rst:485
+msgid ""
+"regularly saved. It allows to analyze evolution of best configurations "
+"but also to restart an optimization from previously obtained results. A "
+"Save Frequency parameter set to 3 means that after three generations, a "
+"file is automatically created containing best configurations. These files"
+" are named iteraion1.sav, iteration2.sav and are store in *Temp* "
+"directory, and moved to *SolvedProblems* directory when optimization is "
+"finished."
+msgstr ""
+
+#: ../../source/optimization.rst:500
+msgid "*ReinitStdDev*: this is a specific parameter of EAAdapt1. It defines"
+msgstr ""
+
+#: ../../source/optimization.rst:495
+msgid ""
+"whether standard deviation of variables should be reinitialized. It is "
+"used only if you start optimization from previously obtained "
+"configurations (using *Use start file* option). Setting it to yes (1) "
+"will, in most of cases, lead to a spread research of optimized "
+"configurations, forgetting parameters’ variations’ reduction obtained in "
+"previous optimization."
+msgstr ""
+
+#: ../../source/optimization.rst:502
+msgid "**Use start file**"
+msgstr ""
+
+#: ../../source/optimization.rst:504
+msgid ""
+"As indicated before, it is possible to pursue an optimization finished or"
+" stopped. To do this, you must enable *Use start file* option and select "
+"file from which optimization should be started. This file is an "
+"*iteration\\_.sav* file created in previous optimization. It is stored in"
+" corresponding *SolvedProblems* folder (*iteration10.sav* corresponds to "
+"the tenth generation of previous optimization)."
+msgstr ""
+
+#: ../../source/optimization.rst:511
+msgid ""
+"***Note that this functionality can only work with same variables and "
+"objectives*.** However, minimum, maximum of variables and objectives can "
+"be changed before pursuing an optimization."
+msgstr ""
+
+#: ../../source/optimization.rst:516
+msgid "Launch"
+msgstr ""
+
+#: ../../source/optimization.rst:518
+msgid "You can now launch Optimization by clicking *Launch* button."
+msgstr ""
+
+#: ../../source/optimization.rst:521
+msgid "Stopping Optimization"
+msgstr ""
+
+#: ../../source/optimization.rst:523
+msgid ""
+"Optimization will be stopped when the generation counter will reach the "
+"generation number defined in parameters. However, you can still stop the "
+"optimization while it is running without loosing obtained results. To do "
+"this, click on *Stop* button. Note that this will not immediately stop "
+"optimization: it will first finish the current generation."
+msgstr ""
+
+#: ../../source/optimization.rst:529
+msgid ""
+"This stop function is especially useful when optimum points do not vary "
+"any more between generations. This can be easily observed since at each "
+"generation, the optimum objectives values and corresponding parameters "
+"are displayed in log window."
+msgstr ""
+
+#: ../../source/optimization.rst:535
+msgid "Results"
+msgstr ""
+
+#: ../../source/optimization.rst:537
+msgid ""
+"The result tab appear when the optimization is finished. It consists of "
+"two parts: a table where variables are displayed and a plot region."
+msgstr ""
+
+#: ../../source/optimization.rst:541
+msgid "Obtaining all Variable Values"
+msgstr ""
+
+#: ../../source/optimization.rst:543
+msgid ""
+"During optimization, the values of optimized variables and objectives are"
+" memorized. The others are not. To get these last, you must recomputed "
+"corresponding points. To achieve this, select one or several points in "
+"point’s list region and click on *recompute*."
+msgstr ""
+
+#: ../../source/optimization.rst:548
+msgid ""
+"For each point, it will simulate model setting input parameters to point "
+"corresponding values. All values of this point (including those which are"
+" not optimization parameters neither objectives)."
+msgstr ""
+
+#: ../../source/optimization.rst:553
+msgid "Window Regions in OMOptim GUI"
+msgstr ""
+
+#: ../../source/optimization.rst:557
+msgid "Window regions in OMOptim GUI."
+msgstr ""
+

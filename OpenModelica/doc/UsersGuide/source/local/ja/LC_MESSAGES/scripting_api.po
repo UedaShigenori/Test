@@ -1,0 +1,1617 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/scripting_api.rst:6
+msgid "Scripting API"
+msgstr ""
+
+#: ../../source/scripting_api.rst:8
+msgid ""
+"The following are short summaries of OpenModelica scripting commands. "
+"These commands are useful for loading and saving classes, reading and "
+"storing data, plotting of results, and various other tasks."
+msgstr ""
+
+#: ../../source/scripting_api.rst:12
+msgid ""
+"The arguments passed to a scripting function should follow syntactic and "
+"typing rules for Modelica and for the scripting function in question. In "
+"the following tables we briefly indicate the types or character of the "
+"formal parameters to the functions by the following notation:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:17
+msgid "String typed argument, e.g. \"hello\", \"myfile.mo\"."
+msgstr ""
+
+#: ../../source/scripting_api.rst:20
+msgid "TypeName – class, package or function name, e.g. MyClass,"
+msgstr ""
+
+#: ../../source/scripting_api.rst:20
+msgid "Modelica.Math."
+msgstr ""
+
+#: ../../source/scripting_api.rst:22
+msgid "VariableName – variable name, e.g. ``v1``, ``v2``, ``vars1[2].x``, etc."
+msgstr ""
+
+#: ../../source/scripting_api.rst:24
+msgid "Integer or Real typed argument, e.g. 35, 3.14, xintvariable."
+msgstr ""
+
+#: ../../source/scripting_api.rst:26
+msgid "options – optional parameters with named formal parameter passing."
+msgstr ""
+
+#: ../../source/scripting_api.rst:29
+msgid "OpenModelica Scripting Commands"
+msgstr ""
+
+#: ../../source/scripting_api.rst:31
+msgid ""
+"The following are brief descriptions of the scripting commands available "
+"in the OpenModelica environment. All commands are shown in alphabetical "
+"order:"
+msgstr ""
+
+#: ../../source/interface.inc:5
+msgid "interactiveDumpAbsynToJL"
+msgstr ""
+
+#: ../../source/interface.inc:19
+msgid "relocateFunctions"
+msgstr ""
+
+#: ../../source/interface.inc:35
+msgid "toJulia"
+msgstr ""
+
+#: ../../source/interface.inc:49
+msgid "GC_expand_hp"
+msgstr ""
+
+#: ../../source/interface.inc:64
+msgid "GC_gcollect_and_unmap"
+msgstr ""
+
+#: ../../source/interface.inc:71
+msgid "GC_get_prof_stats"
+msgstr ""
+
+#: ../../source/interface.inc:85
+msgid "GC_set_max_heap_size"
+msgstr ""
+
+#: ../../source/interface.inc:100
+msgid "addClassAnnotation"
+msgstr ""
+
+#: ../../source/interface.inc:116
+msgid "addInitialState"
+msgstr ""
+
+#: ../../source/interface.inc:133
+msgid "addTransition"
+msgstr ""
+
+#: ../../source/interface.inc:156
+msgid "alarm"
+msgstr ""
+
+#: ../../source/interface.inc:171
+msgid "appendEnvironmentVar"
+msgstr ""
+
+#: ../../source/interface.inc:191
+msgid "basename"
+msgstr ""
+
+#: ../../source/interface.inc:206
+msgid "buildEncryptedPackage"
+msgstr ""
+
+#: ../../source/interface.inc:222
+msgid "buildLabel"
+msgstr ""
+
+#: ../../source/interface.inc:252
+msgid "buildModel"
+msgstr ""
+
+#: ../../source/interface.inc:287
+msgid "buildModelFMU"
+msgstr ""
+
+#: ../../source/interface.inc:314
+msgid "buildOpenTURNSInterface"
+msgstr ""
+
+#: ../../source/interface.inc:335
+msgid "cd"
+msgstr ""
+
+#: ../../source/interface.inc:356
+msgid "checkAllModelsRecursive"
+msgstr ""
+
+#: ../../source/interface.inc:376
+msgid "checkCodeGraph"
+msgstr ""
+
+#: ../../source/interface.inc:396
+msgid "checkInterfaceOfPackages"
+msgstr ""
+
+#: ../../source/interface.inc:412
+msgid "checkModel"
+msgstr ""
+
+#: ../../source/interface.inc:431
+msgid "checkSettings"
+msgstr ""
+
+#: ../../source/interface.inc:449
+msgid "checkTaskGraph"
+msgstr ""
+
+#: ../../source/interface.inc:469
+msgid "classAnnotationExists"
+msgstr ""
+
+#: ../../source/interface.inc:489
+msgid "clear"
+msgstr ""
+
+#: ../../source/interface.inc:507
+msgid "clearCommandLineOptions"
+msgstr ""
+
+#: ../../source/interface.inc:525
+msgid "clearDebugFlags"
+msgstr ""
+
+#: ../../source/interface.inc:543
+msgid "clearMessages"
+msgstr ""
+
+#: ../../source/interface.inc:561
+msgid "clearProgram"
+msgstr ""
+
+#: ../../source/interface.inc:579
+msgid "clearVariables"
+msgstr ""
+
+#: ../../source/interface.inc:597
+msgid "closeSimulationResultFile"
+msgstr ""
+
+#: ../../source/interface.inc:618
+msgid "codeToString"
+msgstr ""
+
+#: ../../source/interface.inc:633
+msgid "compareFiles"
+msgstr ""
+
+#: ../../source/interface.inc:649
+msgid "compareFilesAndMove"
+msgstr ""
+
+#: ../../source/interface.inc:665
+msgid "compareSimulationResults"
+msgstr ""
+
+#: ../../source/interface.inc:689
+msgid "convertUnits"
+msgstr ""
+
+#: ../../source/interface.inc:707
+msgid "copy"
+msgstr ""
+
+#: ../../source/interface.inc:727
+msgid "copyClass"
+msgstr ""
+
+#: ../../source/interface.inc:748
+msgid "countMessages"
+msgstr ""
+
+#: ../../source/interface.inc:764
+msgid "deleteFile"
+msgstr ""
+
+#: ../../source/interface.inc:783
+msgid "deleteInitialState"
+msgstr ""
+
+#: ../../source/interface.inc:799
+msgid "deleteTransition"
+msgstr ""
+
+#: ../../source/interface.inc:821
+msgid "deltaSimulationResults"
+msgstr ""
+
+#: ../../source/interface.inc:843
+msgid "diffModelicaFileListings"
+msgstr ""
+
+#: ../../source/interface.inc:863
+msgid "diffSimulationResults"
+msgstr ""
+
+#: ../../source/interface.inc:890
+msgid "diffSimulationResultsHtml"
+msgstr ""
+
+#: ../../source/interface.inc:910
+msgid "directoryExists"
+msgstr ""
+
+#: ../../source/interface.inc:925
+msgid "dirname"
+msgstr ""
+
+#: ../../source/interface.inc:940
+msgid "disableNewInstantiation"
+msgstr ""
+
+#: ../../source/interface.inc:954
+msgid "dumpXMLDAE"
+msgstr ""
+
+#: ../../source/interface.inc:981
+msgid "echo"
+msgstr ""
+
+#: ../../source/interface.inc:1000
+msgid "enableNewInstantiation"
+msgstr ""
+
+#: ../../source/interface.inc:1014
+msgid "escapeXML"
+msgstr ""
+
+#: ../../source/interface.inc:1029
+msgid "exit"
+msgstr ""
+
+#: ../../source/interface.inc:1043
+msgid "exportToFigaro"
+msgstr ""
+
+#: ../../source/interface.inc:1063
+msgid "extendsFrom"
+msgstr ""
+
+#: ../../source/interface.inc:1083
+msgid "filterSimulationResults"
+msgstr ""
+
+#: ../../source/interface.inc:1102
+msgid "generateCode"
+msgstr ""
+
+#: ../../source/interface.inc:1121
+msgid "generateEntryPoint"
+msgstr ""
+
+#: ../../source/interface.inc:1137
+msgid "generateHeader"
+msgstr ""
+
+#: ../../source/interface.inc:1152
+msgid "generateJuliaHeader"
+msgstr ""
+
+#: ../../source/interface.inc:1167
+msgid "generateScriptingAPI"
+msgstr ""
+
+#: ../../source/interface.inc:1186
+msgid "generateSeparateCode"
+msgstr ""
+
+#: ../../source/interface.inc:1202
+msgid "generateSeparateCodeDependencies"
+msgstr ""
+
+#: ../../source/interface.inc:1217
+msgid "generateSeparateCodeDependenciesMakefile"
+msgstr ""
+
+#: ../../source/interface.inc:1234
+msgid "generateVerificationScenarios"
+msgstr ""
+
+#: ../../source/interface.inc:1249
+msgid "getAlgorithmCount"
+msgstr ""
+
+#: ../../source/interface.inc:1268
+msgid "getAlgorithmItemsCount"
+msgstr ""
+
+#: ../../source/interface.inc:1287
+msgid "getAllSubtypeOf"
+msgstr ""
+
+#: ../../source/interface.inc:1310
+msgid "getAnnotationCount"
+msgstr ""
+
+#: ../../source/interface.inc:1329
+msgid "getAnnotationModifierValue"
+msgstr ""
+
+#: ../../source/interface.inc:1346
+msgid "getAnnotationNamedModifiers"
+msgstr ""
+
+#: ../../source/interface.inc:1362
+msgid "getAnnotationVersion"
+msgstr ""
+
+#: ../../source/interface.inc:1380
+msgid "getAstAsCorbaString"
+msgstr ""
+
+#: ../../source/interface.inc:1404
+msgid "getAvailableIndexReductionMethods"
+msgstr ""
+
+#: ../../source/interface.inc:1419
+msgid "getAvailableLibraries"
+msgstr ""
+
+#: ../../source/interface.inc:1433
+msgid "getAvailableMatchingAlgorithms"
+msgstr ""
+
+#: ../../source/interface.inc:1448
+msgid "getAvailableTearingMethods"
+msgstr ""
+
+#: ../../source/interface.inc:1463
+msgid "getBooleanClassAnnotation"
+msgstr ""
+
+#: ../../source/interface.inc:1483
+msgid "getBuiltinType"
+msgstr ""
+
+#: ../../source/interface.inc:1498
+msgid "getCFlags"
+msgstr ""
+
+#: ../../source/interface.inc:1516
+msgid "getCXXCompiler"
+msgstr ""
+
+#: ../../source/interface.inc:1534
+msgid "getClassComment"
+msgstr ""
+
+#: ../../source/interface.inc:1553
+msgid "getClassInformation"
+msgstr ""
+
+#: ../../source/interface.inc:1579
+msgid "getClassNames"
+msgstr ""
+
+#: ../../source/interface.inc:1604
+msgid "getClassRestriction"
+msgstr ""
+
+#: ../../source/interface.inc:1619
+msgid "getClassesInModelicaPath"
+msgstr ""
+
+#: ../../source/interface.inc:1637
+msgid "getCommandLineOptions"
+msgstr ""
+
+#: ../../source/interface.inc:1656
+msgid "getCompileCommand"
+msgstr ""
+
+#: ../../source/interface.inc:1670
+msgid "getCompiler"
+msgstr ""
+
+#: ../../source/interface.inc:1688
+msgid "getComponentModifierNames"
+msgstr ""
+
+#: ../../source/interface.inc:1704
+msgid "getComponentModifierValue"
+msgstr ""
+
+#: ../../source/interface.inc:1720
+msgid "getComponentModifierValues"
+msgstr ""
+
+#: ../../source/interface.inc:1736
+msgid "getComponentsTest"
+msgstr ""
+
+#: ../../source/interface.inc:1766
+msgid "getConfigFlagValidOptions"
+msgstr ""
+
+#: ../../source/interface.inc:1787
+msgid "getConnectionCount"
+msgstr ""
+
+#: ../../source/interface.inc:1806
+msgid "getDefaultOpenCLDevice"
+msgstr ""
+
+#: ../../source/interface.inc:1824
+msgid "getDerivedClassModifierNames"
+msgstr ""
+
+#: ../../source/interface.inc:1846
+msgid "getDerivedClassModifierValue"
+msgstr ""
+
+#: ../../source/interface.inc:1870
+msgid "getDerivedUnits"
+msgstr ""
+
+#: ../../source/interface.inc:1885
+msgid "getDocumentationAnnotation"
+msgstr ""
+
+#: ../../source/interface.inc:1904
+msgid "getEnvironmentVar"
+msgstr ""
+
+#: ../../source/interface.inc:1923
+msgid "getEquationCount"
+msgstr ""
+
+#: ../../source/interface.inc:1942
+msgid "getEquationItemsCount"
+msgstr ""
+
+#: ../../source/interface.inc:1961
+msgid "getErrorString"
+msgstr ""
+
+#: ../../source/interface.inc:1980
+msgid "getImportCount"
+msgstr ""
+
+#: ../../source/interface.inc:1999
+msgid "getIndexReductionMethod"
+msgstr ""
+
+#: ../../source/interface.inc:2013
+msgid "getInheritedClasses"
+msgstr ""
+
+#: ../../source/interface.inc:2028
+msgid "getInitialAlgorithmCount"
+msgstr ""
+
+#: ../../source/interface.inc:2047
+msgid "getInitialAlgorithmItemsCount"
+msgstr ""
+
+#: ../../source/interface.inc:2066
+msgid "getInitialEquationCount"
+msgstr ""
+
+#: ../../source/interface.inc:2085
+msgid "getInitialEquationItemsCount"
+msgstr ""
+
+#: ../../source/interface.inc:2104
+msgid "getInitialStates"
+msgstr ""
+
+#: ../../source/interface.inc:2119
+msgid "getInstallationDirectoryPath"
+msgstr ""
+
+#: ../../source/interface.inc:2137
+msgid "getInstantiatedParametersAndValues"
+msgstr ""
+
+#: ../../source/interface.inc:2152
+msgid "getLanguageStandard"
+msgstr ""
+
+#: ../../source/interface.inc:2170
+msgid "getLinker"
+msgstr ""
+
+#: ../../source/interface.inc:2184
+msgid "getLinkerFlags"
+msgstr ""
+
+#: ../../source/interface.inc:2198
+msgid "getLoadedLibraries"
+msgstr ""
+
+#: ../../source/interface.inc:2212
+msgid "getMatchingAlgorithm"
+msgstr ""
+
+#: ../../source/interface.inc:2226
+msgid "getMemorySize"
+msgstr ""
+
+#: ../../source/interface.inc:2240
+msgid "getMessagesString"
+msgstr ""
+
+#: ../../source/interface.inc:2258
+msgid "getModelicaPath"
+msgstr ""
+
+#: ../../source/interface.inc:2276
+msgid "getNoSimplify"
+msgstr ""
+
+#: ../../source/interface.inc:2294
+msgid "getNthAlgorithm"
+msgstr ""
+
+#: ../../source/interface.inc:2314
+msgid "getNthAlgorithmItem"
+msgstr ""
+
+#: ../../source/interface.inc:2334
+msgid "getNthAnnotationString"
+msgstr ""
+
+#: ../../source/interface.inc:2354
+msgid "getNthConnection"
+msgstr ""
+
+#: ../../source/interface.inc:2376
+msgid "getNthEquation"
+msgstr ""
+
+#: ../../source/interface.inc:2396
+msgid "getNthEquationItem"
+msgstr ""
+
+#: ../../source/interface.inc:2416
+msgid "getNthImport"
+msgstr ""
+
+#: ../../source/interface.inc:2436
+msgid "getNthInitialAlgorithm"
+msgstr ""
+
+#: ../../source/interface.inc:2456
+msgid "getNthInitialAlgorithmItem"
+msgstr ""
+
+#: ../../source/interface.inc:2476
+msgid "getNthInitialEquation"
+msgstr ""
+
+#: ../../source/interface.inc:2496
+msgid "getNthInitialEquationItem"
+msgstr ""
+
+#: ../../source/interface.inc:2516
+msgid "getOrderConnections"
+msgstr ""
+
+#: ../../source/interface.inc:2534
+msgid "getPackages"
+msgstr ""
+
+#: ../../source/interface.inc:2553
+msgid "getParameterNames"
+msgstr ""
+
+#: ../../source/interface.inc:2568
+msgid "getParameterValue"
+msgstr ""
+
+#: ../../source/interface.inc:2584
+msgid "getSettings"
+msgstr ""
+
+#: ../../source/interface.inc:2598
+msgid "getShowAnnotations"
+msgstr ""
+
+#: ../../source/interface.inc:2612
+msgid "getSimulationOptions"
+msgstr ""
+
+#: ../../source/interface.inc:2636
+msgid "getSourceFile"
+msgstr ""
+
+#: ../../source/interface.inc:2655
+msgid "getTearingMethod"
+msgstr ""
+
+#: ../../source/interface.inc:2669
+msgid "getTempDirectoryPath"
+msgstr ""
+
+#: ../../source/interface.inc:2687
+msgid "getTimeStamp"
+msgstr ""
+
+#: ../../source/interface.inc:2703
+msgid "getTransitions"
+msgstr ""
+
+#: ../../source/interface.inc:2718
+msgid "getUsedClassNames"
+msgstr ""
+
+#: ../../source/interface.inc:2737
+msgid "getUses"
+msgstr ""
+
+#: ../../source/interface.inc:2752
+msgid "getVectorizationLimit"
+msgstr ""
+
+#: ../../source/interface.inc:2766
+msgid "getVersion"
+msgstr ""
+
+#: ../../source/interface.inc:2785
+msgid "help"
+msgstr ""
+
+#: ../../source/interface.inc:2804
+msgid "iconv"
+msgstr ""
+
+#: ../../source/interface.inc:2827
+msgid "importFMU"
+msgstr ""
+
+#: ../../source/interface.inc:2854
+msgid "importFMUModelDescription"
+msgstr ""
+
+#: ../../source/interface.inc:2881
+msgid "inferBindings"
+msgstr ""
+
+#: ../../source/interface.inc:2896
+msgid "instantiateModel"
+msgstr ""
+
+#: ../../source/interface.inc:2915
+msgid "isBlock"
+msgstr ""
+
+#: ../../source/interface.inc:2930
+msgid "isClass"
+msgstr ""
+
+#: ../../source/interface.inc:2945
+msgid "isConnector"
+msgstr ""
+
+#: ../../source/interface.inc:2960
+msgid "isEnumeration"
+msgstr ""
+
+#: ../../source/interface.inc:2975
+msgid "isExperiment"
+msgstr ""
+
+#: ../../source/interface.inc:2990
+msgid "isFunction"
+msgstr ""
+
+#: ../../source/interface.inc:3005
+msgid "isModel"
+msgstr ""
+
+#: ../../source/interface.inc:3020
+msgid "isOperator"
+msgstr ""
+
+#: ../../source/interface.inc:3035
+msgid "isOperatorFunction"
+msgstr ""
+
+#: ../../source/interface.inc:3050
+msgid "isOperatorRecord"
+msgstr ""
+
+#: ../../source/interface.inc:3065
+msgid "isOptimization"
+msgstr ""
+
+#: ../../source/interface.inc:3080
+msgid "isPackage"
+msgstr ""
+
+#: ../../source/interface.inc:3095
+msgid "isPartial"
+msgstr ""
+
+#: ../../source/interface.inc:3110
+msgid "isProtectedClass"
+msgstr ""
+
+#: ../../source/interface.inc:3126
+msgid "isRecord"
+msgstr ""
+
+#: ../../source/interface.inc:3141
+msgid "isShortDefinition"
+msgstr ""
+
+#: ../../source/interface.inc:3160
+msgid "isType"
+msgstr ""
+
+#: ../../source/interface.inc:3175
+msgid "linearize"
+msgstr ""
+
+#: ../../source/interface.inc:3208
+msgid "list"
+msgstr ""
+
+#: ../../source/interface.inc:3230
+msgid "listFile"
+msgstr ""
+
+#: ../../source/interface.inc:3250
+msgid "listVariables"
+msgstr ""
+
+#: ../../source/interface.inc:3268
+msgid "loadEncryptedPackage"
+msgstr ""
+
+#: ../../source/interface.inc:3284
+msgid "loadFile"
+msgstr ""
+
+#: ../../source/interface.inc:3305
+msgid "loadFileInteractive"
+msgstr ""
+
+#: ../../source/interface.inc:3321
+msgid "loadFileInteractiveQualified"
+msgstr ""
+
+#: ../../source/interface.inc:3337
+msgid "loadFiles"
+msgstr ""
+
+#: ../../source/interface.inc:3358
+msgid "loadModel"
+msgstr ""
+
+#: ../../source/interface.inc:3381
+msgid "loadModelica3D"
+msgstr ""
+
+#: ../../source/interface.inc:3396
+msgid "loadOMSimulator"
+msgstr ""
+
+#: ../../source/interface.inc:3414
+msgid "loadString"
+msgstr ""
+
+#: ../../source/interface.inc:3445
+msgid "mkdir"
+msgstr ""
+
+#: ../../source/interface.inc:3465
+msgid "moveClass"
+msgstr ""
+
+#: ../../source/interface.inc:3490
+msgid "moveClassToBottom"
+msgstr ""
+
+#: ../../source/interface.inc:3510
+msgid "moveClassToTop"
+msgstr ""
+
+#: ../../source/interface.inc:3530
+msgid "ngspicetoModelica"
+msgstr ""
+
+#: ../../source/interface.inc:3549
+msgid "numProcessors"
+msgstr ""
+
+#: ../../source/interface.inc:3563
+msgid "oms_RunFile"
+msgstr ""
+
+#: ../../source/interface.inc:3578
+msgid "oms_addBus"
+msgstr ""
+
+#: ../../source/interface.inc:3593
+msgid "oms_addConnection"
+msgstr ""
+
+#: ../../source/interface.inc:3609
+msgid "oms_addConnector"
+msgstr ""
+
+#: ../../source/interface.inc:3626
+msgid "oms_addConnectorToBus"
+msgstr ""
+
+#: ../../source/interface.inc:3642
+msgid "oms_addConnectorToTLMBus"
+msgstr ""
+
+#: ../../source/interface.inc:3659
+msgid "oms_addDynamicValueIndicator"
+msgstr ""
+
+#: ../../source/interface.inc:3677
+msgid "oms_addEventIndicator"
+msgstr ""
+
+#: ../../source/interface.inc:3692
+msgid "oms_addExternalModel"
+msgstr ""
+
+#: ../../source/interface.inc:3709
+msgid "oms_addSignalsToResults"
+msgstr ""
+
+#: ../../source/interface.inc:3725
+msgid "oms_addStaticValueIndicator"
+msgstr ""
+
+#: ../../source/interface.inc:3743
+msgid "oms_addSubModel"
+msgstr ""
+
+#: ../../source/interface.inc:3759
+msgid "oms_addSystem"
+msgstr ""
+
+#: ../../source/interface.inc:3775
+msgid "oms_addTLMBus"
+msgstr ""
+
+#: ../../source/interface.inc:3793
+msgid "oms_addTLMConnection"
+msgstr ""
+
+#: ../../source/interface.inc:3813
+msgid "oms_addTimeIndicator"
+msgstr ""
+
+#: ../../source/interface.inc:3828
+msgid "oms_cancelSimulation_asynchronous"
+msgstr ""
+
+#: ../../source/interface.inc:3843
+msgid "oms_compareSimulationResults"
+msgstr ""
+
+#: ../../source/interface.inc:3862
+msgid "oms_copySystem"
+msgstr ""
+
+#: ../../source/interface.inc:3878
+msgid "oms_delete"
+msgstr ""
+
+#: ../../source/interface.inc:3893
+msgid "oms_deleteConnection"
+msgstr ""
+
+#: ../../source/interface.inc:3909
+msgid "oms_deleteConnectorFromBus"
+msgstr ""
+
+#: ../../source/interface.inc:3925
+msgid "oms_deleteConnectorFromTLMBus"
+msgstr ""
+
+#: ../../source/interface.inc:3941
+msgid "oms_export"
+msgstr ""
+
+#: ../../source/interface.inc:3957
+msgid "oms_exportDependencyGraphs"
+msgstr ""
+
+#: ../../source/interface.inc:3974
+msgid "oms_extractFMIKind"
+msgstr ""
+
+#: ../../source/interface.inc:3990
+msgid "oms_faultInjection"
+msgstr ""
+
+#: ../../source/interface.inc:4007
+msgid "oms_getBoolean"
+msgstr ""
+
+#: ../../source/interface.inc:4023
+msgid "oms_getFixedStepSize"
+msgstr ""
+
+#: ../../source/interface.inc:4039
+msgid "oms_getInteger"
+msgstr ""
+
+#: ../../source/interface.inc:4055
+msgid "oms_getModelState"
+msgstr ""
+
+#: ../../source/interface.inc:4071
+msgid "oms_getReal"
+msgstr ""
+
+#: ../../source/interface.inc:4087
+msgid "oms_getSolver"
+msgstr ""
+
+#: ../../source/interface.inc:4103
+msgid "oms_getStartTime"
+msgstr ""
+
+#: ../../source/interface.inc:4119
+msgid "oms_getStopTime"
+msgstr ""
+
+#: ../../source/interface.inc:4135
+msgid "oms_getSubModelPath"
+msgstr ""
+
+#: ../../source/interface.inc:4151
+msgid "oms_getSystemType"
+msgstr ""
+
+#: ../../source/interface.inc:4167
+msgid "oms_getTolerance"
+msgstr ""
+
+#: ../../source/interface.inc:4184
+msgid "oms_getVariableStepSize"
+msgstr ""
+
+#: ../../source/interface.inc:4202
+msgid "oms_getVersion"
+msgstr ""
+
+#: ../../source/interface.inc:4220
+msgid "oms_importFile"
+msgstr ""
+
+#: ../../source/interface.inc:4236
+msgid "oms_initialize"
+msgstr ""
+
+#: ../../source/interface.inc:4251
+msgid "oms_instantiate"
+msgstr ""
+
+#: ../../source/interface.inc:4266
+msgid "oms_list"
+msgstr ""
+
+#: ../../source/interface.inc:4282
+msgid "oms_listUnconnectedConnectors"
+msgstr ""
+
+#: ../../source/interface.inc:4298
+msgid "oms_loadSnapshot"
+msgstr ""
+
+#: ../../source/interface.inc:4314
+msgid "oms_newModel"
+msgstr ""
+
+#: ../../source/interface.inc:4329
+msgid "oms_parseModelName"
+msgstr ""
+
+#: ../../source/interface.inc:4345
+msgid "oms_removeSignalsFromResults"
+msgstr ""
+
+#: ../../source/interface.inc:4361
+msgid "oms_rename"
+msgstr ""
+
+#: ../../source/interface.inc:4377
+msgid "oms_reset"
+msgstr ""
+
+#: ../../source/interface.inc:4392
+msgid "oms_setBoolean"
+msgstr ""
+
+#: ../../source/interface.inc:4408
+msgid "oms_setCommandLineOption"
+msgstr ""
+
+#: ../../source/interface.inc:4423
+msgid "oms_setFixedStepSize"
+msgstr ""
+
+#: ../../source/interface.inc:4439
+msgid "oms_setInteger"
+msgstr ""
+
+#: ../../source/interface.inc:4455
+msgid "oms_setLogFile"
+msgstr ""
+
+#: ../../source/interface.inc:4470
+msgid "oms_setLoggingInterval"
+msgstr ""
+
+#: ../../source/interface.inc:4486
+msgid "oms_setLoggingLevel"
+msgstr ""
+
+#: ../../source/interface.inc:4501
+msgid "oms_setReal"
+msgstr ""
+
+#: ../../source/interface.inc:4517
+msgid "oms_setRealInputDerivative"
+msgstr ""
+
+#: ../../source/interface.inc:4533
+msgid "oms_setResultFile"
+msgstr ""
+
+#: ../../source/interface.inc:4550
+msgid "oms_setSignalFilter"
+msgstr ""
+
+#: ../../source/interface.inc:4566
+msgid "oms_setSolver"
+msgstr ""
+
+#: ../../source/interface.inc:4582
+msgid "oms_setStartTime"
+msgstr ""
+
+#: ../../source/interface.inc:4598
+msgid "oms_setStopTime"
+msgstr ""
+
+#: ../../source/interface.inc:4614
+msgid "oms_setTLMPositionAndOrientation"
+msgstr ""
+
+#: ../../source/interface.inc:4641
+msgid "oms_setTLMSocketData"
+msgstr ""
+
+#: ../../source/interface.inc:4659
+msgid "oms_setTempDirectory"
+msgstr ""
+
+#: ../../source/interface.inc:4674
+msgid "oms_setTolerance"
+msgstr ""
+
+#: ../../source/interface.inc:4691
+msgid "oms_setVariableStepSize"
+msgstr ""
+
+#: ../../source/interface.inc:4709
+msgid "oms_setWorkingDirectory"
+msgstr ""
+
+#: ../../source/interface.inc:4724
+msgid "oms_simulate"
+msgstr ""
+
+#: ../../source/interface.inc:4739
+msgid "oms_stepUntil"
+msgstr ""
+
+#: ../../source/interface.inc:4755
+msgid "oms_terminate"
+msgstr ""
+
+#: ../../source/interface.inc:4770
+msgid "optimize"
+msgstr ""
+
+#: ../../source/interface.inc:4807
+msgid "parseEncryptedPackage"
+msgstr ""
+
+#: ../../source/interface.inc:4823
+msgid "parseFile"
+msgstr ""
+
+#: ../../source/interface.inc:4839
+msgid "parseString"
+msgstr ""
+
+#: ../../source/interface.inc:4855
+msgid "plot"
+msgstr ""
+
+#: ../../source/interface.inc:4890
+msgid "plotAll"
+msgstr ""
+
+#: ../../source/interface.inc:4929
+msgid "plotParametric"
+msgstr ""
+
+#: ../../source/interface.inc:4969
+msgid "readFile"
+msgstr ""
+
+#: ../../source/interface.inc:4989
+msgid "readFileNoNumeric"
+msgstr ""
+
+#: ../../source/interface.inc:5011
+msgid "readSimulationResult"
+msgstr ""
+
+#: ../../source/interface.inc:5032
+msgid "readSimulationResultSize"
+msgstr ""
+
+#: ../../source/interface.inc:5051
+msgid "readSimulationResultVars"
+msgstr ""
+
+#: ../../source/interface.inc:5072
+msgid "realpath"
+msgstr ""
+
+#: ../../source/interface.inc:5091
+msgid "reduceTerms"
+msgstr ""
+
+#: ../../source/interface.inc:5122
+msgid "regex"
+msgstr ""
+
+#: ../../source/interface.inc:5153
+msgid "regexBool"
+msgstr ""
+
+#: ../../source/interface.inc:5175
+msgid "regularFileExists"
+msgstr ""
+
+#: ../../source/interface.inc:5190
+msgid "reloadClass"
+msgstr ""
+
+#: ../../source/interface.inc:5210
+msgid "remove"
+msgstr ""
+
+#: ../../source/interface.inc:5229
+msgid "removeComponentModifiers"
+msgstr ""
+
+#: ../../source/interface.inc:5246
+msgid "removeExtendsModifiers"
+msgstr ""
+
+#: ../../source/interface.inc:5263
+msgid "reopenStandardStream"
+msgstr ""
+
+#: ../../source/interface.inc:5279
+msgid "rewriteBlockCall"
+msgstr ""
+
+#: ../../source/interface.inc:5299
+msgid "runOpenTURNSPythonScript"
+msgstr ""
+
+#: ../../source/interface.inc:5318
+msgid "runScript"
+msgstr ""
+
+#: ../../source/interface.inc:5337
+msgid "runScriptParallel"
+msgstr ""
+
+#: ../../source/interface.inc:5354
+msgid "save"
+msgstr ""
+
+#: ../../source/interface.inc:5369
+msgid "saveAll"
+msgstr ""
+
+#: ../../source/interface.inc:5388
+msgid "saveModel"
+msgstr ""
+
+#: ../../source/interface.inc:5404
+msgid "saveTotalModel"
+msgstr ""
+
+#: ../../source/interface.inc:5433
+msgid "saveTotalSCode"
+msgstr ""
+
+#: ../../source/interface.inc:5440
+msgid "searchClassNames"
+msgstr ""
+
+#: ../../source/interface.inc:5463
+msgid "setAnnotationVersion"
+msgstr ""
+
+#: ../../source/interface.inc:5482
+msgid "setCFlags"
+msgstr ""
+
+#: ../../source/interface.inc:5501
+msgid "setCXXCompiler"
+msgstr ""
+
+#: ../../source/interface.inc:5520
+msgid "setCheapMatchingAlgorithm"
+msgstr ""
+
+#: ../../source/interface.inc:5539
+msgid "setClassComment"
+msgstr ""
+
+#: ../../source/interface.inc:5559
+msgid "setCommandLineOptions"
+msgstr ""
+
+#: ../../source/interface.inc:5578
+msgid "setCompileCommand"
+msgstr ""
+
+#: ../../source/interface.inc:5593
+msgid "setCompiler"
+msgstr ""
+
+#: ../../source/interface.inc:5612
+msgid "setCompilerFlags"
+msgstr ""
+
+#: ../../source/interface.inc:5627
+msgid "setCompilerPath"
+msgstr ""
+
+#: ../../source/interface.inc:5642
+msgid "setDebugFlags"
+msgstr ""
+
+#: ../../source/interface.inc:5661
+msgid "setDefaultOpenCLDevice"
+msgstr ""
+
+#: ../../source/interface.inc:5680
+msgid "setDocumentationAnnotation"
+msgstr ""
+
+#: ../../source/interface.inc:5697
+msgid "setEnvironmentVar"
+msgstr ""
+
+#: ../../source/interface.inc:5713
+msgid "setIndexReductionMethod"
+msgstr ""
+
+#: ../../source/interface.inc:5732
+msgid "setInitXmlStartValue"
+msgstr ""
+
+#: ../../source/interface.inc:5750
+msgid "setInstallationDirectoryPath"
+msgstr ""
+
+#: ../../source/interface.inc:5769
+msgid "setLanguageStandard"
+msgstr ""
+
+#: ../../source/interface.inc:5788
+msgid "setLinker"
+msgstr ""
+
+#: ../../source/interface.inc:5803
+msgid "setLinkerFlags"
+msgstr ""
+
+#: ../../source/interface.inc:5818
+msgid "setMatchingAlgorithm"
+msgstr ""
+
+#: ../../source/interface.inc:5837
+msgid "setModelicaPath"
+msgstr ""
+
+#: ../../source/interface.inc:5856
+msgid "setNoSimplify"
+msgstr ""
+
+#: ../../source/interface.inc:5875
+msgid "setOrderConnections"
+msgstr ""
+
+#: ../../source/interface.inc:5894
+msgid "setPlotCommand"
+msgstr ""
+
+#: ../../source/interface.inc:5909
+msgid "setPostOptModules"
+msgstr ""
+
+#: ../../source/interface.inc:5928
+msgid "setPreOptModules"
+msgstr ""
+
+#: ../../source/interface.inc:5947
+msgid "setShowAnnotations"
+msgstr ""
+
+#: ../../source/interface.inc:5962
+msgid "setSourceFile"
+msgstr ""
+
+#: ../../source/interface.inc:5978
+msgid "setTearingMethod"
+msgstr ""
+
+#: ../../source/interface.inc:5997
+msgid "setTempDirectoryPath"
+msgstr ""
+
+#: ../../source/interface.inc:6012
+msgid "setVectorizationLimit"
+msgstr ""
+
+#: ../../source/interface.inc:6027
+msgid "simulate"
+msgstr ""
+
+#: ../../source/interface.inc:6073
+msgid "solveLinearSystem"
+msgstr ""
+
+#: ../../source/interface.inc:6098
+msgid "sortStrings"
+msgstr ""
+
+#: ../../source/interface.inc:6113
+msgid "stat"
+msgstr ""
+
+#: ../../source/interface.inc:6130
+msgid "stringReplace"
+msgstr ""
+
+#: ../../source/interface.inc:6147
+msgid "stringSplit"
+msgstr ""
+
+#: ../../source/interface.inc:6167
+msgid "stringTypeName"
+msgstr ""
+
+#: ../../source/interface.inc:6182
+msgid "stringVariableName"
+msgstr ""
+
+#: ../../source/interface.inc:6197
+msgid "strtok"
+msgstr ""
+
+#: ../../source/interface.inc:6219
+msgid "system"
+msgstr ""
+
+#: ../../source/interface.inc:6239
+msgid "system_parallel"
+msgstr ""
+
+#: ../../source/interface.inc:6259
+msgid "testsuiteFriendlyName"
+msgstr ""
+
+#: ../../source/interface.inc:6274
+msgid "threadWorkFailed"
+msgstr ""
+
+#: ../../source/interface.inc:6281
+msgid "translateGraphics"
+msgstr ""
+
+#: ../../source/interface.inc:6296
+msgid "translateModelFMU"
+msgstr ""
+
+#: ../../source/interface.inc:6322
+msgid "typeNameString"
+msgstr ""
+
+#: ../../source/interface.inc:6337
+msgid "typeNameStrings"
+msgstr ""
+
+#: ../../source/interface.inc:6352
+msgid "typeOf"
+msgstr ""
+
+#: ../../source/interface.inc:6367
+msgid "unloadOMSimulator"
+msgstr ""
+
+#: ../../source/interface.inc:6385
+msgid "updateConnection"
+msgstr ""
+
+#: ../../source/interface.inc:6403
+msgid "updateConnectionNames"
+msgstr ""
+
+#: ../../source/interface.inc:6422
+msgid "updateInitialState"
+msgstr ""
+
+#: ../../source/interface.inc:6439
+msgid "updateTransition"
+msgstr ""
+
+#: ../../source/interface.inc:6467
+msgid "uriToFilename"
+msgstr ""
+
+#: ../../source/interface.inc:6482
+msgid "val"
+msgstr ""
+
+#: ../../source/interface.inc:6503
+msgid "verifyCompiler"
+msgstr ""
+
+#: ../../source/interface.inc:6517
+msgid "writeFile"
+msgstr ""
+
+#: ../../source/scripting_api.rst:37
+msgid "Simulation Parameter Sweep"
+msgstr ""
+
+#: ../../source/scripting_api.rst:39
+msgid ""
+"Following example shows how to update the parameters and re-run the "
+"simulation without compiling the model."
+msgstr ""
+
+#: ../../source/scripting_api.rst:56
+msgid ""
+"We used the `BouncingBall.mo "
+"<https://github.com/OpenModelica/OMCompiler/blob/master/Examples/BouncingBall.mo>`__"
+" in the example above. The above example produces three result files each"
+" containing different start value for *e* i.e., 1.7, 2.7, 3.7."
+msgstr ""
+
+#: ../../source/scripting_api.rst:60
+msgid "Examples"
+msgstr ""
+
+#: ../../source/scripting_api.rst:62
+msgid ""
+"The following is an interactive session with the OpenModelica environment"
+" including some of the abovementioned commands and examples. First we "
+"start the system, and use the command line interface from OMShell, "
+"OMNotebook, or command window of some of the other tools."
+msgstr ""
+
+#: ../../source/scripting_api.rst:67
+msgid "We type in a very small model:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:77
+msgid "We give the command to flatten a model:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:84
+msgid "A range expression is typed in:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:90
+msgid "It is multiplied by 2:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:96
+msgid "The variables are cleared:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:102
+msgid "We print the loaded class test from its internal representation:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:109
+msgid "We get the name and other properties of a class:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:120
+msgid ""
+"The common combination of a simulation followed by getting a value and "
+"doing a plot:"
+msgstr ""
+
+#: ../../<OMC gnuplot>:1
+msgid "Plot generated by OpenModelica+gnuplot"
+msgstr ""
+
+#: ../../source/scripting_api.rst:136
+msgid "Interactive Function Calls, Reading, and Writing"
+msgstr ""
+
+#: ../../source/scripting_api.rst:138
+msgid ""
+"We enter an assignment of a vector expression, created by the range "
+"construction expression 1:12, to be stored in the variable x. The type "
+"and the value of the expression is returned."
+msgstr ""
+
+#: ../../source/scripting_api.rst:146
+msgid ""
+"The function bubblesort is called to sort this vector in descending "
+"order. The sorted result is returned together with its type. Note that "
+"the result vector is of type Real[:], instantiated as Real[12], since "
+"this is the declared type of the function result. The input Integer "
+"vector was automatically converted to a Real vector according to the "
+"Modelica type coercion rules."
+msgstr ""
+
+#: ../../source/scripting_api.rst:158
+msgid ""
+"Now we want to try another small application, a simplex algorithm for "
+"optimization. First read in a small matrix containing coefficients that "
+"define a simplex problem to be solved:"
+msgstr ""
+
+#: ../../source/scripting_api.rst:245
+msgid ""
+"Then call the simplex algorithm implemented as the Modelica function "
+"simplex1. This function returns four results, which are represented as a "
+"tuple of four return values:"
+msgstr ""
+

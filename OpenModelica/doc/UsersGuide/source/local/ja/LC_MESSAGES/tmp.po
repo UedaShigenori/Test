@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)  2020, Open Source Modelica Consortium
+# This file is distributed under the same license as the OpenModelica User's
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenModelica User's Guide v1.14.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/tmp.rst:2
+msgid "OpenModelica 1.3.1, November 2005"
+msgstr ""
+
+#: ../../source/tmp.rst:4
+msgid "This release has several important highlights."
+msgstr ""
+
+#: ../../source/tmp.rst:6
+msgid ""
+"This is also the \\*first\\* release for which the New BSD (Berkeley) "
+"open-source license applies to the source code, including the whole "
+"compiler and run-time system. This makes is possible to use OpenModelica "
+"for both academic and commercial purposes without restrictions."
+msgstr ""
+
+#: ../../source/tmp.rst:12
+msgid "OpenModelica Compiler (OMC)"
+msgstr ""
+
+#: ../../source/tmp.rst:14
+msgid ""
+"This release includes a significantly improved OpenModelica Compiler "
+"(OMC):"
+msgstr ""
+
+#: ../../source/tmp.rst:17
+msgid "Support for hybrid and discrete-event simulation (if-equations,"
+msgstr ""
+
+#: ../../source/tmp.rst:18
+msgid ""
+"if-expressions, when-equations; not yet if-statements and when-"
+"statements). - Parsing of full Modelica 2.2 - Improved support for "
+"external functions. - Vectorization of function arguments; each-"
+"modifiers, better implementation of replaceable, better handling of "
+"structural parameters, better support for vector and array operations, "
+"and many other improvements. - Flattening of the Modelica Block library "
+"version 1.5 (except a few models), and simulation of most of these. - "
+"Automatic index reduction (present also in previous release). - Updated "
+"User's Guide including examples of hybrid simulation and external "
+"functions."
+msgstr ""
+
+#: ../../source/tmp.rst:30
+msgid "OpenModelica Shell (OMShell)"
+msgstr ""
+
+#: ../../source/tmp.rst:32
+msgid ""
+"An improved window-based interactive command shell, now including command"
+" completion and better editing and font size support."
+msgstr ""
+
+#: ../../source/tmp.rst:36
+msgid "OpenModelica Notebook (OMNotebook)"
+msgstr ""
+
+#: ../../source/tmp.rst:38
+msgid ""
+"A free implementation of an OpenModelica notebook (OMNotebook), for "
+"electronic books with course material, including the DrModelica "
+"interactive course material. It is possible to simulate and plot from "
+"this notebook."
+msgstr ""
+
+#: ../../source/tmp.rst:44
+msgid "OpenModelica Eclipse Plug-in (MDT)"
+msgstr ""
+
+#: ../../source/tmp.rst:46
+msgid ""
+"An early alpha version of the first Eclipse plug-in (called MDT for "
+"Modelica Development Tooling) for Modelica Development. This version "
+"gives compilation support and partial support for browsing Modelica "
+"package hierarchies and classes."
+msgstr ""
+
+#: ../../source/tmp.rst:52
+msgid "OpenModelica Development Environment (OMDev)"
+msgstr ""
+
+#: ../../source/tmp.rst:54
+msgid ""
+"The following mechanisms have been put in place to support OpenModelica "
+"development."
+msgstr ""
+
+#: ../../source/tmp.rst:57
+msgid "Bugzilla support for OpenModelica bug tracking, accessible to anybody."
+msgstr ""
+
+#: ../../source/tmp.rst:58
+msgid "A system for automatic regression testing of the compiler and"
+msgstr ""
+
+#: ../../source/tmp.rst:59
+msgid ""
+"simulator, (+ other system parts) usually run at check in time. - Version"
+" handling is done using SVN, which is better than the previously used CVS"
+" system. For example, name change of modules is now possible within the "
+"version handling system."
+msgstr ""
+
